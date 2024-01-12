@@ -6,6 +6,7 @@ class_name PlayerStateMachine
 
 @export var character : CharacterBody2D
 @export var current_state : State
+var attackPosition
 
 #var states : Array[State]
 var states : Dictionary = {}
@@ -33,8 +34,30 @@ func _physics_process(delta):
 		current_state.Physics_update(delta)
 		
 func _unhandled_input(event):
+	if event is InputEventMouseButton:
+		if event.button_index == MOUSE_BUTTON_LEFT:
+			if event.pressed:
+				#update mouse location for attack
+# Get the mouse position in the world
+				var attackMouse = character.get_local_mouse_position()
+				attackPosition = get_mouse_direction(attackMouse)
+				#get_global_mouse_position()
+				#print("click position: ", attackPosition)
+				#print("click position2: ", event.position)
+				#print("player position: ", character.global_position)
+				#print("player position2: ", character.get_local_mouse_position())
+				#print(global_position.x)
+
 	if current_state:
 		current_state.Unhandled_input(event)
+		
+# Function to get direction based on angle
+func get_mouse_direction(vector:Vector2):
+	if vector.x> 0:
+		return "right"
+	else:
+		return "left"
+	
 	
 func on_child_transitioned(state,new_state_name) -> void:
 	if state != current_state:

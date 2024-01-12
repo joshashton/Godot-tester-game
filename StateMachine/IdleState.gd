@@ -20,7 +20,10 @@ func Unhandled_input(event):
 	if event is InputEventMouseButton:
 		if event.button_index == MOUSE_BUTTON_LEFT:
 			if event.pressed:
-				print("Left button was clicked at ", event.position)
+				#print("Left button was clicked at ", event.position)
+				#rotate player to hit mouse area
+				#then attack animation
+				
 				Transitioned.emit(self, "Attack")
 			else:
 				print("Left button was released")

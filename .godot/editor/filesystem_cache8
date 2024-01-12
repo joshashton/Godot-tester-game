@@ -1,9 +1,9 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1705077379
-firstmap.tscn::PackedScene::8019410229007676357::1705070405::0::1::::<><>::uid://bjr7nbpjgr0o7::::res://Assets/Tiny Swords (Update 010)/Factions/Knights/Buildings/Tower/Tower_Blue.png<>uid://bd1u71ouxljbs::::res://Assets/Tiny Swords (Update 010)/Terrain/Ground/Tilemap_Flat.png<>uid://hx0thucl01it::::res://Assets/Tiny Swords (Update 010)/Factions/Knights/Buildings/Castle/Castle_Blue.png<>uid://doqryfuldq05a::::res://Assets/Tiny Swords (Update 010)/Terrain/Water/Water.png<>uid://djwx3qkajuhn4::::res://Assets/Tiny Swords (Update 010)/Terrain/Water/Foam/Foam.png<>uid://b30137i1dlqt6::::res://Assets/Tiny Swords (Update 010)/Terrain/Water/Rocks/Rocks_01.png<>uid://bv6p8owqfa880::::res://Assets/Tiny Swords (Update 010)/Terrain/Water/Rocks/Rocks_02.png<>uid://cwnojqek8gnrf::::res://Assets/Tiny Swords (Update 010)/Terrain/Water/Rocks/Rocks_03.png<>uid://ecciyngibsqm::::res://Assets/Tiny Swords (Update 010)/Terrain/Water/Rocks/Rocks_04.png<>uid://b7rbxa030p6os::::res://Assets/Tiny Swords (Update 010)/Terrain/Ground/Tilemap_Elevation.png<>uid://dvby75n45b8ot::::res://Player.tscn<>uid://c364ve7l82o71::::res://Assets/Tiny Swords (Update 010)/Terrain/Ground/Shadows.png<>uid://c2m6qc6lggcbe::::res://Assets/Tiny Swords (Update 010)/Terrain/Bridge/Bridge_All.png
+::res://::1705083559
+firstmap.tscn::PackedScene::8019410229007676357::1705081098::0::1::::<><>::uid://bjr7nbpjgr0o7::::res://Assets/Tiny Swords (Update 010)/Factions/Knights/Buildings/Tower/Tower_Blue.png<>uid://bd1u71ouxljbs::::res://Assets/Tiny Swords (Update 010)/Terrain/Ground/Tilemap_Flat.png<>uid://hx0thucl01it::::res://Assets/Tiny Swords (Update 010)/Factions/Knights/Buildings/Castle/Castle_Blue.png<>uid://doqryfuldq05a::::res://Assets/Tiny Swords (Update 010)/Terrain/Water/Water.png<>uid://djwx3qkajuhn4::::res://Assets/Tiny Swords (Update 010)/Terrain/Water/Foam/Foam.png<>uid://b30137i1dlqt6::::res://Assets/Tiny Swords (Update 010)/Terrain/Water/Rocks/Rocks_01.png<>uid://bv6p8owqfa880::::res://Assets/Tiny Swords (Update 010)/Terrain/Water/Rocks/Rocks_02.png<>uid://cwnojqek8gnrf::::res://Assets/Tiny Swords (Update 010)/Terrain/Water/Rocks/Rocks_03.png<>uid://ecciyngibsqm::::res://Assets/Tiny Swords (Update 010)/Terrain/Water/Rocks/Rocks_04.png<>uid://b7rbxa030p6os::::res://Assets/Tiny Swords (Update 010)/Terrain/Ground/Tilemap_Elevation.png<>uid://dvby75n45b8ot::::res://Player.tscn<>uid://c364ve7l82o71::::res://Assets/Tiny Swords (Update 010)/Terrain/Ground/Shadows.png<>uid://c2m6qc6lggcbe::::res://Assets/Tiny Swords (Update 010)/Terrain/Bridge/Bridge_All.png
 icon.svg::CompressedTexture2D::8482378094693027348::1704032020::1704032035::1::::<><>::
-Player.gd::GDScript::-1::1704147086::0::1::::<>CharacterBody2D<>::
-Player.tscn::PackedScene::8636808095604151867::1705070404::0::1::::<><>::res://Player.gd<>uid://ctpoikcx70sxy::::res://Assets/Tiny Swords (Update 010)/Factions/Knights/Troops/Warrior/Blue/Warrior_Blue.png<>res://StateMachine/PlayerStates.gd<>res://StateMachine/RunState.gd<>res://StateMachine/IdleState.gd<>res://StateMachine/AttackState.gd
+Player.gd::GDScript::-1::1705080369::0::1::::<>CharacterBody2D<>::
+Player.tscn::PackedScene::8636808095604151867::1705081125::0::1::::<><>::res://Player.gd<>uid://ctpoikcx70sxy::::res://Assets/Tiny Swords (Update 010)/Factions/Knights/Troops/Warrior/Blue/Warrior_Blue.png<>res://StateMachine/PlayerStates.gd<>res://StateMachine/RunState.gd<>res://StateMachine/IdleState.gd<>res://StateMachine/AttackState.gd
 README.md::TextFile::-1::1705016080::0::1::::<><>::
 ::res://Assets/::1705016157
 ::res://Assets/Kasaya's Frames/::1705016156
@@ -452,9 +452,9 @@ Ribbon_Yellow_Connection_Right.png::CompressedTexture2D::6250313328929479735::17
 Ribbon_Yellow_Connection_Right_Pressed.png::CompressedTexture2D::7614328754831949848::1704044372::1704044393::1::::<><>::
 Ribbon_Yellow_Connection_Up.png::CompressedTexture2D::4527349473720989725::1704044372::1704044393::1::::<><>::
 Ribbon_Yellow_Connection_Up_Pressed.png::CompressedTexture2D::4209630139327136869::1704044372::1704044393::1::::<><>::
-::res://StateMachine/::1705073961
-AttackState.gd::GDScript::-1::1705070329::0::1::::AttackState<>State<>::
-IdleState.gd::GDScript::-1::1705070403::0::1::::IdleState<>State<>::
-PlayerStates.gd::GDScript::-1::1705069044::0::1::::PlayerStateMachine<>Node<>::
-RunState.gd::GDScript::-1::1705073961::0::1::::RunState<>State<>::
-State.gd::GDScript::-1::1705068816::0::1::::State<>Node<>::
+::res://StateMachine/::1705081083
+AttackState.gd::GDScript::-1::1705080565::0::1::::AttackState<>State<>::
+IdleState.gd::GDScript::-1::1705080648::0::1::::IdleState<>State<>::
+PlayerStates.gd::GDScript::-1::1705078468::0::1::::PlayerStateMachine<>Node<>::
+RunState.gd::GDScript::-1::1705081083::0::1::::RunState<>State<>::
+State.gd::GDScript::-1::1705078433::0::1::::State<>Node<>::

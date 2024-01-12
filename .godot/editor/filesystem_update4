@@ -1,8 +1,5 @@
 res://Player.tscn
-res://Player.gd
 res://firstmap.tscn
-res://StateMachine/State.gd
+res://StateMachine/AttackState.gd
 res://StateMachine/IdleState.gd
 res://StateMachine/PlayerStates.gd
-res://StateMachine/RunState.gd
-res://StateMachine/AttackState.gd
