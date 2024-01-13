@@ -1,5 +1,7 @@
-res://Player.tscn
+res://Characters/Archer.tscn
+res://Characters/Run.gd
+res://Characters/Shoot.gd
 res://firstmap.tscn
-res://StateMachine/AttackState.gd
-res://StateMachine/IdleState.gd
-res://StateMachine/PlayerStates.gd
+res://Characters/Knight.tscn
+res://Characters/ArcherStateMachine.gd
+res://Characters/Node.gd

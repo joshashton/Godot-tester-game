@@ -1,6 +1,6 @@
 extends State
 
-class_name AttackState
+class_name ArcherAttackState
 
 #@onready var animated_sprite = $"../../AnimatedSprite2D"
 @onready var animated_sprite = $"../../AnimationPlayer"
@@ -10,17 +10,9 @@ class_name AttackState
 func Enter() -> void:
 	
 	print("AttackState")
-	print(playerFSM.attackPosition)
-	if playerFSM.attackPosition == "right":
-		spriteplayer.flip_h = false
-		animated_sprite.play("attack")
-	elif playerFSM.attackPosition == "left":
-		spriteplayer.flip_h = true
-		animated_sprite.play("attack2")
-	elif playerFSM.attackPosition == "up":
-		animated_sprite.play("attackup")
-	else :
-		animated_sprite.play("attackdown")
+	
+	
+	animated_sprite.play("shootside")
 		
 	
 	#wait for anomation player to finish then return

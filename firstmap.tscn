@@ -10,7 +10,7 @@
 [ext_resource type="Texture2D" uid="uid://cwnojqek8gnrf" path="res://Assets/Tiny Swords (Update 010)/Terrain/Water/Rocks/Rocks_03.png" id="6_xb8y2"]
 [ext_resource type="Texture2D" uid="uid://ecciyngibsqm" path="res://Assets/Tiny Swords (Update 010)/Terrain/Water/Rocks/Rocks_04.png" id="7_elg0p"]
 [ext_resource type="Texture2D" uid="uid://b7rbxa030p6os" path="res://Assets/Tiny Swords (Update 010)/Terrain/Ground/Tilemap_Elevation.png" id="8_pa1xq"]
-[ext_resource type="PackedScene" uid="uid://dvby75n45b8ot" path="res://Player.tscn" id="9_scnwo"]
+[ext_resource type="PackedScene" uid="uid://dvby75n45b8ot" path="res://Characters/Knight.tscn" id="9_scnwo"]
 [ext_resource type="Texture2D" uid="uid://c364ve7l82o71" path="res://Assets/Tiny Swords (Update 010)/Terrain/Ground/Shadows.png" id="10_eprag"]
 [ext_resource type="Texture2D" uid="uid://c2m6qc6lggcbe" path="res://Assets/Tiny Swords (Update 010)/Terrain/Bridge/Bridge_All.png" id="11_5v3k0"]
 
