@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" path="res://Characters/Knight.gd" id="1_rnjth"]
 [ext_resource type="Texture2D" uid="uid://ctpoikcx70sxy" path="res://Assets/Tiny Swords (Update 010)/Factions/Knights/Troops/Warrior/Blue/Warrior_Blue.png" id="3_2cxrx"]
-[ext_resource type="Script" path="res://StateMachine/PlayerStates.gd" id="3_twrhc"]
+[ext_resource type="Script" path="res://StateMachine/KnightStateMachine.gd" id="3_72e1x"]
 [ext_resource type="Script" path="res://StateMachine/RunState.gd" id="4_pqqrc"]
 [ext_resource type="Script" path="res://StateMachine/IdleState.gd" id="5_upegy"]
 [ext_resource type="Script" path="res://StateMachine/AttackState.gd" id="6_yqbr4"]
@@ -666,7 +666,7 @@ libraries = {
 }
 
 [node name="PlayerStateMachine" type="Node" parent="." node_paths=PackedStringArray("initial_state", "character")]
-script = ExtResource("3_twrhc")
+script = ExtResource("3_72e1x")
 initial_state = NodePath("Idle")
 character = NodePath("..")
 

@@ -21,7 +21,7 @@ func Enter() -> void:
 		animated_sprite.play("attackup")
 	else :
 		animated_sprite.play("attackdown")
-		
+
 	
 	#wait for anomation player to finish then return
 	await animated_sprite.animation_finished

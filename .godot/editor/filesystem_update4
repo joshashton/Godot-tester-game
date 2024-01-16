@@ -1,7 +1,8 @@
 res://Characters/Archer.tscn
-res://Characters/Run.gd
-res://Characters/Shoot.gd
+res://tilesetmap.tres
 res://firstmap.tscn
 res://Characters/Knight.tscn
-res://Characters/ArcherStateMachine.gd
-res://Characters/Node.gd
+res://walesmap.tscn
+res://StateMachine/ArcherShootState.gd
+res://StateMachine/ArcherIdleState.gd
+res://StateMachine/ArcherStateMachine.gd
