@@ -1,6 +1,5 @@
-[gd_scene load_steps=38 format=3 uid="uid://dvby75n45b8ot"]
+[gd_scene load_steps=37 format=3 uid="uid://dvby75n45b8ot"]
 
-[ext_resource type="Script" path="res://Characters/Knight.gd" id="1_rnjth"]
 [ext_resource type="Texture2D" uid="uid://ctpoikcx70sxy" path="res://Assets/Tiny Swords (Update 010)/Factions/Knights/Troops/Warrior/Blue/Warrior_Blue.png" id="3_2cxrx"]
 [ext_resource type="Script" path="res://StateMachine/KnightStateMachine.gd" id="3_72e1x"]
 [ext_resource type="Script" path="res://StateMachine/RunState.gd" id="4_pqqrc"]
@@ -641,7 +640,6 @@ size = Vector2(16, 58)
 
 [node name="Knight" type="CharacterBody2D"]
 collision_layer = 2
-script = ExtResource("1_rnjth")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(-0.5, 27)

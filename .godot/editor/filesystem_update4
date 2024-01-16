@@ -1,6 +1,7 @@
 res://firstmap.tscn
 res://tilesetmap.tres
+res://StateMachine/ArcherShootState.gd
 res://Characters/Archer.tscn
 res://Characters/Knight.tscn
 res://walesmap.tscn
-res://StateMachine/ArcherShootState.gd
+res://Characters/Knight.gd
