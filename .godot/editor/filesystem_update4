@@ -4,4 +4,5 @@ res://StateMachine/ArcherShootState.gd
 res://Characters/Archer.tscn
 res://Characters/Knight.tscn
 res://walesmap.tscn
-res://Characters/Knight.gd
+res://Characters/Arrow.tscn
+res://Characters/Arrow.gd
