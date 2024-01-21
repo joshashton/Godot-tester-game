@@ -1,4 +1,4 @@
-[gd_scene load_steps=21 format=3 uid="uid://kjievptis0g"]
+[gd_scene load_steps=20 format=3 uid="uid://kjievptis0g"]
 
 [ext_resource type="Texture2D" uid="uid://bak3nx6d7bbtl" path="res://Assets/Tiny Swords (Update 010)/Factions/Knights/Troops/Archer/Blue/Archer_Blue_(NoArms).png" id="1_sgj3b"]
 [ext_resource type="Texture2D" uid="uid://dqs2lp0c63i00" path="res://Assets/Tiny Swords (Update 010)/Factions/Knights/Troops/Archer/Blue/Archer_Blue.png" id="1_th2yl"]
@@ -6,7 +6,7 @@
 [ext_resource type="Script" path="res://StateMachine/ArcherIdleState.gd" id="4_ryyl4"]
 [ext_resource type="Script" path="res://StateMachine/ArcherRunState.gd" id="5_xtqsp"]
 [ext_resource type="Script" path="res://StateMachine/ArcherShootState.gd" id="6_w6y51"]
-[ext_resource type="Texture2D" uid="uid://cbp66j7rs3bsy" path="res://Assets/Tiny Swords (Update 010)/Factions/Knights/Troops/Archer/Arrow/Arrow.png" id="7_bxjjr"]
+[ext_resource type="PackedScene" uid="uid://74kiu35odi7k" path="res://Characters/Arrow.tscn" id="7_t1uot"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_0smfi"]
 size = Vector2(41, 28)
@@ -108,6 +108,18 @@ tracks/7/keys = {
 "transitions": PackedFloat32Array(1),
 "update": 1,
 "values": [0]
+}
+tracks/8/type = "value"
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/path = NodePath("ArrowSpawn:position")
+tracks/8/interp = 1
+tracks/8/loop_wrap = true
+tracks/8/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(29, 10)]
 }
 
 [sub_resource type="Animation" id="Animation_v35gh"]
@@ -323,7 +335,6 @@ tracks/3/keys = {
 [sub_resource type="Animation" id="Animation_pb6va"]
 resource_name = "shootdown"
 length = 0.80001
-loop_mode = 1
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
@@ -385,6 +396,18 @@ tracks/4/keys = {
 "args": [],
 "method": &"chargedBow"
 }]
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("ArrowSpawn:position")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0.5),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(-10, 39)]
 }
 
 [sub_resource type="Animation" id="Animation_hd0sc"]
@@ -452,6 +475,18 @@ tracks/4/keys = {
 "method": &"chargedBow"
 }]
 }
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("ArrowSpawn:position")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0.5),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(14, 32)]
+}
 
 [sub_resource type="Animation" id="Animation_mp65y"]
 resource_name = "shootside"
@@ -518,11 +553,22 @@ tracks/4/keys = {
 "method": &"chargedBow"
 }]
 }
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("ArrowSpawn:position")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0.5),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(29, 10)]
+}
 
 [sub_resource type="Animation" id="Animation_rsbe3"]
 resource_name = "shootup"
 length = 0.80001
-loop_mode = 1
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
@@ -585,11 +631,22 @@ tracks/4/keys = {
 "method": &"chargedBow"
 }]
 }
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("ArrowSpawn:position")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0.5),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(11, -45)]
+}
 
 [sub_resource type="Animation" id="Animation_h2q0i"]
 resource_name = "shootupside"
 length = 0.80001
-loop_mode = 1
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
@@ -652,6 +709,18 @@ tracks/4/keys = {
 "method": &"chargedBow"
 }]
 }
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("ArrowSpawn:position")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0.5),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(19, -19)]
+}
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_kve8f"]
 _data = {
@@ -666,9 +735,6 @@ _data = {
 "shootup": SubResource("Animation_rsbe3"),
 "shootupside": SubResource("Animation_h2q0i")
 }
-
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_nefkq"]
-size = Vector2(60, 4)
 
 [node name="Archer" type="CharacterBody2D"]
 
@@ -705,16 +771,9 @@ script = ExtResource("5_xtqsp")
 
 [node name="Shoot" type="Node" parent="ArcherStateMachine"]
 script = ExtResource("6_w6y51")
+Arrow = ExtResource("7_t1uot")
 
 [node name="Camera2D" type="Camera2D" parent="."]
 
-[node name="Arrow" type="RigidBody2D" parent="."]
-visible = false
-
-[node name="Sprite2D" type="Sprite2D" parent="Arrow"]
-texture = ExtResource("7_bxjjr")
-vframes = 2
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Arrow"]
-position = Vector2(1, 3)
-shape = SubResource("RectangleShape2D_nefkq")
+[node name="ArrowSpawn" type="Marker2D" parent="."]
+position = Vector2(29, 10)
