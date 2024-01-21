@@ -1,13 +1,13 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1705840121
-firstmap.tscn::PackedScene::8019410229007676357::1705840106::0::1::::<><>::uid://bjr7nbpjgr0o7::::res://Assets/Tiny Swords (Update 010)/Factions/Knights/Buildings/Tower/Tower_Blue.png<>uid://hx0thucl01it::::res://Assets/Tiny Swords (Update 010)/Factions/Knights/Buildings/Castle/Castle_Blue.png<>uid://cohsgte7uxg2c::::res://tilesetmap.tres<>uid://kjievptis0g::::res://Characters/Archer.tscn<>uid://dvby75n45b8ot::::res://Characters/Knight.tscn
+::res://::1705840362
+firstmap.tscn::PackedScene::8019410229007676357::1705840213::0::1::::<><>::uid://bjr7nbpjgr0o7::::res://Assets/Tiny Swords (Update 010)/Factions/Knights/Buildings/Tower/Tower_Blue.png<>uid://hx0thucl01it::::res://Assets/Tiny Swords (Update 010)/Factions/Knights/Buildings/Castle/Castle_Blue.png<>uid://cohsgte7uxg2c::::res://tilesetmap.tres<>uid://kjievptis0g::::res://Characters/Archer.tscn<>uid://dvby75n45b8ot::::res://Characters/Knight.tscn
 icon.svg::CompressedTexture2D::8482378094693027348::1704032020::1704032035::1::::<><>::
 README.md::TextFile::-1::1705407420::0::1::::<><>::
-tilesetmap.tres::TileSet::5771040448834742184::1705838628::0::1::::<><>::uid://bd1u71ouxljbs::::res://Assets/Tiny Swords (Update 010)/Terrain/Ground/Tilemap_Flat.png<>uid://doqryfuldq05a::::res://Assets/Tiny Swords (Update 010)/Terrain/Water/Water.png<>uid://djwx3qkajuhn4::::res://Assets/Tiny Swords (Update 010)/Terrain/Water/Foam/Foam.png<>uid://b30137i1dlqt6::::res://Assets/Tiny Swords (Update 010)/Terrain/Water/Rocks/Rocks_01.png<>uid://bv6p8owqfa880::::res://Assets/Tiny Swords (Update 010)/Terrain/Water/Rocks/Rocks_02.png<>uid://cwnojqek8gnrf::::res://Assets/Tiny Swords (Update 010)/Terrain/Water/Rocks/Rocks_03.png<>uid://ecciyngibsqm::::res://Assets/Tiny Swords (Update 010)/Terrain/Water/Rocks/Rocks_04.png<>uid://b7rbxa030p6os::::res://Assets/Tiny Swords (Update 010)/Terrain/Ground/Tilemap_Elevation.png<>uid://c364ve7l82o71::::res://Assets/Tiny Swords (Update 010)/Terrain/Ground/Shadows.png<>uid://c2m6qc6lggcbe::::res://Assets/Tiny Swords (Update 010)/Terrain/Bridge/Bridge_All.png
-walesmap.tscn::PackedScene::7262325160445485827::1705839613::0::1::::<><>::uid://dvby75n45b8ot::::res://Characters/Knight.tscn<>uid://kjievptis0g::::res://Characters/Archer.tscn
+tilesetmap.tres::TileSet::5771040448834742184::1705840214::0::1::::<><>::uid://bd1u71ouxljbs::::res://Assets/Tiny Swords (Update 010)/Terrain/Ground/Tilemap_Flat.png<>uid://doqryfuldq05a::::res://Assets/Tiny Swords (Update 010)/Terrain/Water/Water.png<>uid://djwx3qkajuhn4::::res://Assets/Tiny Swords (Update 010)/Terrain/Water/Foam/Foam.png<>uid://b30137i1dlqt6::::res://Assets/Tiny Swords (Update 010)/Terrain/Water/Rocks/Rocks_01.png<>uid://bv6p8owqfa880::::res://Assets/Tiny Swords (Update 010)/Terrain/Water/Rocks/Rocks_02.png<>uid://cwnojqek8gnrf::::res://Assets/Tiny Swords (Update 010)/Terrain/Water/Rocks/Rocks_03.png<>uid://ecciyngibsqm::::res://Assets/Tiny Swords (Update 010)/Terrain/Water/Rocks/Rocks_04.png<>uid://b7rbxa030p6os::::res://Assets/Tiny Swords (Update 010)/Terrain/Ground/Tilemap_Elevation.png<>uid://c364ve7l82o71::::res://Assets/Tiny Swords (Update 010)/Terrain/Ground/Shadows.png<>uid://c2m6qc6lggcbe::::res://Assets/Tiny Swords (Update 010)/Terrain/Bridge/Bridge_All.png
+walesmap.tscn::PackedScene::7262325160445485827::1705840214::0::1::::<><>::uid://dvby75n45b8ot::::res://Characters/Knight.tscn<>uid://kjievptis0g::::res://Characters/Archer.tscn
 ::res://Assets/::1705840106
 ::res://Assets/Cursors/::1705840106
-cursorsprites.tres::AtlasTexture::1054908976016895931::1705840106::0::1::::<><>::uid://c8k18nbtlyja7::::res://Assets/Cursors/point and click cursor.png
+cursorsprites.tres::AtlasTexture::1054908976016895931::1705840106::0::1::::<><>::uid://c8k18nbtlyja7
 point and click cursor.png::CompressedTexture2D::7111355243219940948::1705840106::1705840106::1::::<><>::
 ::res://Assets/Kasaya's Frames/::1705016156
 ::res://Assets/Kasaya's Frames/Bars/::1705016155
@@ -455,12 +455,12 @@ Ribbon_Yellow_Connection_Right.png::CompressedTexture2D::6250313328929479735::17
 Ribbon_Yellow_Connection_Right_Pressed.png::CompressedTexture2D::7614328754831949848::1704044372::1704044393::1::::<><>::
 Ribbon_Yellow_Connection_Up.png::CompressedTexture2D::4527349473720989725::1704044372::1704044393::1::::<><>::
 Ribbon_Yellow_Connection_Up_Pressed.png::CompressedTexture2D::4209630139327136869::1704044372::1704044393::1::::<><>::
-::res://Characters/::1705840106
-Archer.tscn::PackedScene::21204760068286256::1705840106::0::1::::<><>::uid://bak3nx6d7bbtl::::res://Assets/Tiny Swords (Update 010)/Factions/Knights/Troops/Archer/Blue/Archer_Blue_(NoArms).png<>uid://dqs2lp0c63i00::::res://Assets/Tiny Swords (Update 010)/Factions/Knights/Troops/Archer/Blue/Archer_Blue.png<>res://StateMachine/ArcherStateMachine.gd<>res://StateMachine/ArcherIdleState.gd<>res://StateMachine/ArcherRunState.gd<>res://StateMachine/ArcherShootState.gd<>uid://74kiu35odi7k::::res://Characters/Arrow.tscn
+::res://Characters/::1705840214
+Archer.tscn::PackedScene::21204760068286256::1705840214::0::1::::<><>::uid://bak3nx6d7bbtl::::res://Assets/Tiny Swords (Update 010)/Factions/Knights/Troops/Archer/Blue/Archer_Blue_(NoArms).png<>uid://dqs2lp0c63i00::::res://Assets/Tiny Swords (Update 010)/Factions/Knights/Troops/Archer/Blue/Archer_Blue.png<>res://StateMachine/ArcherStateMachine.gd<>res://StateMachine/ArcherIdleState.gd<>res://StateMachine/ArcherRunState.gd<>res://StateMachine/ArcherShootState.gd<>uid://74kiu35odi7k::::res://Characters/Arrow.tscn
 Arrow.gd::GDScript::-1::1705840106::0::1::::<>Area2D<>::
-Arrow.tscn::PackedScene::2306532502667099810::1705840106::0::1::::<><>::res://Characters/Arrow.gd<>uid://cbp66j7rs3bsy::::res://Assets/Tiny Swords (Update 010)/Factions/Knights/Troops/Archer/Arrow/Arrow.png
+Arrow.tscn::PackedScene::2306532502667099810::1705840214::0::1::::<><>::res://Characters/Arrow.gd<>uid://cbp66j7rs3bsy::::res://Assets/Tiny Swords (Update 010)/Factions/Knights/Troops/Archer/Arrow/Arrow.png
 Knight.gd::GDScript::-1::1705840064::0::1::::<>CharacterBody2D<>::
-Knight.tscn::PackedScene::8636808095604151867::1705840064::0::1::::<><>::res://Characters/Knight.gd<>uid://ctpoikcx70sxy::::res://Assets/Tiny Swords (Update 010)/Factions/Knights/Troops/Warrior/Blue/Warrior_Blue.png<>res://StateMachine/KnightStateMachine.gd<>res://StateMachine/RunState.gd<>res://StateMachine/IdleState.gd<>res://StateMachine/AttackState.gd
+Knight.tscn::PackedScene::8636808095604151867::1705840214::0::1::::<><>::res://Characters/Knight.gd<>uid://ctpoikcx70sxy::::res://Assets/Tiny Swords (Update 010)/Factions/Knights/Troops/Warrior/Blue/Warrior_Blue.png<>res://StateMachine/KnightStateMachine.gd<>res://StateMachine/RunState.gd<>res://StateMachine/IdleState.gd<>res://StateMachine/AttackState.gd
 ::res://StateMachine/::1705840106
 ArcherIdleState.gd::GDScript::-1::1705243265::0::1::::ArcherIdleState<>State<>::
 ArcherRunState.gd::GDScript::-1::1705148583::0::1::::ArcherRunState<>State<>::
