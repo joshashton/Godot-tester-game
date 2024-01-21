@@ -10,14 +10,19 @@ class_name ArcherAttackState
 var isBowCharged: bool = false
 var mouseLocation
 var shootPosition:String
+# Load the custom images for the mouse cursor.
+var cursor = load("res://Assets/Cursors/cursorsprites.tres")
+
 
 func Enter() -> void:
 	print("ShootingState")
+	Input.set_custom_mouse_cursor(cursor)
 	updateLocation()
 	#print("while loop")
 	
 func Exit() -> void:
 	isBowCharged = false
+	Input.set_custom_mouse_cursor(null)
 	
 func Update(delta):
 	#get mouse location when using bow
@@ -78,6 +83,8 @@ func updateLocation():
 func shoot():
 	var arrow = Arrow.instantiate()	
 	arrow.transform = $"../../ArrowSpawn".global_transform
+	#arrow.rotated(mouseLocation)
+	arrow.rotation = mouseLocation.angle()
 	print("shoot towards mouse location: ",mouseLocation)
 	owner.add_child(arrow)
 	
