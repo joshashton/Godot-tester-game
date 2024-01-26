@@ -1,10 +1,7 @@
-res://Characters/Sheep.tscn
-res://tilesetmap.tres
-res://StateMachine/SheepIdle.gd
-res://StateMachine/SheepStateMachine.gd
 res://firstmap.tscn
+res://tilesetmap.tres
 res://Characters/Archer.tscn
 res://Characters/Knight.tscn
 res://walesmap.tscn
 res://Characters/Arrow.tscn
-res://Characters/Sheep.gd
+res://Characters/Sheep.tscn
