@@ -82,7 +82,7 @@ func updateLocation():
 	
 func shoot():
 	var arrow = Arrow.instantiate()	
-	arrow.transform = $"../../ArrowSpawn".global_transform
+	arrow.transform = $"../../ArrowSpawn".transform
 	#arrow.rotated(mouseLocation)
 	arrow.rotation = mouseLocation.angle()
 	print("shoot towards mouse location: ",mouseLocation)

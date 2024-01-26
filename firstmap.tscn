@@ -1,9 +1,10 @@
-[gd_scene load_steps=6 format=3 uid="uid://dmiwrresgf8o4"]
+[gd_scene load_steps=7 format=3 uid="uid://dmiwrresgf8o4"]
 
 [ext_resource type="Texture2D" uid="uid://bjr7nbpjgr0o7" path="res://Assets/Tiny Swords (Update 010)/Factions/Knights/Buildings/Tower/Tower_Blue.png" id="1_2d4j5"]
 [ext_resource type="Texture2D" uid="uid://hx0thucl01it" path="res://Assets/Tiny Swords (Update 010)/Factions/Knights/Buildings/Castle/Castle_Blue.png" id="2_6m3ut"]
 [ext_resource type="TileSet" uid="uid://cohsgte7uxg2c" path="res://tilesetmap.tres" id="4_uvjic"]
 [ext_resource type="PackedScene" uid="uid://kjievptis0g" path="res://Characters/Archer.tscn" id="5_uei7w"]
+[ext_resource type="PackedScene" uid="uid://hcuugnyxefvw" path="res://Characters/Sheep.tscn" id="6_73rx7"]
 [ext_resource type="PackedScene" uid="uid://dvby75n45b8ot" path="res://Characters/Knight.tscn" id="9_scnwo"]
 
 [node name="Node2D" type="Node2D"]
@@ -73,3 +74,8 @@ layer_5/tile_data = PackedInt32Array(-2097125, 9, 5, -2031589, 9, 6, -1966053, 9
 visible = false
 z_index = 13
 position = Vector2(235, 65)
+
+[node name="CharacterBody2D" parent="." instance=ExtResource("6_73rx7")]
+z_index = 13
+y_sort_enabled = true
+position = Vector2(254, 68)
