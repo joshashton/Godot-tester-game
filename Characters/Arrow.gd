@@ -2,6 +2,7 @@ extends Area2D
 
 var pushback_strength = 50
 var speed = 500
+var damage = 10
 
 func _physics_process(delta):
 	var direction = Vector2.RIGHT.rotated(rotation)
@@ -9,4 +10,4 @@ func _physics_process(delta):
 	
 func destroy():
 	queue_free()
-
+	

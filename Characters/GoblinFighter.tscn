@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://c6q2h242ua7yd"]
+
+[ext_resource type="Texture2D" uid="uid://ju5tklvgjdvg" path="res://Assets/Tiny Swords (Update 010)/Factions/Goblins/Troops/Torch/Blue/Torch_Blue.png" id="1_d18fw"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_xw65m"]
+size = Vector2(51, 20.5)
+
+[node name="GoblinFighter" type="CharacterBody2D"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0.5, 27)
+shape = SubResource("RectangleShape2D_xw65m")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_d18fw")
+hframes = 7
+vframes = 5

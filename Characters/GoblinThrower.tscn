@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3 uid="uid://c8bd8br6gbxs4"]
+
+[ext_resource type="Texture2D" uid="uid://bigdri4ikun4" path="res://Assets/Tiny Swords (Update 010)/Factions/Goblins/Troops/TNT/Blue/TNT_Blue.png" id="1_y70o2"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_xw65m"]
+size = Vector2(39.5, 20.5)
+
+[node name="GoblinThrower" type="CharacterBody2D"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(1, 27)
+shape = SubResource("RectangleShape2D_xw65m")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_y70o2")
+hframes = 7
+vframes = 3
+frame = 8

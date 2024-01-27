@@ -9,8 +9,8 @@ class_name AttackState
 
 func Enter() -> void:
 	
-	print("AttackState")
-	print(playerFSM.attackPosition)
+	#print("AttackState")
+	#print(playerFSM.attackPosition)
 	if playerFSM.attackPosition == "right":
 		spriteplayer.flip_h = false
 		animated_sprite.play("attack")

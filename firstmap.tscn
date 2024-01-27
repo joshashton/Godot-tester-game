@@ -8,20 +8,24 @@
 [ext_resource type="PackedScene" uid="uid://dvby75n45b8ot" path="res://Characters/Knight.tscn" id="9_scnwo"]
 
 [node name="Node2D" type="Node2D"]
+y_sort_enabled = true
 
 [node name="Sprite2D2" type="Sprite2D" parent="."]
 z_index = 6
+y_sort_enabled = true
 position = Vector2(467, -661)
 texture = ExtResource("1_2d4j5")
 
 [node name="Sprite2D3" type="Sprite2D" parent="."]
 z_index = 6
+y_sort_enabled = true
 position = Vector2(-203, -296)
 scale = Vector2(1.26563, 1.21094)
 texture = ExtResource("2_6m3ut")
 
 [node name="Player" parent="." instance=ExtResource("9_scnwo")]
 z_index = 13
+y_sort_enabled = true
 
 [node name="Camera2D2" type="Camera2D" parent="Player"]
 
@@ -78,4 +82,4 @@ position = Vector2(235, 65)
 [node name="CharacterBody2D" parent="." instance=ExtResource("6_73rx7")]
 z_index = 13
 y_sort_enabled = true
-position = Vector2(254, 68)
+position = Vector2(250, 90)

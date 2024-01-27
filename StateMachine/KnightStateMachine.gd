@@ -41,7 +41,7 @@ func _unhandled_input(event):
 # Get the mouse position in the world
 				var attackMouse = character.get_local_mouse_position()
 				attackPosition = get_mouse_direction(attackMouse)
-				print(attackPosition)
+				#print(attackPosition)
 				#get_global_mouse_position()
 				#print("click position: ", attackPosition)
 				#print("click position2: ", event.position)
@@ -61,7 +61,7 @@ func get_mouse_direction(vector:Vector2):
 		#-3 - 0
 		
 	var angle = rad_to_deg(vector.angle())
-	print(angle)
+	#print(angle)
 	if angle >= -45.0 && angle < 45.0:
 		return "right"
 	elif angle >= 45.0 && angle < 135.0:

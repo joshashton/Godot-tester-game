@@ -13,4 +13,4 @@ position = Vector2(267, 264)
 position = Vector2(577, 269)
 
 [node name="Sheep" parent="." instance=ExtResource("3_2dp53")]
-position = Vector2(447, 326)
+position = Vector2(455, 284)

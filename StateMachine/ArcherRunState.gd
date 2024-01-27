@@ -10,7 +10,7 @@ var input_direction
 @onready var spriteplayer =  $"../../bowSprites"
 func Enter() -> void:
 	animated_sprite.play("run")
-	print("RunState")
+	#print("RunState")
 	
 func Exit() -> void:
 	pass
@@ -28,10 +28,11 @@ func Unhandled_input(event):
 	if event is InputEventMouseButton:
 		if event.button_index == MOUSE_BUTTON_LEFT:
 			if event.pressed:
-				print("Left button was clicked at ", event.position)
+				#print("Left button was clicked at ", event.position)
 				Transitioned.emit(self, "Shoot")
 			else:
-				print("Left button was released")
+				#print("Left button was released")
+				pass
 				
 func move(input_direction):
 	update_facing_direction()

@@ -7,7 +7,7 @@ class_name IdleState
 	
 func Enter() -> void:
 	animated_sprite.play("idle")
-	print("IdleState")
+	#print("IdleState")
 	
 func Exit() -> void:
 	pass

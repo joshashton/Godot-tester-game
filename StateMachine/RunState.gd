@@ -10,7 +10,7 @@ var input_direction
 @onready var spriteplayer =  $"../../Sprite2D"
 func Enter() -> void:
 	animated_sprite.play("run")
-	print("RunState")
+	#print("RunState")
 	
 func Exit() -> void:
 	pass

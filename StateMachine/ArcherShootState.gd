@@ -15,7 +15,7 @@ var cursor = load("res://Assets/Cursors/cursorsprites.tres")
 
 
 func Enter() -> void:
-	print("ShootingState")
+	#print("ShootingState")
 	Input.set_custom_mouse_cursor(cursor)
 	updateLocation()
 	#print("while loop")
@@ -39,7 +39,7 @@ func Physics_update(delta):
 			shoot()
 			Transitioned.emit(self, "Idle")
 		else: 
-			print("mouse release")
+			#print("mouse release")
 			Transitioned.emit(self, "Idle")
 	
 func updateLocation():
@@ -85,7 +85,7 @@ func shoot():
 	arrow.transform = $"../../ArrowSpawn".transform
 	#arrow.rotated(mouseLocation)
 	arrow.rotation = mouseLocation.angle()
-	print("shoot towards mouse location: ",mouseLocation)
+	#print("shoot towards mouse location: ",mouseLocation)
 	owner.add_child(arrow)
 	
 #called on the animation tree

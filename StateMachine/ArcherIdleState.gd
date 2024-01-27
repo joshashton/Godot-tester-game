@@ -6,7 +6,7 @@ class_name ArcherIdleState
 	
 func Enter() -> void:
 	animated_sprite.play("idle")
-	print("IdleState")
+	#print("IdleState")
 	
 func Exit() -> void:
 	pass
@@ -25,7 +25,8 @@ func Unhandled_input(event):
 				
 				Transitioned.emit(self, "Shoot")
 			else:
-				print("Left button was released")
+				pass
+				#print("Left button was released")
 			
 	
 func Physics_update(delta):

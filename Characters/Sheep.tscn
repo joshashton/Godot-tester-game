@@ -1,9 +1,11 @@
-[gd_scene load_steps=11 format=3 uid="uid://hcuugnyxefvw"]
+[gd_scene load_steps=13 format=3 uid="uid://hcuugnyxefvw"]
 
 [ext_resource type="Texture2D" uid="uid://cjpl83rh4jfs8" path="res://Assets/Tiny Swords (Update 010)/Resources/Sheep/HappySheep_All.png" id="1_0kqyd"]
 [ext_resource type="Script" path="res://Characters/Sheep.gd" id="1_3mo5g"]
 [ext_resource type="Script" path="res://StateMachine/SheepStateMachine.gd" id="2_5bc2x"]
 [ext_resource type="Script" path="res://StateMachine/SheepIdle.gd" id="3_x35dl"]
+[ext_resource type="Script" path="res://StateMachine/SheepDeadState.gd" id="5_ga206"]
+[ext_resource type="Script" path="res://StateMachine/SheepHitState.gd" id="6_3xrov"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_4pxl7"]
 radius = 4.99891
@@ -97,7 +99,15 @@ character = NodePath("..")
 [node name="Idle" type="Node" parent="SheepStateMachine"]
 script = ExtResource("3_x35dl")
 
+[node name="Die" type="Node" parent="SheepStateMachine"]
+script = ExtResource("5_ga206")
+
+[node name="Hit" type="Node" parent="SheepStateMachine"]
+script = ExtResource("6_3xrov")
+
 [node name="Hitbox" type="Area2D" parent="."]
+collision_layer = 0
+collision_mask = 2
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Hitbox"]
 position = Vector2(1, 1)
