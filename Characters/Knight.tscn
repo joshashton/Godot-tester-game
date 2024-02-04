@@ -792,7 +792,7 @@ _data = {
 "run": SubResource("Animation_uaba7")
 }
 
-[node name="Knight" type="CharacterBody2D"]
+[node name="Knight" type="CharacterBody2D" groups=["knight"]]
 collision_layer = 2
 script = ExtResource("1_xban5")
 

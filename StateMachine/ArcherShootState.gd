@@ -18,7 +18,7 @@ func Enter() -> void:
 	#print("ShootingState")
 	Input.set_custom_mouse_cursor(cursor)
 	updateLocation()
-	#print("while loop")
+	
 	
 func Exit() -> void:
 	isBowCharged = false
@@ -84,7 +84,10 @@ func shoot():
 	var arrow = Arrow.instantiate()	
 	arrow.transform = $"../../ArrowSpawn".transform
 	#arrow.rotated(mouseLocation)
-	arrow.rotation = mouseLocation.angle()
+	var direction = mouseLocation - arrow.position
+	var angle = atan2(direction.y, direction.x)	
+	arrow.rotation = angle
+	#arrow.rotation = mouseLocation.angle()
 	#print("shoot towards mouse location: ",mouseLocation)
 	owner.add_child(arrow)
 	

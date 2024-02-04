@@ -736,7 +736,7 @@ _data = {
 "shootupside": SubResource("Animation_h2q0i")
 }
 
-[node name="Archer" type="CharacterBody2D"]
+[node name="Archer" type="CharacterBody2D" groups=["knight"]]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(-0.5, 27)

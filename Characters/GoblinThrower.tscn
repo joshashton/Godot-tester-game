@@ -1,9 +1,92 @@
-[gd_scene load_steps=3 format=3 uid="uid://c8bd8br6gbxs4"]
+[gd_scene load_steps=14 format=3 uid="uid://c8bd8br6gbxs4"]
 
 [ext_resource type="Texture2D" uid="uid://bigdri4ikun4" path="res://Assets/Tiny Swords (Update 010)/Factions/Goblins/Troops/TNT/Blue/TNT_Blue.png" id="1_y70o2"]
+[ext_resource type="Script" path="res://StateMachine/GobThrowerStateMachine.gd" id="2_dmcdi"]
+[ext_resource type="Script" path="res://StateMachine/ThrowerIdleState.gd" id="3_ibhve"]
+[ext_resource type="Script" path="res://StateMachine/ThrowerRunState.gd" id="4_xjpk4"]
+[ext_resource type="Script" path="res://StateMachine/ThrowerAttackState.gd" id="5_5axes"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_xw65m"]
 size = Vector2(39.5, 20.5)
+
+[sub_resource type="Animation" id="Animation_fh560"]
+resource_name = "idle"
+length = 0.6
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2, 0.3, 0.4, 0.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [0, 1, 2, 3, 4, 5]
+}
+
+[sub_resource type="Animation" id="Animation_qytdr"]
+resource_name = "attack"
+length = 0.7
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [14, 15, 16, 17, 18, 19, 20]
+}
+
+[sub_resource type="Animation" id="Animation_r1owu"]
+resource_name = "run"
+length = 0.6
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2, 0.3, 0.4, 0.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [7, 8, 9, 10, 11, 12]
+}
+
+[sub_resource type="Animation" id="Animation_hchhu"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [8]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_qgjfm"]
+_data = {
+"RESET": SubResource("Animation_hchhu"),
+"attack": SubResource("Animation_qytdr"),
+"idle": SubResource("Animation_fh560"),
+"run": SubResource("Animation_r1owu")
+}
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_sd6d6"]
+radius = 363.022
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_tg0w4"]
+radius = 232.106
 
 [node name="GoblinThrower" type="CharacterBody2D"]
 
@@ -16,3 +99,39 @@ texture = ExtResource("1_y70o2")
 hframes = 7
 vframes = 3
 frame = 8
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+autoplay = "idle"
+libraries = {
+"": SubResource("AnimationLibrary_qgjfm")
+}
+
+[node name="ThrowerStateMachine" type="Node" parent="." node_paths=PackedStringArray("initial_state", "character")]
+script = ExtResource("2_dmcdi")
+initial_state = NodePath("Idle")
+character = NodePath("..")
+
+[node name="Idle" type="Node" parent="ThrowerStateMachine"]
+script = ExtResource("3_ibhve")
+
+[node name="Run" type="Node" parent="ThrowerStateMachine"]
+script = ExtResource("4_xjpk4")
+
+[node name="Attack" type="Node" parent="ThrowerStateMachine"]
+script = ExtResource("5_5axes")
+
+[node name="DetectionRadius" type="Area2D" parent="."]
+monitorable = false
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="DetectionRadius"]
+shape = SubResource("CircleShape2D_sd6d6")
+
+[node name="AttackRange" type="Area2D" parent="."]
+monitorable = false
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="AttackRange"]
+shape = SubResource("CircleShape2D_tg0w4")
+
+[connection signal="body_entered" from="DetectionRadius" to="ThrowerStateMachine/Idle" method="_on_detection_radius_body_entered"]
+[connection signal="body_entered" from="AttackRange" to="ThrowerStateMachine/Idle" method="_on_attack_range_body_entered"]
+[connection signal="body_entered" from="AttackRange" to="ThrowerStateMachine/Run" method="_on_attack_range_body_entered"]
