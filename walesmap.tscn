@@ -8,6 +8,7 @@
 [node name="WalesMap" type="Node2D"]
 
 [node name="Knight" parent="." instance=ExtResource("1_ag3kp")]
+visible = false
 position = Vector2(267, 264)
 
 [node name="Archer" parent="." instance=ExtResource("2_nbd06")]
@@ -17,4 +18,5 @@ position = Vector2(577, 269)
 position = Vector2(455, 284)
 
 [node name="GoblinThrower" parent="." instance=ExtResource("4_d3wob")]
+visible = false
 position = Vector2(430, 222)

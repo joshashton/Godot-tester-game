@@ -3,7 +3,6 @@ extends Node
 class_name SheepStateMachine
 
 @export var initial_state : State
-
 @export var character : CharacterBody2D
 @export var current_state : State
 

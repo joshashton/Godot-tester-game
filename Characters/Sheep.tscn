@@ -1,4 +1,4 @@
-[gd_scene load_steps=13 format=3 uid="uid://hcuugnyxefvw"]
+[gd_scene load_steps=15 format=3 uid="uid://hcuugnyxefvw"]
 
 [ext_resource type="Texture2D" uid="uid://cjpl83rh4jfs8" path="res://Assets/Tiny Swords (Update 010)/Resources/Sheep/HappySheep_All.png" id="1_0kqyd"]
 [ext_resource type="Script" path="res://Characters/Sheep.gd" id="1_3mo5g"]
@@ -6,6 +6,7 @@
 [ext_resource type="Script" path="res://StateMachine/SheepIdle.gd" id="3_x35dl"]
 [ext_resource type="Script" path="res://StateMachine/SheepDeadState.gd" id="5_ga206"]
 [ext_resource type="Script" path="res://StateMachine/SheepHitState.gd" id="6_3xrov"]
+[ext_resource type="Texture2D" uid="uid://co3ojvsib7i18" path="res://Assets/Tiny Swords (Update 010)/Resources/Resources/M_Idle.png" id="7_gkg1g"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_4pxl7"]
 radius = 4.99891
@@ -70,6 +71,9 @@ _data = {
 [sub_resource type="CircleShape2D" id="CircleShape2D_kp7no"]
 radius = 19.0263
 
+[sub_resource type="CircleShape2D" id="CircleShape2D_njffo"]
+radius = 41.2745
+
 [node name="CharacterBody2D" type="CharacterBody2D"]
 scale = Vector2(1.285, 1.285)
 script = ExtResource("1_3mo5g")
@@ -112,5 +116,15 @@ collision_mask = 2
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Hitbox"]
 position = Vector2(1, 1)
 shape = SubResource("CircleShape2D_kp7no")
+
+[node name="LootDrop" type="Area2D" parent="."]
+visible = false
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="LootDrop"]
+shape = SubResource("CircleShape2D_njffo")
+
+[node name="Sprite2D" type="Sprite2D" parent="LootDrop"]
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("7_gkg1g")
 
 [connection signal="area_entered" from="Hitbox" to="." method="_on_hitbox_area_entered"]

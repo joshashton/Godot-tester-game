@@ -1,6 +1,7 @@
 extends CharacterBody2D
 
 var health = 20
+var isDead : bool = false
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
@@ -13,6 +14,8 @@ func _process(delta):
 func take_damage(damage):
 	health -= damage
 	print(health)
+	if health <=0:
+		isDead = true
 
 func _on_hitbox_area_entered(area):
 	print("Hit sheep")

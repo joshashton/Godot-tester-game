@@ -12,7 +12,8 @@ func Exit() -> void:
 	pass
 	
 func Update(delta):
-	pass
+	if character.isDead == true:
+		Transitioned.emit(self, "Die")
 		
 func Unhandled_input(event):
 	pass
