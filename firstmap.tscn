@@ -1,10 +1,11 @@
-[gd_scene load_steps=7 format=3 uid="uid://dmiwrresgf8o4"]
+[gd_scene load_steps=8 format=3 uid="uid://dmiwrresgf8o4"]
 
 [ext_resource type="Texture2D" uid="uid://bjr7nbpjgr0o7" path="res://Assets/Tiny Swords (Update 010)/Factions/Knights/Buildings/Tower/Tower_Blue.png" id="1_2d4j5"]
 [ext_resource type="Texture2D" uid="uid://hx0thucl01it" path="res://Assets/Tiny Swords (Update 010)/Factions/Knights/Buildings/Castle/Castle_Blue.png" id="2_6m3ut"]
 [ext_resource type="TileSet" uid="uid://cohsgte7uxg2c" path="res://tilesetmap.tres" id="4_uvjic"]
-[ext_resource type="PackedScene" uid="uid://kjievptis0g" path="res://Characters/Archer.tscn" id="5_uei7w"]
+[ext_resource type="PackedScene" uid="uid://phcpmhdejb2y" path="res://StateMachine/PlayerKnightStateMachine.tscn" id="4_yxiv4"]
 [ext_resource type="PackedScene" uid="uid://hcuugnyxefvw" path="res://Characters/Sheep.tscn" id="6_73rx7"]
+[ext_resource type="PackedScene" uid="uid://4cia36tkvmak" path="res://UI/PlayerUI.tscn" id="7_xgbaq"]
 [ext_resource type="PackedScene" uid="uid://dvby75n45b8ot" path="res://Characters/Knight.tscn" id="9_scnwo"]
 
 [node name="Node2D" type="Node2D"]
@@ -28,6 +29,9 @@ z_index = 13
 y_sort_enabled = true
 
 [node name="Camera2D2" type="Camera2D" parent="Player"]
+
+[node name="PlayerKnightStateMachine" parent="Player" node_paths=PackedStringArray("character") instance=ExtResource("4_yxiv4")]
+character = NodePath("..")
 
 [node name="TileMap2" type="TileMap" parent="."]
 z_index = 1
@@ -74,12 +78,11 @@ layer_5/y_sort_origin = 0
 layer_5/z_index = 4
 layer_5/tile_data = PackedInt32Array(-2097125, 9, 5, -2031589, 9, 6, -1966053, 9, 7, -1900517, 9, 8, -1834981, 9, 9, -1769445, 9, 10, -1703909, 9, 11, -1638373, 9, 12, -1572837, 9, 13, -1507301, 9, 14, -2097124, 65545, 5, -2031588, 65545, 6, -1966052, 65545, 7, -1900516, 65545, 8, -1834980, 65545, 9, -1769444, 65545, 10, -1703908, 65545, 11, -1638372, 65545, 12, -1572836, 65545, 13, -1507300, 65545, 14, -2097123, 131081, 5, -2031587, 131081, 6, -1966051, 131081, 7, -1900515, 131081, 8, -1834979, 131081, 9, -1769443, 131081, 10, -1703907, 131081, 11, -1638371, 131081, 12, -1572835, 131081, 13, -1507299, 131081, 14, -2097122, 196617, 5, -2031586, 196617, 6, -1966050, 196617, 7, -1900514, 196617, 8, -1834978, 196617, 9, -1769442, 196617, 10, -1703906, 196617, 11, -1638370, 196617, 12, -1572834, 196617, 13, -1507298, 196617, 14)
 
-[node name="Archer" parent="." instance=ExtResource("5_uei7w")]
-visible = false
-z_index = 13
-position = Vector2(235, 65)
-
 [node name="CharacterBody2D" parent="." instance=ExtResource("6_73rx7")]
 z_index = 13
 y_sort_enabled = true
 position = Vector2(250, 90)
+
+[node name="CanvasLayer" parent="." instance=ExtResource("7_xgbaq")]
+
+[editable path="Player"]

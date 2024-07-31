@@ -1,0 +1,23 @@
+[gd_scene load_steps=3 format=3 uid="uid://4cia36tkvmak"]
+
+[ext_resource type="PackedScene" uid="uid://dr5wg8asunmwv" path="res://UI/attack_button.tscn" id="1_ew6gw"]
+[ext_resource type="PackedScene" uid="uid://dmr0fcamx7t56" path="res://addons/virtual_joystick/virtual_joystick_scene.tscn" id="2_qr750"]
+
+[node name="CanvasLayer" type="CanvasLayer"]
+
+[node name="AttackButton" parent="." instance=ExtResource("1_ew6gw")]
+position = Vector2(1039, 510)
+
+[node name="Virtual Joystick" parent="." instance=ExtResource("2_qr750")]
+offset_left = 48.0
+offset_top = -276.0
+offset_right = 316.0
+offset_bottom = -33.0
+pressed_color = Color(0.796078, 0.745098, 0.552941, 1)
+joystick_mode = 1
+action_left = "move_left"
+action_right = "move_right"
+action_up = "move_up"
+action_down = "move_down"
+
+[editable path="AttackButton"]

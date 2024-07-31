@@ -1,11 +1,7 @@
-[gd_scene load_steps=41 format=3 uid="uid://dvby75n45b8ot"]
+[gd_scene load_steps=36 format=3 uid="uid://dvby75n45b8ot"]
 
 [ext_resource type="Script" path="res://Characters/Knight.gd" id="1_xban5"]
 [ext_resource type="Texture2D" uid="uid://ctpoikcx70sxy" path="res://Assets/Tiny Swords (Update 010)/Factions/Knights/Troops/Warrior/Blue/Warrior_Blue.png" id="3_2cxrx"]
-[ext_resource type="Script" path="res://StateMachine/KnightStateMachine.gd" id="3_72e1x"]
-[ext_resource type="Script" path="res://StateMachine/RunState.gd" id="4_pqqrc"]
-[ext_resource type="Script" path="res://StateMachine/IdleState.gd" id="5_upegy"]
-[ext_resource type="Script" path="res://StateMachine/AttackState.gd" id="6_yqbr4"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_fcou0"]
 size = Vector2(41, 28)
@@ -156,93 +152,6 @@ animations = [{
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_8pufo"]
 size = Vector2(43.8747, 94.8586)
-
-[sub_resource type="Animation" id="Animation_6rvjs"]
-length = 0.001
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath("Sprite2D:texture")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 1,
-"values": [ExtResource("3_2cxrx")]
-}
-tracks/1/type = "value"
-tracks/1/imported = false
-tracks/1/enabled = true
-tracks/1/path = NodePath("Sprite2D:hframes")
-tracks/1/interp = 1
-tracks/1/loop_wrap = true
-tracks/1/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 1,
-"values": [6]
-}
-tracks/2/type = "value"
-tracks/2/imported = false
-tracks/2/enabled = true
-tracks/2/path = NodePath("Sprite2D:vframes")
-tracks/2/interp = 1
-tracks/2/loop_wrap = true
-tracks/2/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 1,
-"values": [8]
-}
-tracks/3/type = "value"
-tracks/3/imported = false
-tracks/3/enabled = true
-tracks/3/path = NodePath("Sprite2D:frame")
-tracks/3/interp = 1
-tracks/3/loop_wrap = true
-tracks/3/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 1,
-"values": [12]
-}
-tracks/4/type = "value"
-tracks/4/imported = false
-tracks/4/enabled = true
-tracks/4/path = NodePath("Sword/CollisionShape2D:disabled")
-tracks/4/interp = 1
-tracks/4/loop_wrap = true
-tracks/4/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 1,
-"values": [false]
-}
-tracks/5/type = "value"
-tracks/5/imported = false
-tracks/5/enabled = true
-tracks/5/path = NodePath("Sword/CollisionShape2D:position")
-tracks/5/interp = 1
-tracks/5/loop_wrap = true
-tracks/5/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 0,
-"values": [Vector2(69, 9)]
-}
-tracks/6/type = "value"
-tracks/6/imported = false
-tracks/6/enabled = true
-tracks/6/path = NodePath("Sword/CollisionShape2D:shape")
-tracks/6/interp = 1
-tracks/6/loop_wrap = true
-tracks/6/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 1,
-"values": [SubResource("RectangleShape2D_8pufo")]
-}
 
 [sub_resource type="Animation" id="Animation_l0cf4"]
 resource_name = "attack"
@@ -781,7 +690,6 @@ tracks/3/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_1nv16"]
 _data = {
-"RESET": SubResource("Animation_6rvjs"),
 "attack": SubResource("Animation_l0cf4"),
 "attack2": SubResource("Animation_vx7vw"),
 "attackdown": SubResource("Animation_2wepw"),
@@ -793,6 +701,7 @@ _data = {
 }
 
 [node name="Knight" type="CharacterBody2D" groups=["knight"]]
+position = Vector2(339, 166)
 collision_layer = 2
 script = ExtResource("1_xban5")
 
@@ -804,7 +713,6 @@ shape = SubResource("RectangleShape2D_fcou0")
 texture = ExtResource("3_2cxrx")
 hframes = 6
 vframes = 8
-frame = 12
 region_rect = Rect2(0, 0, 1152, 1536)
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
@@ -818,23 +726,10 @@ libraries = {
 "": SubResource("AnimationLibrary_1nv16")
 }
 
-[node name="PlayerStateMachine" type="Node" parent="." node_paths=PackedStringArray("initial_state", "character")]
-script = ExtResource("3_72e1x")
-initial_state = NodePath("Idle")
-character = NodePath("..")
-
-[node name="Run" type="Node" parent="PlayerStateMachine"]
-script = ExtResource("4_pqqrc")
-
-[node name="Idle" type="Node" parent="PlayerStateMachine"]
-script = ExtResource("5_upegy")
-
-[node name="Attack" type="Node" parent="PlayerStateMachine"]
-script = ExtResource("6_yqbr4")
-
 [node name="Sword" type="Area2D" parent="."]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Sword"]
-position = Vector2(69, 9)
+position = Vector2(72, -9)
 shape = SubResource("RectangleShape2D_8pufo")
+disabled = true
 debug_color = Color(0.972549, 0, 0.462745, 1)

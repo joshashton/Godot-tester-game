@@ -7,6 +7,8 @@ class_name AttackState
 @onready var playerFSM = $".."
 @onready var spriteplayer =  $"../../Sprite2D"
 
+const SPEED = 300.0
+
 func Enter() -> void:
 	
 	#print("AttackState")
@@ -30,4 +32,3 @@ func Enter() -> void:
 func Exit() -> void:
 	pass
 	
-

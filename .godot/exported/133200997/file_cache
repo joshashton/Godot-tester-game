@@ -1,0 +1,17 @@
+res://Assets/Cursors/cursorsprites.tres::62dea409b91235e906a0b9d1cc414b3a::1705843706::res://.godot/exported/133200997/export-cfff05aeb4a3126d7fe9349b1dafcfa0-cursorsprites.res
+res://Characters/Archer.tscn::856fc43dde4d6e3bed322e00e73aac72::1722089927::res://.godot/exported/133200997/export-fb1158abd1f0b2ce4b7a91eeab8617e0-Archer.scn
+res://Characters/Arrow.tscn::931bb19e0259e444b6587d3a004d65ff::1722000291::res://.godot/exported/133200997/export-8d503f328f1fa0af77bc77f36a443e11-Arrow.scn
+res://Characters/GoblinFighter.tscn::dd032fe563a2ada217b11316d7e6f940::1722000291::res://.godot/exported/133200997/export-e4b843ff62902dff09a3a8826d8c7384-GoblinFighter.scn
+res://Characters/GoblinThrower.tscn::2ad4e7331afa4706d9315c39b29ecde8::1722000291::res://.godot/exported/133200997/export-c003281e2fb6848a93d62b93ba726557-GoblinThrower.scn
+res://Characters/Knight.tscn::7cf1fe511bba261567eff24acd1f1905::1722423990::res://.godot/exported/133200997/export-e6335d2cd7486239494b59f71eeb36a6-Knight.scn
+res://Characters/Sheep.tscn::c8d7c9424f67a3c5da66854d4f6eef90::1722447081::res://.godot/exported/133200997/export-80ed8112f157e1f4eab78778066414b7-Sheep.scn
+res://firstmap.tscn::75cf051d8ae03f17705f1626a7ee4d00::1722447081::res://.godot/exported/133200997/export-64200a39cbcb477dea39d483b6f7369c-firstmap.scn
+res://tilesetmap.tres::e10bea2c2e847f9fee0a6bf333ed58ea::1722422692::res://.godot/exported/133200997/export-532c828b3ac0d91e90214ef79c572412-tilesetmap.res
+res://walesmap.tscn::a8fd8af9bbcc0435e766c4d6c2306db8::1722000291::res://.godot/exported/133200997/export-03a3351ffc7c491935c93573a9eb56b8-walesmap.scn
+res://StateMachine/PlayerKnightStateMachine.tscn::765db68d5ecf03358a2fbd09587d2240::1722424038::res://.godot/exported/133200997/export-8f14627933a80ff1b8d3b4138d7b2e7e-PlayerKnightStateMachine.scn
+res://addons/virtual_joystick/test/test.tscn::c46b8694133afd422605aa815105edfb::1722446603::res://.godot/exported/133200997/export-65fc1102b221e3c86f8828aab5faf636-test.scn
+res://addons/virtual_joystick/virtual_joystick_scene.tscn::c47f4bc864545c023e725d20482526d6::1722446603::res://.godot/exported/133200997/export-4fefb2d1c978e429fe9cfeba8aa59129-virtual_joystick_scene.scn
+res://UI/joystick.tscn::da3695725d79ba820e5c2a5649a94ab3::1722426195::res://.godot/exported/133200997/export-5cc6df156456df4eba210261c3bf1e82-joystick.scn
+res://UI/attack_button.tscn::660d8dbdd997ce3115e56b2e44f78f66::1722446603::res://.godot/exported/133200997/export-20779de1867634b5fa53f8ac29a57bbd-attack_button.scn
+res://UI/PlayerUI.tscn::d7585066acf0ebc0dc45c00edac38368::1722447081::res://.godot/exported/133200997/export-21ce53f091b839d3cdf2d60773e6ecbb-PlayerUI.scn
+res://TesterWorld.tscn::35af295728653881016497912f7e76ea::1722447081::res://.godot/exported/133200997/export-8bbe2ddea9f10641fdeee00475c71e22-TesterWorld.scn

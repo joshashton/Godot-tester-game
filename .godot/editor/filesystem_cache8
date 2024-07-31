@@ -1,485 +1,525 @@
-ea4bc82a6ad023ab7ee23ee620429895
-::res://::1707921810
-firstmap.tscn::PackedScene::8019410229007676357::1707074745::0::1::::<><>::uid://bjr7nbpjgr0o7::::res://Assets/Tiny Swords (Update 010)/Factions/Knights/Buildings/Tower/Tower_Blue.png<>uid://hx0thucl01it::::res://Assets/Tiny Swords (Update 010)/Factions/Knights/Buildings/Castle/Castle_Blue.png<>uid://cohsgte7uxg2c::::res://tilesetmap.tres<>uid://kjievptis0g::::res://Characters/Archer.tscn<>uid://hcuugnyxefvw::::res://Characters/Sheep.tscn<>uid://dvby75n45b8ot::::res://Characters/Knight.tscn
-icon.svg::CompressedTexture2D::8482378094693027348::1704032020::1704032035::1::::<><>::
-README.md::TextFile::-1::1705407420::0::1::::<><>::
-tilesetmap.tres::TileSet::5771040448834742184::1707054682::0::1::::<><>::uid://bd1u71ouxljbs::::res://Assets/Tiny Swords (Update 010)/Terrain/Ground/Tilemap_Flat.png<>uid://doqryfuldq05a::::res://Assets/Tiny Swords (Update 010)/Terrain/Water/Water.png<>uid://djwx3qkajuhn4::::res://Assets/Tiny Swords (Update 010)/Terrain/Water/Foam/Foam.png<>uid://b30137i1dlqt6::::res://Assets/Tiny Swords (Update 010)/Terrain/Water/Rocks/Rocks_01.png<>uid://bv6p8owqfa880::::res://Assets/Tiny Swords (Update 010)/Terrain/Water/Rocks/Rocks_02.png<>uid://cwnojqek8gnrf::::res://Assets/Tiny Swords (Update 010)/Terrain/Water/Rocks/Rocks_03.png<>uid://ecciyngibsqm::::res://Assets/Tiny Swords (Update 010)/Terrain/Water/Rocks/Rocks_04.png<>uid://b7rbxa030p6os::::res://Assets/Tiny Swords (Update 010)/Terrain/Ground/Tilemap_Elevation.png<>uid://c364ve7l82o71::::res://Assets/Tiny Swords (Update 010)/Terrain/Ground/Shadows.png<>uid://c2m6qc6lggcbe::::res://Assets/Tiny Swords (Update 010)/Terrain/Bridge/Bridge_All.png
-walesmap.tscn::PackedScene::7262325160445485827::1707074746::0::1::::<><>::uid://dvby75n45b8ot::::res://Characters/Knight.tscn<>uid://kjievptis0g::::res://Characters/Archer.tscn<>uid://hcuugnyxefvw::::res://Characters/Sheep.tscn<>uid://c8bd8br6gbxs4::::res://Characters/GoblinThrower.tscn
-::res://Assets/::1705840106
-::res://Assets/Cursors/::1705840106
-cursorsprites.tres::AtlasTexture::1054908976016895931::1705840106::0::1::::<><>::uid://c8k18nbtlyja7
-point and click cursor.png::CompressedTexture2D::7111355243219940948::1705840106::1705840106::1::::<><>::
-::res://Assets/Kasaya's Frames/::1705016156
-::res://Assets/Kasaya's Frames/Bars/::1705016155
-::res://Assets/Kasaya's Frames/Bars/1/::1705016155
-bars 1 all background.png::CompressedTexture2D::5915323740940300614::1704032321::1704032323::1::::<><>::
-bars 1 frame.png::CompressedTexture2D::4143759318890233258::1704032321::1704032323::1::::<><>::
-exp background.png::CompressedTexture2D::6775167228082217574::1704032321::1704032323::1::::<><>::
-exp.png::CompressedTexture2D::7540132394528600465::1704032321::1704032323::1::::<><>::
-hp background.png::CompressedTexture2D::7206158335165839203::1704032321::1704032323::1::::<><>::
-HP.png::CompressedTexture2D::5313212336600466442::1704032321::1704032323::1::::<><>::
-level slot.png::CompressedTexture2D::6662171031928667816::1704032321::1704032323::1::::<><>::
-mana background.png::CompressedTexture2D::622105303824495689::1704032321::1704032323::1::::<><>::
-mana.png::CompressedTexture2D::8780236592731042107::1704032321::1704032323::1::::<><>::
-stamina background.png::CompressedTexture2D::7055102480518442469::1704032321::1704032323::1::::<><>::
-Stamina.png::CompressedTexture2D::5174150939077950086::1704032321::1704032323::1::::<><>::
-::res://Assets/Kasaya's Frames/Bars/2/::1705016155
-bars 2.png::CompressedTexture2D::1231557442502396795::1704032321::1704032323::1::::<><>::
-bars background all.png::CompressedTexture2D::6069897269782039438::1704032321::1704032323::1::::<><>::
-exp background.png::CompressedTexture2D::5722115392824780483::1704032321::1704032323::1::::<><>::
-exp.png::CompressedTexture2D::3153518902660322513::1704032321::1704032323::1::::<><>::
-hp  background.png::CompressedTexture2D::1719808166376763109::1704032321::1704032323::1::::<><>::
-hp.png::CompressedTexture2D::5244022218863204068::1704032321::1704032323::1::::<><>::
-mana background.png::CompressedTexture2D::8454703502793015951::1704032321::1704032323::1::::<><>::
-mana.png::CompressedTexture2D::6345850588605129291::1704032321::1704032323::1::::<><>::
-::res://Assets/Kasaya's Frames/Book/::1705016155
-Item or quest book1.png::CompressedTexture2D::3133369750190011341::1704032321::1704032323::1::::<><>::
-Item or quest book2.png::CompressedTexture2D::5625268705195714893::1704032321::1704032323::1::::<><>::
-Item or quest book3.png::CompressedTexture2D::1954009074393175319::1704032321::1704032323::1::::<><>::
-Item or quest book4.png::CompressedTexture2D::229836632493851540::1704032321::1704032323::1::::<><>::
-::res://Assets/Kasaya's Frames/Inventory & chests/::1705016155
-::res://Assets/Kasaya's Frames/Inventory & chests/1/::1705016155
-chest1.png::CompressedTexture2D::5382336517551212498::1704032321::1704032323::1::::<><>::
-chest2.png::CompressedTexture2D::2902584639240658760::1704032321::1704032323::1::::<><>::
-chest no2.png::CompressedTexture2D::1922536380520708702::1704032321::1704032323::1::::<><>::
-chest no3.png::CompressedTexture2D::5951833427321331034::1704032321::1704032323::1::::<><>::
-Crafting1.png::CompressedTexture2D::2275319269342689048::1704032321::1704032323::1::::<><>::
-Crafting2.png::CompressedTexture2D::1149003878523510320::1704032321::1704032323::1::::<><>::
-Crafting no2.png::CompressedTexture2D::7416744906501778722::1704032321::1704032323::1::::<><>::
-Crafting no3.png::CompressedTexture2D::2224033857734550875::1704032321::1704032323::1::::<><>::
-dialogues1.png::CompressedTexture2D::7222311163985532836::1704032321::1704032323::1::::<><>::
-dialogues2.png::CompressedTexture2D::6337456268637227716::1704032321::1704032323::1::::<><>::
-inventory1.png::CompressedTexture2D::4828864809781543744::1704032321::1704032323::1::::<><>::
-inventory2.png::CompressedTexture2D::8208544747552630666::1704032321::1704032323::1::::<><>::
-inventory3.png::CompressedTexture2D::6883797558433273484::1704032321::1704032323::1::::<><>::
-inventory4.png::CompressedTexture2D::5256116041861944682::1704032321::1704032323::1::::<><>::
-inventory icons.png::CompressedTexture2D::7218619814798045222::1704032321::1704032323::1::::<><>::
-Item describe1.png::CompressedTexture2D::5975930271523906041::1704032321::1704032323::1::::<><>::
-Item describe2.png::CompressedTexture2D::5955443897187363677::1704032321::1704032323::1::::<><>::
-shop1.png::CompressedTexture2D::1680776681476842884::1704032321::1704032323::1::::<><>::
-shop2.png::CompressedTexture2D::189187676611376798::1704032321::1704032323::1::::<><>::
-slot1.png::CompressedTexture2D::8012035705963988963::1704032321::1704032323::1::::<><>::
-slot2.png::CompressedTexture2D::6330438755317714993::1704032321::1704032323::1::::<><>::
-slots 8x5.png::CompressedTexture2D::6342172450789079474::1704032321::1704032323::1::::<><>::
-slots 8x6.png::CompressedTexture2D::2572470869897818619::1704032321::1704032323::1::::<><>::
-::res://Assets/Kasaya's Frames/Inventory & chests/2/::1705016156
-+.png::CompressedTexture2D::1786455133299063339::1704032321::1704032323::1::::<><>::
--.png::CompressedTexture2D::5193187884056350010::1704032321::1704032323::1::::<><>::
-abilities.png::CompressedTexture2D::2708297144994441881::1704032321::1704032323::1::::<><>::
-armour.png::CompressedTexture2D::3127225558118767060::1704032321::1704032323::1::::<><>::
-boot.png::CompressedTexture2D::5613707105275415686::1704032321::1704032323::1::::<><>::
-bracelet.png::CompressedTexture2D::9084327337982091033::1704032321::1704032323::1::::<><>::
-brown slot.png::CompressedTexture2D::408090031635418393::1704032321::1704032323::1::::<><>::
-confirm.png::CompressedTexture2D::4645711060081698661::1704032321::1704032323::1::::<><>::
-helm.png::CompressedTexture2D::4893154494485007330::1704032321::1704032323::1::::<><>::
-hotbar frame.png::CompressedTexture2D::8506542183244273148::1704032321::1704032323::1::::<><>::
-inventory frame.png::CompressedTexture2D::2000448007371503548::1704032321::1704032323::1::::<><>::
-legs.png::CompressedTexture2D::7573696625644209359::1704032321::1704032323::1::::<><>::
-neck.png::CompressedTexture2D::3476480153303400164::1704032321::1704032323::1::::<><>::
-ring.png::CompressedTexture2D::1486566822117982682::1704032321::1704032323::1::::<><>::
-slide background.png::CompressedTexture2D::3188009837226383419::1704032321::1704032323::1::::<><>::
-slide brown.png::CompressedTexture2D::423662469135033336::1704032321::1704032323::1::::<><>::
-slide small.png::CompressedTexture2D::8685413620244461638::1704032321::1704032323::1::::<><>::
-stats.png::CompressedTexture2D::1094582792124386967::1704032321::1704032323::1::::<><>::
-x.png::CompressedTexture2D::8252251807648988697::1704032321::1704032323::1::::<><>::
-::res://Assets/Kasaya's Frames/Inventory & chests/2/chat/::1705016156
-chat window.png::CompressedTexture2D::8868187914589928967::1704032321::1704032323::1::::<><>::
-window.png::CompressedTexture2D::7531605374209309768::1704032321::1704032323::1::::<><>::
-::res://Assets/Kasaya's Frames/Inventory & chests/2/shop/::1705016156
-+.PNG::CompressedTexture2D::3260649228877933915::1704032321::1704032323::1::::<><>::
--.PNG::CompressedTexture2D::1026811104414984907::1704032321::1704032323::1::::<><>::
-abilities.png::CompressedTexture2D::3964964338291488222::1704032321::1704032323::1::::<><>::
-all.png::CompressedTexture2D::7561005696857822611::1704032321::1704032323::1::::<><>::
-armors.png::CompressedTexture2D::6961742036552230745::1704032321::1704032323::1::::<><>::
-buy and sell  button.png::CompressedTexture2D::4586309960736987712::1704032321::1704032323::1::::<><>::
-CENA.PNG::CompressedTexture2D::3549897401434123925::1704032321::1704032323::1::::<><>::
-crafting.png::CompressedTexture2D::2506074688218373859::1704032321::1704032323::1::::<><>::
-money here.PNG::CompressedTexture2D::7539808973306338703::1704032321::1704032323::1::::<><>::
-potions.png::CompressedTexture2D::8608098103178476933::1704032321::1704032323::1::::<><>::
-sell and buy.png::CompressedTexture2D::4849248312145634142::1704032321::1704032323::1::::<><>::
-shop frame.png::CompressedTexture2D::4555328397607538963::1704032321::1704032323::1::::<><>::
-weapons.png::CompressedTexture2D::8881491731110367279::1704032321::1704032323::1::::<><>::
-x.png::CompressedTexture2D::456339838206849678::1704032321::1704032323::1::::<><>::
-::res://Assets/Kasaya's Frames/Slot select/::1705016156
-slot2.png::CompressedTexture2D::800262989655185481::1704032322::1704032323::1::::<><>::
-slot select.png::CompressedTexture2D::8816699566002929606::1704032322::1704032323::1::::<><>::
-slott.png::CompressedTexture2D::6917714536900354613::1704032322::1704032322::1::::<><>::
-::res://Assets/Modern_Interiors_Free_v2.2/::1705016156
-::res://Assets/Modern_Interiors_Free_v2.2/Modern tiles_Free/::1705016156
-free_overview.png::CompressedTexture2D::2669585042410428271::1704032322::1704032323::1::::<><>::
-LICENSE.txt::TextFile::-1::1704032322::0::1::::<><>::
-READ ME.txt::TextFile::-1::1704032322::0::1::::<><>::
-::res://Assets/Modern_Interiors_Free_v2.2/Modern tiles_Free/Characters_free/::1705016156
-Adam_16x16.png::CompressedTexture2D::4029481558619151027::1704032322::1704032322::1::::<><>::
-Adam_idle_16x16.png::CompressedTexture2D::3418553568191065924::1704032322::1704032322::1::::<><>::
-Adam_idle_anim_16x16.png::CompressedTexture2D::4210459579663457331::1704032322::1704032322::1::::<><>::
-Adam_phone_16x16.png::CompressedTexture2D::5587463297724854235::1704032322::1704032322::1::::<><>::
-Adam_run_16x16.png::CompressedTexture2D::5211748640703216162::1704032322::1704032322::1::::<><>::
-Adam_sit2_16x16.png::CompressedTexture2D::907978700356506167::1704032322::1704032322::1::::<><>::
-Adam_sit3_16x16.png::CompressedTexture2D::1115295280673079635::1704032322::1704032322::1::::<><>::
-Adam_sit_16x16.png::CompressedTexture2D::2839263795286455544::1704032322::1704032322::1::::<><>::
-Alex_16x16.png::CompressedTexture2D::920402192686735661::1704032322::1704032322::1::::<><>::
-Alex_idle_16x16.png::CompressedTexture2D::2519453235889037329::1704032322::1704032322::1::::<><>::
-Alex_idle_anim_16x16.png::CompressedTexture2D::2425134420049806353::1704032322::1704032322::1::::<><>::
-Alex_phone_16x16.png::CompressedTexture2D::3071559445228157967::1704032322::1704032322::1::::<><>::
-Alex_run_16x16.png::CompressedTexture2D::5928418100352807593::1704032322::1704032322::1::::<><>::
-Alex_sit2_16x16.png::CompressedTexture2D::1821172183511646659::1704032322::1704032322::1::::<><>::
-Alex_sit3_16x16.png::CompressedTexture2D::2303431870334678488::1704032322::1704032322::1::::<><>::
-Alex_sit_16x16.png::CompressedTexture2D::2383088220208437673::1704032322::1704032322::1::::<><>::
-Amelia_16x16.png::CompressedTexture2D::2411063220827795695::1704032322::1704032322::1::::<><>::
-Amelia_idle_16x16.png::CompressedTexture2D::8368134561025097398::1704032322::1704032322::1::::<><>::
-Amelia_idle_anim_16x16.png::CompressedTexture2D::6934436287422934018::1704032322::1704032322::1::::<><>::
-Amelia_phone_16x16.png::CompressedTexture2D::8654277397538437775::1704032322::1704032322::1::::<><>::
-Amelia_run_16x16.png::CompressedTexture2D::4083093349061149097::1704032322::1704032322::1::::<><>::
-Amelia_sit2_16x16.png::CompressedTexture2D::1218783137503991413::1704032322::1704032322::1::::<><>::
-Amelia_sit3_16x16.png::CompressedTexture2D::2713152285446448138::1704032322::1704032322::1::::<><>::
-Amelia_sit_16x16.png::CompressedTexture2D::2898265070288849045::1704032322::1704032322::1::::<><>::
-Bob_16x16.png::CompressedTexture2D::7394822149845273144::1704032322::1704032322::1::::<><>::
-Bob_idle_16x16.png::CompressedTexture2D::8756667901639090022::1704032322::1704032322::1::::<><>::
-Bob_idle_anim_16x16.png::CompressedTexture2D::6854644187496448586::1704032322::1704032322::1::::<><>::
-Bob_phone_16x16.png::CompressedTexture2D::6746633562786558917::1704032322::1704032322::1::::<><>::
-Bob_run_16x16.png::CompressedTexture2D::7126200458640537175::1704032322::1704032322::1::::<><>::
-Bob_sit2_16x16.png::CompressedTexture2D::7741137397431548339::1704032322::1704032322::1::::<><>::
-Bob_sit3_16x16.png::CompressedTexture2D::957112187200786937::1704032322::1704032322::1::::<><>::
-Bob_sit_16x16.png::CompressedTexture2D::1736069033338833810::1704032322::1704032322::1::::<><>::
-::res://Assets/Modern_Interiors_Free_v2.2/Modern tiles_Free/Characters_free/RPGMAKERMV/::1705016156
-Characters_MV.png::CompressedTexture2D::3403167044444356700::1704032322::1704032322::1::::<><>::
-::res://Assets/Modern_Interiors_Free_v2.2/Modern tiles_Free/Interiors_free/::1705016156
-::res://Assets/Modern_Interiors_Free_v2.2/Modern tiles_Free/Interiors_free/16x16/::1705016156
-Interiors_free_16x16.png::CompressedTexture2D::1565991315776836393::1704032322::1704032322::1::::<><>::
-Room_Builder_free_16x16.png::CompressedTexture2D::3970707912402786063::1704032322::1704032322::1::::<><>::
-::res://Assets/Modern_Interiors_Free_v2.2/Modern tiles_Free/Interiors_free/32x32/::1705016156
-Interiors_free_32x32.png::CompressedTexture2D::4571367586512716357::1704032322::1704032323::1::::<><>::
-Room_Builder_free_32x32.png::CompressedTexture2D::6948423522055023424::1704032322::1704032322::1::::<><>::
-::res://Assets/Modern_Interiors_Free_v2.2/Modern tiles_Free/Interiors_free/48x48/::1705016156
-Interiors_free_48x48.png::CompressedTexture2D::6439250328288930190::1704032322::1704032323::1::::<><>::
-Room_Builder_free_48x48.png::CompressedTexture2D::9142179218425885406::1704032322::1704032322::1::::<><>::
-::res://Assets/Modern_Interiors_Free_v2.2/Modern tiles_Free/Old/::1705016157
-idle_16x16_2.png::CompressedTexture2D::4676287395922943988::1704032322::1704032323::1::::<><>::
-idle_32x32_2.png::CompressedTexture2D::2384888852464029619::1704032322::1704032323::1::::<><>::
-idle_48x48_2.png::CompressedTexture2D::7540250157015791032::1704032322::1704032323::1::::<><>::
-run_horizontal_16x16_2.png::CompressedTexture2D::7289896742524374889::1704032322::1704032323::1::::<><>::
-run_horizontal_32x32_2.png::CompressedTexture2D::4551209574398156236::1704032322::1704032323::1::::<><>::
-run_horizontal_48x48_2.png::CompressedTexture2D::5949164263987200750::1704032322::1704032323::1::::<><>::
-Tileset_16x16_1.png::CompressedTexture2D::8727858666443048626::1704032322::1704032323::1::::<><>::
-Tileset_16x16_2.png::CompressedTexture2D::8494220586246211086::1704032322::1704032323::1::::<><>::
-Tileset_16x16_3.png::CompressedTexture2D::4533222936100943107::1704032322::1704032323::1::::<><>::
-Tileset_16x16_9.png::CompressedTexture2D::7242662349386756482::1704032322::1704032323::1::::<><>::
-Tileset_16x16_16.png::CompressedTexture2D::1718433221858330287::1704032322::1704032323::1::::<><>::
-Tileset_32x32_1.png::CompressedTexture2D::9217261872655103578::1704032322::1704032323::1::::<><>::
-Tileset_32x32_2.png::CompressedTexture2D::3516017640449486568::1704032322::1704032323::1::::<><>::
-Tileset_32x32_3.png::CompressedTexture2D::7348984413622748696::1704032322::1704032323::1::::<><>::
-Tileset_32x32_9.png::CompressedTexture2D::5565293072182479199::1704032322::1704032323::1::::<><>::
-Tileset_32x32_16.png::CompressedTexture2D::7539875252944562741::1704032322::1704032323::1::::<><>::
-Tileset_48x48_1.png::CompressedTexture2D::3756336149105601882::1704032322::1704032323::1::::<><>::
-Tileset_48x48_2.png::CompressedTexture2D::6436583358031687211::1704032322::1704032323::1::::<><>::
-Tileset_48x48_3.png::CompressedTexture2D::5500149255139214382::1704032322::1704032323::1::::<><>::
-Tileset_48x48_9.png::CompressedTexture2D::5488979932017292774::1704032322::1704032322::1::::<><>::
-Tileset_48x48_16.png::CompressedTexture2D::4718257475735468749::1704032322::1704032323::1::::<><>::
-::res://Assets/Modern_Interiors_Free_v2.2/Modern tiles_Free/Old/mv/::1705016157
-Character_2_16x16_RPGMAKER.png::CompressedTexture2D::1882317995406692621::1704032322::1704032322::1::::<><>::
-Character_2_32x32_RPGMAKER.png::CompressedTexture2D::1732546984658560836::1704032322::1704032323::1::::<><>::
-Character_2_48x48_RPGMAKER.png::CompressedTexture2D::2885283533166905812::1704032322::1704032323::1::::<><>::
-::res://Assets/Shikashi's Fantasy Icons Pack v2/::1705016157
-::res://Assets/Shikashi's Fantasy Icons Pack v2/Shikashi's Fantasy Icons Pack v2/::1705016157
-#1 - Transparent Icons.png::CompressedTexture2D::8309251719344522467::1704032321::1704032323::1::::<><>::
-#2 - Transparent Icons & Drop Shadow.png::CompressedTexture2D::1934757739539927429::1704032321::1704032323::1::::<><>::
-Background 1a.png::CompressedTexture2D::8638282257055484593::1704032321::1704032323::1::::<><>::
-Background 1b.png::CompressedTexture2D::7120884529434703502::1704032321::1704032323::1::::<><>::
-Background 2.png::CompressedTexture2D::233948804799542410::1704032321::1704032323::1::::<><>::
-BG 3a.png::CompressedTexture2D::1977965788428642152::1704032321::1704032323::1::::<><>::
-BG 3b.png::CompressedTexture2D::2890679601503807420::1704032321::1704032323::1::::<><>::
-BG 3c.png::CompressedTexture2D::4237338828547334521::1704032321::1704032323::1::::<><>::
-BG 4a.png::CompressedTexture2D::1609961433559504585::1704032321::1704032323::1::::<><>::
-BG 4b.png::CompressedTexture2D::6586095753071958085::1704032321::1704032323::1::::<><>::
-BG 5.png::CompressedTexture2D::6604299366563988119::1704032321::1704032323::1::::<><>::
-BG 6.png::CompressedTexture2D::4895324432053355319::1704032321::1704032323::1::::<><>::
-BG 7.png::CompressedTexture2D::4113946636592229023::1704032321::1704032323::1::::<><>::
-BG 8.png::CompressedTexture2D::4138119589652420905::1704032321::1704032323::1::::<><>::
-BG 9.png::CompressedTexture2D::8416046073689530227::1704032321::1704032323::1::::<><>::
-BG 10.png::CompressedTexture2D::1454911567970571872::1704032321::1704032323::1::::<><>::
-BG 11.png::CompressedTexture2D::2026219070929112203::1704032321::1704032323::1::::<><>::
-Shikashi's Fantasy Icons Pack.txt::TextFile::-1::1704032321::0::1::::<><>::
-::res://Assets/Tiny Swords (Update 010)/::1705016158
-::res://Assets/Tiny Swords (Update 010)/Deco/::1705016157
-01.png::CompressedTexture2D::5084471507685012826::1704044374::1704044394::1::::<><>::
-02.png::CompressedTexture2D::5092255372715601548::1704044374::1704044394::1::::<><>::
-03.png::CompressedTexture2D::5683912688936989016::1704044374::1704044394::1::::<><>::
-04.png::CompressedTexture2D::654363600459615732::1704044374::1704044394::1::::<><>::
-05.png::CompressedTexture2D::3885466123285520181::1704044374::1704044394::1::::<><>::
-06.png::CompressedTexture2D::5428309480940347961::1704044374::1704044394::1::::<><>::
-07.png::CompressedTexture2D::4663756983475208565::1704044374::1704044394::1::::<><>::
-08.png::CompressedTexture2D::8752811215097279220::1704044374::1704044394::1::::<><>::
-09.png::CompressedTexture2D::4199639269342909431::1704044374::1704044394::1::::<><>::
-10.png::CompressedTexture2D::5756602920681986315::1704044374::1704044394::1::::<><>::
-11.png::CompressedTexture2D::8321702891089685470::1704044374::1704044394::1::::<><>::
-12.png::CompressedTexture2D::5560249826533994551::1704044374::1704044394::1::::<><>::
-13.png::CompressedTexture2D::8171735327427819280::1704044374::1704044394::1::::<><>::
-14.png::CompressedTexture2D::4535841964301148503::1704044374::1704044394::1::::<><>::
-15.png::CompressedTexture2D::7075692682407147519::1704044374::1704044394::1::::<><>::
-16.png::CompressedTexture2D::9137547269748823187::1704044374::1704044394::1::::<><>::
-17.png::CompressedTexture2D::5773410645421998081::1704044374::1704044394::1::::<><>::
-18.png::CompressedTexture2D::7287128748871257301::1704044374::1704044394::1::::<><>::
-::res://Assets/Tiny Swords (Update 010)/Effects/::1705016157
-::res://Assets/Tiny Swords (Update 010)/Effects/Explosion/::1705016157
-Explosions.png::CompressedTexture2D::337092487478626376::1704044377::1704044394::1::::<><>::
-::res://Assets/Tiny Swords (Update 010)/Effects/Fire/::1705016157
-Fire.png::CompressedTexture2D::9133704786718483664::1704044377::1704044394::1::::<><>::
-::res://Assets/Tiny Swords (Update 010)/Factions/::1705016157
-::res://Assets/Tiny Swords (Update 010)/Factions/Goblins/::1705016157
-::res://Assets/Tiny Swords (Update 010)/Factions/Goblins/Buildings/::1705016157
-::res://Assets/Tiny Swords (Update 010)/Factions/Goblins/Buildings/Wood_Tower/::1705016157
-Wood_Tower_Blue.png::CompressedTexture2D::1875628602330052541::1704044375::1704044394::1::::<><>::
-Wood_Tower_Destroyed.png::CompressedTexture2D::4123682309751999430::1704044375::1704044394::1::::<><>::
-Wood_Tower_InConstruction.png::CompressedTexture2D::1093091097777413744::1704044375::1704044394::1::::<><>::
-Wood_Tower_Purple.png::CompressedTexture2D::8738428837511048070::1704044375::1704044394::1::::<><>::
-Wood_Tower_Red.png::CompressedTexture2D::6798605260552417943::1704044375::1704044394::1::::<><>::
-Wood_Tower_Yellow.png::CompressedTexture2D::8645149812742325586::1704044375::1704044393::1::::<><>::
-::res://Assets/Tiny Swords (Update 010)/Factions/Goblins/Troops/::1705016157
-::res://Assets/Tiny Swords (Update 010)/Factions/Goblins/Troops/Barrel/::1705016157
-::res://Assets/Tiny Swords (Update 010)/Factions/Goblins/Troops/Barrel/Blue/::1705016157
-Barrel_Blue.png::CompressedTexture2D::5644564531507872194::1704044375::1704044394::1::::<><>::
-::res://Assets/Tiny Swords (Update 010)/Factions/Goblins/Troops/Barrel/Purple/::1705016157
-Barrel_Purple.png::CompressedTexture2D::8770949644262234978::1704044375::1704044394::1::::<><>::
-::res://Assets/Tiny Swords (Update 010)/Factions/Goblins/Troops/Barrel/Red/::1705016157
-Barrel_Red.png::CompressedTexture2D::8639561542433015483::1704044375::1704044394::1::::<><>::
-::res://Assets/Tiny Swords (Update 010)/Factions/Goblins/Troops/Barrel/Yellow/::1705016157
-Barrel_Yellow.png::CompressedTexture2D::5698040086122372287::1704044375::1704044394::1::::<><>::
-::res://Assets/Tiny Swords (Update 010)/Factions/Goblins/Troops/TNT/::1705016157
-::res://Assets/Tiny Swords (Update 010)/Factions/Goblins/Troops/TNT/Blue/::1705016157
-TNT_Blue.png::CompressedTexture2D::87074431592946455::1704044375::1704044394::1::::<><>::
-::res://Assets/Tiny Swords (Update 010)/Factions/Goblins/Troops/TNT/Dynamite/::1705016157
-Dynamite.png::CompressedTexture2D::8351368939640774511::1704044375::1704044393::1::::<><>::
-::res://Assets/Tiny Swords (Update 010)/Factions/Goblins/Troops/TNT/Purple/::1705016157
-TNT_Purple.png::CompressedTexture2D::7439459615939994946::1704044376::1704044394::1::::<><>::
-::res://Assets/Tiny Swords (Update 010)/Factions/Goblins/Troops/TNT/Red/::1705016157
-TNT_Red.png::CompressedTexture2D::5441648248080468858::1704044375::1704044394::1::::<><>::
-::res://Assets/Tiny Swords (Update 010)/Factions/Goblins/Troops/TNT/Yellow/::1705016157
-TNT_Yellow.png::CompressedTexture2D::4129615159702579403::1704044376::1704044394::1::::<><>::
-::res://Assets/Tiny Swords (Update 010)/Factions/Goblins/Troops/Torch/::1705016157
-::res://Assets/Tiny Swords (Update 010)/Factions/Goblins/Troops/Torch/Blue/::1705016157
-Torch_Blue.png::CompressedTexture2D::674843130879543780::1704044375::1704044394::1::::<><>::
-::res://Assets/Tiny Swords (Update 010)/Factions/Goblins/Troops/Torch/Purple/::1705016157
-Torch_Purple.png::CompressedTexture2D::3206583317769995948::1704044375::1704044394::1::::<><>::
-::res://Assets/Tiny Swords (Update 010)/Factions/Goblins/Troops/Torch/Red/::1705016157
-Torch_Red.png::CompressedTexture2D::4874993371004465455::1704044375::1704044394::1::::<><>::
-::res://Assets/Tiny Swords (Update 010)/Factions/Goblins/Troops/Torch/Yellow/::1705016157
-Torch_Yellow.png::CompressedTexture2D::7943609175797783405::1704044375::1704044394::1::::<><>::
-::res://Assets/Tiny Swords (Update 010)/Factions/Knights/::1705016158
-::res://Assets/Tiny Swords (Update 010)/Factions/Knights/Buildings/::1705016157
-::res://Assets/Tiny Swords (Update 010)/Factions/Knights/Buildings/Castle/::1705016157
-Castle_Blue.png::CompressedTexture2D::540354847379078979::1704044376::1704044394::1::::<><>::
-Castle_Construction.png::CompressedTexture2D::3275031939629206274::1704044376::1704044394::1::::<><>::
-Castle_Destroyed.png::CompressedTexture2D::7473977168632661165::1704044376::1704044394::1::::<><>::
-Castle_Purple.png::CompressedTexture2D::8869581982060915170::1704044376::1704044394::1::::<><>::
-Castle_Red.png::CompressedTexture2D::5066408730582900449::1704044376::1704044394::1::::<><>::
-Castle_Yellow.png::CompressedTexture2D::4191375855775580765::1704044376::1704044394::1::::<><>::
-::res://Assets/Tiny Swords (Update 010)/Factions/Knights/Buildings/House/::1705016157
-House_Blue.png::CompressedTexture2D::3450683484215872181::1704044376::1704044394::1::::<><>::
-House_Construction.png::CompressedTexture2D::557953263351783699::1704044376::1704044394::1::::<><>::
-House_Destroyed.png::CompressedTexture2D::6942393963416961682::1704044376::1704044394::1::::<><>::
-House_Purple.png::CompressedTexture2D::6008475894167719599::1704044376::1704044394::1::::<><>::
-House_Red.png::CompressedTexture2D::160136633026625887::1704044376::1704044394::1::::<><>::
-House_Yellow.png::CompressedTexture2D::5582833406769706976::1704044376::1704044394::1::::<><>::
-::res://Assets/Tiny Swords (Update 010)/Factions/Knights/Buildings/Tower/::1705016158
-Tower_Blue.png::CompressedTexture2D::3055180933456749992::1704044376::1704044394::1::::<><>::
-Tower_Construction.png::CompressedTexture2D::8742154027158929332::1704044376::1704044394::1::::<><>::
-Tower_Destroyed.png::CompressedTexture2D::817800175256139364::1704044376::1704044394::1::::<><>::
-Tower_Purple.png::CompressedTexture2D::1575244370392002468::1704044376::1704044394::1::::<><>::
-Tower_Red.png::CompressedTexture2D::8640367436870098337::1704044376::1704044394::1::::<><>::
-Tower_Yellow.png::CompressedTexture2D::7023795065966417736::1704044376::1704044394::1::::<><>::
-::res://Assets/Tiny Swords (Update 010)/Factions/Knights/Troops/::1705016158
-::res://Assets/Tiny Swords (Update 010)/Factions/Knights/Troops/Archer/::1705016158
-::res://Assets/Tiny Swords (Update 010)/Factions/Knights/Troops/Archer/Arrow/::1705016158
-Arrow.png::CompressedTexture2D::4875933986663394464::1704044376::1704044394::1::::<><>::
-::res://Assets/Tiny Swords (Update 010)/Factions/Knights/Troops/Archer/Blue/::1705016158
-Archer_Blue.png::CompressedTexture2D::8321102178002316123::1704044376::1704044395::1::::<><>::
-Archer_Blue_(NoArms).png::CompressedTexture2D::2408789008457023805::1704044376::1704044394::1::::<><>::
-Archer_Bow.png::CompressedTexture2D::1977208783132258403::1704044376::1704044394::1::::<><>::
-::res://Assets/Tiny Swords (Update 010)/Factions/Knights/Troops/Archer/Purple/::1705016158
-Archer_Purlple.png::CompressedTexture2D::2431501726602254809::1704044377::1704044395::1::::<><>::
-::res://Assets/Tiny Swords (Update 010)/Factions/Knights/Troops/Archer/Red/::1705016158
-Archer_Red.png::CompressedTexture2D::4071373760610845128::1704044376::1704044395::1::::<><>::
-::res://Assets/Tiny Swords (Update 010)/Factions/Knights/Troops/Archer/Yellow/::1705016158
-Archer_Yellow.png::CompressedTexture2D::9109099293487821862::1704044377::1704044395::1::::<><>::
-::res://Assets/Tiny Swords (Update 010)/Factions/Knights/Troops/Dead/::1705016158
-Dead.png::CompressedTexture2D::1017877056731213418::1704044376::1704044394::1::::<><>::
-::res://Assets/Tiny Swords (Update 010)/Factions/Knights/Troops/Pawn/::1705016158
-::res://Assets/Tiny Swords (Update 010)/Factions/Knights/Troops/Pawn/Blue/::1705016158
-Pawn_Blue.png::CompressedTexture2D::5318724530222943814::1704044377::1704044394::1::::<><>::
-::res://Assets/Tiny Swords (Update 010)/Factions/Knights/Troops/Pawn/Purple/::1705016158
-Pawn_Purple.png::CompressedTexture2D::7510960811007506278::1704044377::1704044394::1::::<><>::
-::res://Assets/Tiny Swords (Update 010)/Factions/Knights/Troops/Pawn/Red/::1705016158
-Pawn_Red.png::CompressedTexture2D::2882022407882123249::1704044377::1704044394::1::::<><>::
-::res://Assets/Tiny Swords (Update 010)/Factions/Knights/Troops/Pawn/Yellow/::1705016158
-Pawn_Yellow.png::CompressedTexture2D::5783734075473952845::1704044377::1704044394::1::::<><>::
-::res://Assets/Tiny Swords (Update 010)/Factions/Knights/Troops/Warrior/::1705016158
-::res://Assets/Tiny Swords (Update 010)/Factions/Knights/Troops/Warrior/Blue/::1705016158
-Warrior_Blue.png::CompressedTexture2D::6138259916481575702::1704044377::1704044395::1::::<><>::
-::res://Assets/Tiny Swords (Update 010)/Factions/Knights/Troops/Warrior/Purple/::1705016158
-Warrior_Purple.png::CompressedTexture2D::4753716019957681688::1704044377::1704044395::1::::<><>::
-::res://Assets/Tiny Swords (Update 010)/Factions/Knights/Troops/Warrior/Red/::1705016158
-Warrior_Red.png::CompressedTexture2D::4240170527821496284::1704044377::1704044395::1::::<><>::
-::res://Assets/Tiny Swords (Update 010)/Factions/Knights/Troops/Warrior/Yellow/::1705016158
-Warrior_Yellow.png::CompressedTexture2D::2142808704546697678::1704044377::1704044395::1::::<><>::
-::res://Assets/Tiny Swords (Update 010)/Resources/::1705016158
-::res://Assets/Tiny Swords (Update 010)/Resources/Gold Mine/::1705016158
-GoldMine_Active.png::CompressedTexture2D::1918914380057975866::1704044374::1704044394::1::::<><>::
-GoldMine_Destroyed.png::CompressedTexture2D::9121240147286172609::1704044374::1704044394::1::::<><>::
-GoldMine_Inactive.png::CompressedTexture2D::151226688192038851::1704044374::1704044394::1::::<><>::
-::res://Assets/Tiny Swords (Update 010)/Resources/Resources/::1705016158
-G_Idle.png::CompressedTexture2D::1779852610022921368::1704044374::1704044394::1::::<><>::
-G_Idle_(NoShadow).png::CompressedTexture2D::5482326748245796644::1704044374::1704044394::1::::<><>::
-G_Spawn.png::CompressedTexture2D::8658831799423851730::1704044374::1704044394::1::::<><>::
-M_Idle.png::CompressedTexture2D::5814154996639123909::1704044374::1704044394::1::::<><>::
-M_Idle_(NoShadow).png::CompressedTexture2D::3796385808528360340::1704044374::1704044394::1::::<><>::
-M_Spawn.png::CompressedTexture2D::863231119613158487::1704044374::1704044394::1::::<><>::
-W_Idle.png::CompressedTexture2D::3639639022961146085::1704044373::1704044394::1::::<><>::
-W_Idle_(NoShadow).png::CompressedTexture2D::770617397204359675::1704044373::1704044394::1::::<><>::
-W_Spawn.png::CompressedTexture2D::9106795901696643662::1704044373::1704044394::1::::<><>::
-::res://Assets/Tiny Swords (Update 010)/Resources/Sheep/::1705016158
-HappySheep_All.png::CompressedTexture2D::5436234941831323857::1704044373::1704044394::1::::<><>::
-HappySheep_Bouncing.png::CompressedTexture2D::7306480119409298::1704044373::1704044394::1::::<><>::
-HappySheep_Idle.png::CompressedTexture2D::4289381051583473162::1704044373::1704044394::1::::<><>::
-::res://Assets/Tiny Swords (Update 010)/Resources/Trees/::1705016158
-Tree.png::CompressedTexture2D::1061521097394379162::1704044373::1704044394::1::::<><>::
-::res://Assets/Tiny Swords (Update 010)/Terrain/::1705016158
-::res://Assets/Tiny Swords (Update 010)/Terrain/Bridge/::1705016158
-Bridge_All.png::CompressedTexture2D::6694623631583715550::1704044374::1704044394::1::::<><>::
-::res://Assets/Tiny Swords (Update 010)/Terrain/Ground/::1705016158
-Shadows.png::CompressedTexture2D::6803923254161301338::1704044374::1704044394::1::::<><>::
-Tilemap_Elevation.png::CompressedTexture2D::4667659932108069170::1704044374::1704044394::1::::<><>::
-Tilemap_Flat.png::CompressedTexture2D::2651933909647290912::1704044374::1704044394::1::::<><>::
-::res://Assets/Tiny Swords (Update 010)/Terrain/Water/::1705016158
-Water.png::CompressedTexture2D::8176011248024756848::1704044374::1704044394::1::::<><>::
-::res://Assets/Tiny Swords (Update 010)/Terrain/Water/Foam/::1705016158
-Foam.png::CompressedTexture2D::7837825303308343587::1704044374::1704044394::1::::<><>::
-::res://Assets/Tiny Swords (Update 010)/Terrain/Water/Rocks/::1705016158
-Rocks_01.png::CompressedTexture2D::4404948087742188845::1704044374::1704044394::1::::<><>::
-Rocks_02.png::CompressedTexture2D::3925352566604279631::1704044374::1704044394::1::::<><>::
-Rocks_03.png::CompressedTexture2D::6344699795321090939::1704044374::1704044394::1::::<><>::
-Rocks_04.png::CompressedTexture2D::285021131323245948::1704044374::1704044394::1::::<><>::
-::res://Assets/Tiny Swords (Update 010)/UI/::1705016159
-::res://Assets/Tiny Swords (Update 010)/UI/Banners/::1705016158
-Banner_Connection_Down.png::CompressedTexture2D::6537949917534382346::1704044372::1704044393::1::::<><>::
-Banner_Connection_Left.png::CompressedTexture2D::1203544612974872986::1704044372::1704044393::1::::<><>::
-Banner_Connection_Right.png::CompressedTexture2D::8572286896627600620::1704044372::1704044393::1::::<><>::
-Banner_Connection_Up.png::CompressedTexture2D::2822492132742973263::1704044372::1704044393::1::::<><>::
-Banner_Horizontal.png::CompressedTexture2D::3149041274273177261::1704044372::1704044393::1::::<><>::
-Banner_Vertical.png::CompressedTexture2D::4995225101282118150::1704044372::1704044393::1::::<><>::
-Carved_3Slides.png::CompressedTexture2D::6657665272114152585::1704044372::1704044393::1::::<><>::
-Carved_9Slides.png::CompressedTexture2D::6054379026567865524::1704044372::1704044393::1::::<><>::
-Carved_Regular.png::CompressedTexture2D::7038295039889240324::1704044372::1704044393::1::::<><>::
-::res://Assets/Tiny Swords (Update 010)/UI/Buttons/::1705016159
-Button_Blue.png::CompressedTexture2D::8788383902970398746::1704044371::1704044393::1::::<><>::
-Button_Blue_3Slides.png::CompressedTexture2D::1519926005281343489::1704044371::1704044393::1::::<><>::
-Button_Blue_3Slides_Pressed.png::CompressedTexture2D::1235675418554548143::1704044372::1704044393::1::::<><>::
-Button_Blue_9Slides.png::CompressedTexture2D::4820873996623809875::1704044371::1704044393::1::::<><>::
-Button_Blue_9Slides_Pressed.png::CompressedTexture2D::7470945338501493494::1704044371::1704044393::1::::<><>::
-Button_Blue_Pressed.png::CompressedTexture2D::6840131490944312783::1704044372::1704044393::1::::<><>::
-Button_Disable.png::CompressedTexture2D::567399867097745333::1704044372::1704044393::1::::<><>::
-Button_Disable_3Slides.png::CompressedTexture2D::9037413514451857818::1704044371::1704044393::1::::<><>::
-Button_Disable_9Slides.png::CompressedTexture2D::1716477229580798436::1704044371::1704044393::1::::<><>::
-Button_Hover.png::CompressedTexture2D::1148694368039794075::1704044372::1704044393::1::::<><>::
-Button_Hover_3Slides.png::CompressedTexture2D::2138081629099018619::1704044372::1704044393::1::::<><>::
-Button_Hover_9Slides.png::CompressedTexture2D::5632203313636974026::1704044372::1704044393::1::::<><>::
-Button_Red.png::CompressedTexture2D::2413058801678144875::1704044372::1704044393::1::::<><>::
-Button_Red_3Slides.png::CompressedTexture2D::2130013526115949461::1704044371::1704044393::1::::<><>::
-Button_Red_3Slides_Pressed.png::CompressedTexture2D::5487504489587132015::1704044372::1704044393::1::::<><>::
-Button_Red_9Slides.png::CompressedTexture2D::1614696799992696463::1704044371::1704044393::1::::<><>::
-Button_Red_9Slides_Pressed.png::CompressedTexture2D::5632525000551567126::1704044371::1704044393::1::::<><>::
-Button_Red_Pressed.png::CompressedTexture2D::6971345327468700853::1704044372::1704044393::1::::<><>::
-::res://Assets/Tiny Swords (Update 010)/UI/Icons/::1705016159
-Disable_01.png::CompressedTexture2D::835383744017670285::1704044373::1704044393::1::::<><>::
-Disable_02.png::CompressedTexture2D::8045362635764579233::1704044373::1704044393::1::::<><>::
-Disable_03.png::CompressedTexture2D::1712857512430938345::1704044373::1704044393::1::::<><>::
-Disable_04.png::CompressedTexture2D::8363875478879877373::1704044373::1704044393::1::::<><>::
-Disable_05.png::CompressedTexture2D::89144024204583480::1704044373::1704044393::1::::<><>::
-Disable_06.png::CompressedTexture2D::3080405596248517344::1704044373::1704044393::1::::<><>::
-Disable_07.png::CompressedTexture2D::1620863980671725857::1704044373::1704044393::1::::<><>::
-Disable_08.png::CompressedTexture2D::3680208724280538861::1704044373::1704044393::1::::<><>::
-Disable_09.png::CompressedTexture2D::4715794973116518788::1704044373::1704044393::1::::<><>::
-Disable_10.png::CompressedTexture2D::8268667130267207062::1704044373::1704044393::1::::<><>::
-Pressed_01.png::CompressedTexture2D::1619196635924399786::1704044372::1704044393::1::::<><>::
-Pressed_02.png::CompressedTexture2D::3501243306184911567::1704044372::1704044393::1::::<><>::
-Pressed_03.png::CompressedTexture2D::6917219841550968445::1704044372::1704044393::1::::<><>::
-Pressed_04.png::CompressedTexture2D::8412827644710605577::1704044373::1704044393::1::::<><>::
-Pressed_05.png::CompressedTexture2D::3949634927566373275::1704044373::1704044393::1::::<><>::
-Pressed_06.png::CompressedTexture2D::1480616877111762088::1704044373::1704044393::1::::<><>::
-Pressed_07.png::CompressedTexture2D::15015810063174308::1704044373::1704044393::1::::<><>::
-Pressed_08.png::CompressedTexture2D::9160226427658370215::1704044373::1704044393::1::::<><>::
-Pressed_09.png::CompressedTexture2D::6506991546243257972::1704044373::1704044393::1::::<><>::
-Pressed_10.png::CompressedTexture2D::1818915979080105852::1704044373::1704044393::1::::<><>::
-Regular_01.png::CompressedTexture2D::3246663047927570657::1704044373::1704044393::1::::<><>::
-Regular_02.png::CompressedTexture2D::2307196305174813299::1704044373::1704044393::1::::<><>::
-Regular_03.png::CompressedTexture2D::7079219989071876109::1704044373::1704044393::1::::<><>::
-Regular_04.png::CompressedTexture2D::3043177691738708069::1704044373::1704044393::1::::<><>::
-Regular_05.png::CompressedTexture2D::4904702169835173218::1704044373::1704044393::1::::<><>::
-Regular_06.png::CompressedTexture2D::3675473969367855640::1704044373::1704044393::1::::<><>::
-Regular_07.png::CompressedTexture2D::4953599294051493889::1704044373::1704044393::1::::<><>::
-Regular_08.png::CompressedTexture2D::8606011736916596272::1704044373::1704044393::1::::<><>::
-Regular_09.png::CompressedTexture2D::4632355647868714166::1704044373::1704044393::1::::<><>::
-Regular_10.png::CompressedTexture2D::3719253430318526259::1704044373::1704044393::1::::<><>::
-::res://Assets/Tiny Swords (Update 010)/UI/Pointers/::1705016159
-01.png::CompressedTexture2D::3100455849068865763::1704044373::1704044393::1::::<><>::
-02.png::CompressedTexture2D::5992006269960689301::1704044373::1704044393::1::::<><>::
-03.png::CompressedTexture2D::5391800296188110751::1704044373::1704044393::1::::<><>::
-04.png::CompressedTexture2D::6879054764385226294::1704044373::1704044393::1::::<><>::
-05.png::CompressedTexture2D::1950997266156736181::1704044373::1704044393::1::::<><>::
-06.png::CompressedTexture2D::3836407874745274422::1704044373::1704044393::1::::<><>::
-::res://Assets/Tiny Swords (Update 010)/UI/Ribbons/::1705016159
-Ribbon_Blue_3Slides.png::CompressedTexture2D::4547602885156119027::1704044372::1704044393::1::::<><>::
-Ribbon_Blue_Connection_Down.png::CompressedTexture2D::2816843508256829220::1704044372::1704044393::1::::<><>::
-Ribbon_Blue_Connection_Down_Pressed.png::CompressedTexture2D::4568891853094128778::1704044372::1704044393::1::::<><>::
-Ribbon_Blue_Connection_Left.png::CompressedTexture2D::7047835623846015691::1704044372::1704044393::1::::<><>::
-Ribbon_Blue_Connection_Left_Pressed.png::CompressedTexture2D::4780505737498265454::1704044372::1704044393::1::::<><>::
-Ribbon_Blue_Connection_Right.png::CompressedTexture2D::3571295096775118705::1704044372::1704044393::1::::<><>::
-Ribbon_Blue_Connection_Right_Pressed.png::CompressedTexture2D::6715731537905248998::1704044372::1704044393::1::::<><>::
-Ribbon_Blue_Connection_Up.png::CompressedTexture2D::287786717376500908::1704044372::1704044393::1::::<><>::
-Ribbon_Blue_Connection_Up_Pressed.png::CompressedTexture2D::2527479880015281166::1704044372::1704044393::1::::<><>::
-Ribbon_Red_3Slides.png::CompressedTexture2D::7749103325326793021::1704044372::1704044393::1::::<><>::
-Ribbon_Red_Connection_Down.png::CompressedTexture2D::2790781150534275459::1704044372::1704044393::1::::<><>::
-Ribbon_Red_Connection_Down_Pressed.png::CompressedTexture2D::3668259398173738881::1704044372::1704044393::1::::<><>::
-Ribbon_Red_Connection_Left.png::CompressedTexture2D::2942399520642119799::1704044372::1704044393::1::::<><>::
-Ribbon_Red_Connection_Left_Pressed.png::CompressedTexture2D::2860428352904767168::1704044372::1704044393::1::::<><>::
-Ribbon_Red_Connection_Right.png::CompressedTexture2D::4211285999827982637::1704044372::1704044393::1::::<><>::
-Ribbon_Red_Connection_Right_Pressed.png::CompressedTexture2D::4377808389582881649::1704044372::1704044393::1::::<><>::
-Ribbon_Red_Connection_Up.png::CompressedTexture2D::2199526179269517713::1704044372::1704044393::1::::<><>::
-Ribbon_Red_Connection_Up_Pressed.png::CompressedTexture2D::1245550770484234253::1704044372::1704044393::1::::<><>::
-Ribbon_Yellow_3Slides.png::CompressedTexture2D::2508297601478668179::1704044372::1704044393::1::::<><>::
-Ribbon_Yellow_Connection_Down.png::CompressedTexture2D::7437186502186607401::1704044372::1704044393::1::::<><>::
-Ribbon_Yellow_Connection_Down_Pressed.png::CompressedTexture2D::3059252620838510628::1704044372::1704044393::1::::<><>::
-Ribbon_Yellow_Connection_Left.png::CompressedTexture2D::3551698442438235444::1704044372::1704044393::1::::<><>::
-Ribbon_Yellow_Connection_Left_Pressed.png::CompressedTexture2D::29924580327990589::1704044372::1704044393::1::::<><>::
-Ribbon_Yellow_Connection_Right.png::CompressedTexture2D::6250313328929479735::1704044372::1704044393::1::::<><>::
-Ribbon_Yellow_Connection_Right_Pressed.png::CompressedTexture2D::7614328754831949848::1704044372::1704044393::1::::<><>::
-Ribbon_Yellow_Connection_Up.png::CompressedTexture2D::4527349473720989725::1704044372::1704044393::1::::<><>::
-Ribbon_Yellow_Connection_Up_Pressed.png::CompressedTexture2D::4209630139327136869::1704044372::1704044393::1::::<><>::
-::res://Characters/::1707074746
-Archer.tscn::PackedScene::21204760068286256::1707074745::0::1::::<><>::uid://bak3nx6d7bbtl::::res://Assets/Tiny Swords (Update 010)/Factions/Knights/Troops/Archer/Blue/Archer_Blue_(NoArms).png<>uid://dqs2lp0c63i00::::res://Assets/Tiny Swords (Update 010)/Factions/Knights/Troops/Archer/Blue/Archer_Blue.png<>res://StateMachine/ArcherStateMachine.gd<>res://StateMachine/ArcherIdleState.gd<>res://StateMachine/ArcherRunState.gd<>res://StateMachine/ArcherShootState.gd<>uid://74kiu35odi7k::::res://Characters/Arrow.tscn
-Arrow.gd::GDScript::-1::1706365006::0::1::::<>Area2D<>::
-Arrow.tscn::PackedScene::2306532502667099810::1707074746::0::1::::<><>::res://Characters/Arrow.gd<>uid://cbp66j7rs3bsy::::res://Assets/Tiny Swords (Update 010)/Factions/Knights/Troops/Archer/Arrow/Arrow.png
-GoblinFighter.tscn::PackedScene::6983378887775494163::1707074746::0::1::::<><>::uid://ju5tklvgjdvg::::res://Assets/Tiny Swords (Update 010)/Factions/Goblins/Troops/Torch/Blue/Torch_Blue.png
-GoblinThrower.tscn::PackedScene::7091378747574099429::1707074746::0::1::::<><>::uid://bigdri4ikun4::::res://Assets/Tiny Swords (Update 010)/Factions/Goblins/Troops/TNT/Blue/TNT_Blue.png<>res://StateMachine/GobThrowerStateMachine.gd<>res://StateMachine/ThrowerIdleState.gd<>res://StateMachine/ThrowerRunState.gd<>res://StateMachine/ThrowerAttackState.gd
-Knight.gd::GDScript::-1::1705840064::0::1::::<>CharacterBody2D<>::
-Knight.tscn::PackedScene::8636808095604151867::1707074745::0::1::::<><>::res://Characters/Knight.gd<>uid://ctpoikcx70sxy::::res://Assets/Tiny Swords (Update 010)/Factions/Knights/Troops/Warrior/Blue/Warrior_Blue.png<>res://StateMachine/KnightStateMachine.gd<>res://StateMachine/RunState.gd<>res://StateMachine/IdleState.gd<>res://StateMachine/AttackState.gd
-Sheep.gd::GDScript::-1::1706366377::0::1::::<>CharacterBody2D<>::
-Sheep.tscn::PackedScene::496701053051681348::1707074746::0::1::::<><>::uid://cjpl83rh4jfs8::::res://Assets/Tiny Swords (Update 010)/Resources/Sheep/HappySheep_All.png<>res://Characters/Sheep.gd<>res://StateMachine/SheepStateMachine.gd<>res://StateMachine/SheepIdle.gd<>res://StateMachine/SheepDeadState.gd<>res://StateMachine/SheepHitState.gd
-::res://StateMachine/::1707074745
-ArcherIdleState.gd::GDScript::-1::1706362023::0::1::::ArcherIdleState<>State<>::
-ArcherRunState.gd::GDScript::-1::1706365006::0::1::::ArcherRunState<>State<>::
-ArcherShootState.gd::GDScript::-1::1707071918::0::1::::ArcherAttackState<>State<>::
-ArcherStateMachine.gd::GDScript::-1::1705253293::0::1::::ArcherStateMachine<>Node<>::
-AttackState.gd::GDScript::-1::1706365006::0::1::::AttackState<>State<>::
-GobThrowerStateMachine.gd::GDScript::-1::1707073521::0::1::::ThrowerStateMachine<>Node<>::
-IdleState.gd::GDScript::-1::1706365006::0::1::::IdleState<>State<>::
-KnightStateMachine.gd::GDScript::-1::1706364903::0::1::::PlayerStateMachine<>Node<>::
-RunState.gd::GDScript::-1::1706365006::0::1::::RunState<>State<>::
-SheepDeadState.gd::GDScript::-1::1706365541::0::1::::SheepDeadState<>State<>::
-SheepHitState.gd::GDScript::-1::1706366150::0::1::::SheepHitState<>State<>::
-SheepIdle.gd::GDScript::-1::1706282444::0::1::::SheepIdleState<>State<>::
-SheepStateMachine.gd::GDScript::-1::1706282357::0::1::::SheepStateMachine<>Node<>::
-State.gd::GDScript::-1::1706365488::0::1::::State<>Node<>::
-ThrowerAttackState.gd::GDScript::-1::1707074745::0::1::::<>State<>::
-ThrowerIdleState.gd::GDScript::-1::1707074731::0::1::::<>State<>::
-ThrowerRunState.gd::GDScript::-1::1707074482::0::1::::<>State<>::
+bdbec74c6e5bd72edee867077d70896c
+::res://::1722422813
+export_presets.cfg::TextFile::-1::1721580253::0::1::::<><>::
+firstmap.tscn::PackedScene::8019410229007676357::1722422697::0::1::::<><>::uid://bjr7nbpjgr0o7::::res://Assets/Tiny Swords (Update 010)/Factions/Knights/Buildings/Tower/Tower_Blue.png<>uid://hx0thucl01it::::res://Assets/Tiny Swords (Update 010)/Factions/Knights/Buildings/Castle/Castle_Blue.png<>uid://cohsgte7uxg2c::::res://tilesetmap.tres<>uid://hcuugnyxefvw::::res://Characters/Sheep.tscn<>uid://dw8w1ut3ajhin::::res://PlayerController.tscn<>uid://dvby75n45b8ot::::res://Characters/Knight.tscn
+icon.svg::CompressedTexture2D::8482378094693027348::1704035620::1704035635::1::::<><>::
+joystick.tscn::PackedScene::5972650484967601429::1722422813::0::1::::<><>::uid://ufwsw57pk42t::::res://Assets/VirtualJoystickPack/JoystickSplitted.png<>res://UI/Joystick.gd<>uid://dcymjvijnxblc::::res://Assets/VirtualJoystickPack/SmallHandle.png
+PlayerController.tscn::PackedScene::8772924362573218497::1722422814::0::1::::<><>::uid://crdgxfdad2uwr::::res://joystick.tscn
+README.md::TextFile::-1::1705411020::0::1::::<><>::
+tilesetmap.tres::TileSet::5771040448834742184::1722422692::0::1::::<><>::uid://bd1u71ouxljbs::::res://Assets/Tiny Swords (Update 010)/Terrain/Ground/Tilemap_Flat.png<>uid://doqryfuldq05a::::res://Assets/Tiny Swords (Update 010)/Terrain/Water/Water.png<>uid://djwx3qkajuhn4::::res://Assets/Tiny Swords (Update 010)/Terrain/Water/Foam/Foam.png<>uid://b30137i1dlqt6::::res://Assets/Tiny Swords (Update 010)/Terrain/Water/Rocks/Rocks_01.png<>uid://bv6p8owqfa880::::res://Assets/Tiny Swords (Update 010)/Terrain/Water/Rocks/Rocks_02.png<>uid://cwnojqek8gnrf::::res://Assets/Tiny Swords (Update 010)/Terrain/Water/Rocks/Rocks_03.png<>uid://ecciyngibsqm::::res://Assets/Tiny Swords (Update 010)/Terrain/Water/Rocks/Rocks_04.png<>uid://b7rbxa030p6os::::res://Assets/Tiny Swords (Update 010)/Terrain/Ground/Tilemap_Elevation.png<>uid://c364ve7l82o71::::res://Assets/Tiny Swords (Update 010)/Terrain/Ground/Shadows.png<>uid://c2m6qc6lggcbe::::res://Assets/Tiny Swords (Update 010)/Terrain/Bridge/Bridge_All.png
+walesmap.tscn::PackedScene::7262325160445485827::1722000291::0::1::::<><>::uid://dvby75n45b8ot
+::res://addons/::1722112387
+::res://addons/virtual_joystick/::1722112392
+plugin.cfg::TextFile::-1::1722112373::0::1::::<><>::
+virtual_joystick.gd::GDScript::-1::1722112373::0::1::::VirtualJoystick<>Control<>::
+virtual_joystick_icon.png::CompressedTexture2D::260911808592511340::1722112373::1722112392::1::::<><>::
+virtual_joystick_instantiator.gd::GDScript::-1::1722112373::0::1::::<>Control<>::
+virtual_joystick_plugin.gd::GDScript::-1::1722112373::0::1::::<>EditorPlugin<>::
+virtual_joystick_scene.tscn::PackedScene::8038149555967335895::1722112373::0::1::::<><>::res://addons/virtual_joystick/virtual_joystick.gd<>uid://bm30au8mjfc2f
+::res://addons/virtual_joystick/previews/::1722112392
+gitpreview.png::CompressedTexture2D::4269983148252350228::1722112373::1722112392::1::::<><>::
+icon.png::CompressedTexture2D::8955078469945949671::1722112373::1722112392::1::::<><>::
+preview1.png::CompressedTexture2D::1229202559639313417::1722112373::1722112392::1::::<><>::
+preview2.png::CompressedTexture2D::2379206540637418247::1722112373::1722112392::1::::<><>::
+preview3.png::CompressedTexture2D::5909644328680590355::1722112373::1722112392::1::::<><>::
+::res://addons/virtual_joystick/test/::1722112387
+player.gd::GDScript::-1::1722112373::0::1::::<>Sprite2D<>::
+test.tscn::PackedScene::3566301953465693758::1722112373::0::1::::<><>::uid://dmr0fcamx7t56
+::res://addons/virtual_joystick/textures/::1722112392
+joystick_base_outline.png::CompressedTexture2D::3288008411285325467::1722112373::1722112392::1::::<><>::
+joystick_tip.png::CompressedTexture2D::3132432681801126628::1722112373::1722112392::1::::<><>::
+joystick_tip_arrows.png::CompressedTexture2D::8548255698028078709::1722112373::1722112392::1::::<><>::
+::res://Assets/::1722001585
+::res://Assets/Cursors/::1705843706
+cursorsprites.tres::AtlasTexture::1054908976016895931::1705843706::0::1::::<><>::uid://c8k18nbtlyja7
+point and click cursor.png::CompressedTexture2D::7111355243219940948::1705843706::1705843706::1::::<><>::
+::res://Assets/Kasaya's Frames/::1705019756
+::res://Assets/Kasaya's Frames/Bars/::1705019755
+::res://Assets/Kasaya's Frames/Bars/1/::1705019755
+bars 1 all background.png::CompressedTexture2D::5915323740940300614::1704035921::1704035923::1::::<><>::
+bars 1 frame.png::CompressedTexture2D::4143759318890233258::1704035921::1704035923::1::::<><>::
+exp background.png::CompressedTexture2D::6775167228082217574::1704035921::1704035923::1::::<><>::
+exp.png::CompressedTexture2D::7540132394528600465::1704035921::1704035923::1::::<><>::
+hp background.png::CompressedTexture2D::7206158335165839203::1704035921::1704035923::1::::<><>::
+HP.png::CompressedTexture2D::5313212336600466442::1704035921::1704035923::1::::<><>::
+level slot.png::CompressedTexture2D::6662171031928667816::1704035921::1704035923::1::::<><>::
+mana background.png::CompressedTexture2D::622105303824495689::1704035921::1704035923::1::::<><>::
+mana.png::CompressedTexture2D::8780236592731042107::1704035921::1704035923::1::::<><>::
+stamina background.png::CompressedTexture2D::7055102480518442469::1704035921::1704035923::1::::<><>::
+Stamina.png::CompressedTexture2D::5174150939077950086::1704035921::1704035923::1::::<><>::
+::res://Assets/Kasaya's Frames/Bars/2/::1705019755
+bars 2.png::CompressedTexture2D::1231557442502396795::1704035921::1704035923::1::::<><>::
+bars background all.png::CompressedTexture2D::6069897269782039438::1704035921::1704035923::1::::<><>::
+exp background.png::CompressedTexture2D::5722115392824780483::1704035921::1704035923::1::::<><>::
+exp.png::CompressedTexture2D::3153518902660322513::1704035921::1704035923::1::::<><>::
+hp  background.png::CompressedTexture2D::1719808166376763109::1704035921::1704035923::1::::<><>::
+hp.png::CompressedTexture2D::5244022218863204068::1704035921::1704035923::1::::<><>::
+mana background.png::CompressedTexture2D::8454703502793015951::1704035921::1704035923::1::::<><>::
+mana.png::CompressedTexture2D::6345850588605129291::1704035921::1704035923::1::::<><>::
+::res://Assets/Kasaya's Frames/Book/::1705019755
+Item or quest book1.png::CompressedTexture2D::3133369750190011341::1704035921::1704035923::1::::<><>::
+Item or quest book2.png::CompressedTexture2D::5625268705195714893::1704035921::1704035923::1::::<><>::
+Item or quest book3.png::CompressedTexture2D::1954009074393175319::1704035921::1704035923::1::::<><>::
+Item or quest book4.png::CompressedTexture2D::229836632493851540::1704035921::1704035923::1::::<><>::
+::res://Assets/Kasaya's Frames/Inventory & chests/::1705019755
+::res://Assets/Kasaya's Frames/Inventory & chests/1/::1705019755
+chest1.png::CompressedTexture2D::5382336517551212498::1704035921::1704035923::1::::<><>::
+chest2.png::CompressedTexture2D::2902584639240658760::1704035921::1704035923::1::::<><>::
+chest no2.png::CompressedTexture2D::1922536380520708702::1704035921::1704035923::1::::<><>::
+chest no3.png::CompressedTexture2D::5951833427321331034::1704035921::1704035923::1::::<><>::
+Crafting1.png::CompressedTexture2D::2275319269342689048::1704035921::1704035923::1::::<><>::
+Crafting2.png::CompressedTexture2D::1149003878523510320::1704035921::1704035923::1::::<><>::
+Crafting no2.png::CompressedTexture2D::7416744906501778722::1704035921::1704035923::1::::<><>::
+Crafting no3.png::CompressedTexture2D::2224033857734550875::1704035921::1704035923::1::::<><>::
+dialogues1.png::CompressedTexture2D::7222311163985532836::1704035921::1704035923::1::::<><>::
+dialogues2.png::CompressedTexture2D::6337456268637227716::1704035921::1704035923::1::::<><>::
+inventory1.png::CompressedTexture2D::4828864809781543744::1704035921::1704035923::1::::<><>::
+inventory2.png::CompressedTexture2D::8208544747552630666::1704035921::1704035923::1::::<><>::
+inventory3.png::CompressedTexture2D::6883797558433273484::1704035921::1704035923::1::::<><>::
+inventory4.png::CompressedTexture2D::5256116041861944682::1704035921::1704035923::1::::<><>::
+inventory icons.png::CompressedTexture2D::7218619814798045222::1704035921::1704035923::1::::<><>::
+Item describe1.png::CompressedTexture2D::5975930271523906041::1704035921::1704035923::1::::<><>::
+Item describe2.png::CompressedTexture2D::5955443897187363677::1704035921::1704035923::1::::<><>::
+shop1.png::CompressedTexture2D::1680776681476842884::1704035921::1704035923::1::::<><>::
+shop2.png::CompressedTexture2D::189187676611376798::1704035921::1704035923::1::::<><>::
+slot1.png::CompressedTexture2D::8012035705963988963::1704035921::1704035923::1::::<><>::
+slot2.png::CompressedTexture2D::6330438755317714993::1704035921::1704035923::1::::<><>::
+slots 8x5.png::CompressedTexture2D::6342172450789079474::1704035921::1704035923::1::::<><>::
+slots 8x6.png::CompressedTexture2D::2572470869897818619::1704035921::1704035923::1::::<><>::
+::res://Assets/Kasaya's Frames/Inventory & chests/2/::1705019756
++.png::CompressedTexture2D::1786455133299063339::1704035921::1704035923::1::::<><>::
+-.png::CompressedTexture2D::5193187884056350010::1704035921::1704035923::1::::<><>::
+abilities.png::CompressedTexture2D::2708297144994441881::1704035921::1704035923::1::::<><>::
+armour.png::CompressedTexture2D::3127225558118767060::1704035921::1704035923::1::::<><>::
+boot.png::CompressedTexture2D::5613707105275415686::1704035921::1704035923::1::::<><>::
+bracelet.png::CompressedTexture2D::9084327337982091033::1704035921::1704035923::1::::<><>::
+brown slot.png::CompressedTexture2D::408090031635418393::1704035921::1704035923::1::::<><>::
+confirm.png::CompressedTexture2D::4645711060081698661::1704035921::1704035923::1::::<><>::
+helm.png::CompressedTexture2D::4893154494485007330::1704035921::1704035923::1::::<><>::
+hotbar frame.png::CompressedTexture2D::8506542183244273148::1704035921::1704035923::1::::<><>::
+inventory frame.png::CompressedTexture2D::2000448007371503548::1704035921::1704035923::1::::<><>::
+legs.png::CompressedTexture2D::7573696625644209359::1704035921::1704035923::1::::<><>::
+neck.png::CompressedTexture2D::3476480153303400164::1704035921::1704035923::1::::<><>::
+ring.png::CompressedTexture2D::1486566822117982682::1704035921::1704035923::1::::<><>::
+slide background.png::CompressedTexture2D::3188009837226383419::1704035921::1704035923::1::::<><>::
+slide brown.png::CompressedTexture2D::423662469135033336::1704035921::1704035923::1::::<><>::
+slide small.png::CompressedTexture2D::8685413620244461638::1704035921::1704035923::1::::<><>::
+stats.png::CompressedTexture2D::1094582792124386967::1704035921::1704035923::1::::<><>::
+x.png::CompressedTexture2D::8252251807648988697::1704035921::1704035923::1::::<><>::
+::res://Assets/Kasaya's Frames/Inventory & chests/2/chat/::1705019756
+chat window.png::CompressedTexture2D::8868187914589928967::1704035921::1704035923::1::::<><>::
+window.png::CompressedTexture2D::7531605374209309768::1704035921::1704035923::1::::<><>::
+::res://Assets/Kasaya's Frames/Inventory & chests/2/shop/::1705019756
++.PNG::CompressedTexture2D::3260649228877933915::1704035921::1704035923::1::::<><>::
+-.PNG::CompressedTexture2D::1026811104414984907::1704035921::1704035923::1::::<><>::
+abilities.png::CompressedTexture2D::3964964338291488222::1704035921::1704035923::1::::<><>::
+all.png::CompressedTexture2D::7561005696857822611::1704035921::1704035923::1::::<><>::
+armors.png::CompressedTexture2D::6961742036552230745::1704035921::1704035923::1::::<><>::
+buy and sell  button.png::CompressedTexture2D::4586309960736987712::1704035921::1704035923::1::::<><>::
+CENA.PNG::CompressedTexture2D::3549897401434123925::1704035921::1704035923::1::::<><>::
+crafting.png::CompressedTexture2D::2506074688218373859::1704035921::1704035923::1::::<><>::
+money here.PNG::CompressedTexture2D::7539808973306338703::1704035921::1704035923::1::::<><>::
+potions.png::CompressedTexture2D::8608098103178476933::1704035921::1704035923::1::::<><>::
+sell and buy.png::CompressedTexture2D::4849248312145634142::1704035921::1704035923::1::::<><>::
+shop frame.png::CompressedTexture2D::4555328397607538963::1704035921::1704035923::1::::<><>::
+weapons.png::CompressedTexture2D::8881491731110367279::1704035921::1704035923::1::::<><>::
+x.png::CompressedTexture2D::456339838206849678::1704035921::1704035923::1::::<><>::
+::res://Assets/Kasaya's Frames/Slot select/::1705019756
+slot2.png::CompressedTexture2D::800262989655185481::1704035922::1704035923::1::::<><>::
+slot select.png::CompressedTexture2D::8816699566002929606::1704035922::1704035923::1::::<><>::
+slott.png::CompressedTexture2D::6917714536900354613::1704035922::1704035922::1::::<><>::
+::res://Assets/Modern_Interiors_Free_v2.2/::1705019756
+::res://Assets/Modern_Interiors_Free_v2.2/Modern tiles_Free/::1705019756
+free_overview.png::CompressedTexture2D::2669585042410428271::1704035922::1704035923::1::::<><>::
+LICENSE.txt::TextFile::-1::1704035922::0::1::::<><>::
+READ ME.txt::TextFile::-1::1704035922::0::1::::<><>::
+::res://Assets/Modern_Interiors_Free_v2.2/Modern tiles_Free/Characters_free/::1705019756
+Adam_16x16.png::CompressedTexture2D::4029481558619151027::1704035922::1704035922::1::::<><>::
+Adam_idle_16x16.png::CompressedTexture2D::3418553568191065924::1704035922::1704035922::1::::<><>::
+Adam_idle_anim_16x16.png::CompressedTexture2D::4210459579663457331::1704035922::1704035922::1::::<><>::
+Adam_phone_16x16.png::CompressedTexture2D::5587463297724854235::1704035922::1704035922::1::::<><>::
+Adam_run_16x16.png::CompressedTexture2D::5211748640703216162::1704035922::1704035922::1::::<><>::
+Adam_sit2_16x16.png::CompressedTexture2D::907978700356506167::1704035922::1704035922::1::::<><>::
+Adam_sit3_16x16.png::CompressedTexture2D::1115295280673079635::1704035922::1704035922::1::::<><>::
+Adam_sit_16x16.png::CompressedTexture2D::2839263795286455544::1704035922::1704035922::1::::<><>::
+Alex_16x16.png::CompressedTexture2D::920402192686735661::1704035922::1704035922::1::::<><>::
+Alex_idle_16x16.png::CompressedTexture2D::2519453235889037329::1704035922::1704035922::1::::<><>::
+Alex_idle_anim_16x16.png::CompressedTexture2D::2425134420049806353::1704035922::1704035922::1::::<><>::
+Alex_phone_16x16.png::CompressedTexture2D::3071559445228157967::1704035922::1704035922::1::::<><>::
+Alex_run_16x16.png::CompressedTexture2D::5928418100352807593::1704035922::1704035922::1::::<><>::
+Alex_sit2_16x16.png::CompressedTexture2D::1821172183511646659::1704035922::1704035922::1::::<><>::
+Alex_sit3_16x16.png::CompressedTexture2D::2303431870334678488::1704035922::1704035922::1::::<><>::
+Alex_sit_16x16.png::CompressedTexture2D::2383088220208437673::1704035922::1704035922::1::::<><>::
+Amelia_16x16.png::CompressedTexture2D::2411063220827795695::1704035922::1704035922::1::::<><>::
+Amelia_idle_16x16.png::CompressedTexture2D::8368134561025097398::1704035922::1704035922::1::::<><>::
+Amelia_idle_anim_16x16.png::CompressedTexture2D::6934436287422934018::1704035922::1704035922::1::::<><>::
+Amelia_phone_16x16.png::CompressedTexture2D::8654277397538437775::1704035922::1704035922::1::::<><>::
+Amelia_run_16x16.png::CompressedTexture2D::4083093349061149097::1704035922::1704035922::1::::<><>::
+Amelia_sit2_16x16.png::CompressedTexture2D::1218783137503991413::1704035922::1704035922::1::::<><>::
+Amelia_sit3_16x16.png::CompressedTexture2D::2713152285446448138::1704035922::1704035922::1::::<><>::
+Amelia_sit_16x16.png::CompressedTexture2D::2898265070288849045::1704035922::1704035922::1::::<><>::
+Bob_16x16.png::CompressedTexture2D::7394822149845273144::1704035922::1704035922::1::::<><>::
+Bob_idle_16x16.png::CompressedTexture2D::8756667901639090022::1704035922::1704035922::1::::<><>::
+Bob_idle_anim_16x16.png::CompressedTexture2D::6854644187496448586::1704035922::1704035922::1::::<><>::
+Bob_phone_16x16.png::CompressedTexture2D::6746633562786558917::1704035922::1704035922::1::::<><>::
+Bob_run_16x16.png::CompressedTexture2D::7126200458640537175::1704035922::1704035922::1::::<><>::
+Bob_sit2_16x16.png::CompressedTexture2D::7741137397431548339::1704035922::1704035922::1::::<><>::
+Bob_sit3_16x16.png::CompressedTexture2D::957112187200786937::1704035922::1704035922::1::::<><>::
+Bob_sit_16x16.png::CompressedTexture2D::1736069033338833810::1704035922::1704035922::1::::<><>::
+::res://Assets/Modern_Interiors_Free_v2.2/Modern tiles_Free/Characters_free/RPGMAKERMV/::1705019756
+Characters_MV.png::CompressedTexture2D::3403167044444356700::1704035922::1704035922::1::::<><>::
+::res://Assets/Modern_Interiors_Free_v2.2/Modern tiles_Free/Interiors_free/::1705019756
+::res://Assets/Modern_Interiors_Free_v2.2/Modern tiles_Free/Interiors_free/16x16/::1705019756
+Interiors_free_16x16.png::CompressedTexture2D::1565991315776836393::1704035922::1704035922::1::::<><>::
+Room_Builder_free_16x16.png::CompressedTexture2D::3970707912402786063::1704035922::1704035922::1::::<><>::
+::res://Assets/Modern_Interiors_Free_v2.2/Modern tiles_Free/Interiors_free/32x32/::1705019756
+Interiors_free_32x32.png::CompressedTexture2D::4571367586512716357::1704035922::1704035923::1::::<><>::
+Room_Builder_free_32x32.png::CompressedTexture2D::6948423522055023424::1704035922::1704035922::1::::<><>::
+::res://Assets/Modern_Interiors_Free_v2.2/Modern tiles_Free/Interiors_free/48x48/::1705019756
+Interiors_free_48x48.png::CompressedTexture2D::6439250328288930190::1704035922::1704035923::1::::<><>::
+Room_Builder_free_48x48.png::CompressedTexture2D::9142179218425885406::1704035922::1704035922::1::::<><>::
+::res://Assets/Modern_Interiors_Free_v2.2/Modern tiles_Free/Old/::1705019757
+idle_16x16_2.png::CompressedTexture2D::4676287395922943988::1704035922::1704035923::1::::<><>::
+idle_32x32_2.png::CompressedTexture2D::2384888852464029619::1704035922::1704035923::1::::<><>::
+idle_48x48_2.png::CompressedTexture2D::7540250157015791032::1704035922::1704035923::1::::<><>::
+run_horizontal_16x16_2.png::CompressedTexture2D::7289896742524374889::1704035922::1704035923::1::::<><>::
+run_horizontal_32x32_2.png::CompressedTexture2D::4551209574398156236::1704035922::1704035923::1::::<><>::
+run_horizontal_48x48_2.png::CompressedTexture2D::5949164263987200750::1704035922::1704035923::1::::<><>::
+Tileset_16x16_1.png::CompressedTexture2D::8727858666443048626::1704035922::1704035923::1::::<><>::
+Tileset_16x16_2.png::CompressedTexture2D::8494220586246211086::1704035922::1704035923::1::::<><>::
+Tileset_16x16_3.png::CompressedTexture2D::4533222936100943107::1704035922::1704035923::1::::<><>::
+Tileset_16x16_9.png::CompressedTexture2D::7242662349386756482::1704035922::1704035923::1::::<><>::
+Tileset_16x16_16.png::CompressedTexture2D::1718433221858330287::1704035922::1704035923::1::::<><>::
+Tileset_32x32_1.png::CompressedTexture2D::9217261872655103578::1704035922::1704035923::1::::<><>::
+Tileset_32x32_2.png::CompressedTexture2D::3516017640449486568::1704035922::1704035923::1::::<><>::
+Tileset_32x32_3.png::CompressedTexture2D::7348984413622748696::1704035922::1704035923::1::::<><>::
+Tileset_32x32_9.png::CompressedTexture2D::5565293072182479199::1704035922::1704035923::1::::<><>::
+Tileset_32x32_16.png::CompressedTexture2D::7539875252944562741::1704035922::1704035923::1::::<><>::
+Tileset_48x48_1.png::CompressedTexture2D::3756336149105601882::1704035922::1704035923::1::::<><>::
+Tileset_48x48_2.png::CompressedTexture2D::6436583358031687211::1704035922::1704035923::1::::<><>::
+Tileset_48x48_3.png::CompressedTexture2D::5500149255139214382::1704035922::1704035923::1::::<><>::
+Tileset_48x48_9.png::CompressedTexture2D::5488979932017292774::1704035922::1704035922::1::::<><>::
+Tileset_48x48_16.png::CompressedTexture2D::4718257475735468749::1704035922::1704035923::1::::<><>::
+::res://Assets/Modern_Interiors_Free_v2.2/Modern tiles_Free/Old/mv/::1705019757
+Character_2_16x16_RPGMAKER.png::CompressedTexture2D::1882317995406692621::1704035922::1704035922::1::::<><>::
+Character_2_32x32_RPGMAKER.png::CompressedTexture2D::1732546984658560836::1704035922::1704035923::1::::<><>::
+Character_2_48x48_RPGMAKER.png::CompressedTexture2D::2885283533166905812::1704035922::1704035923::1::::<><>::
+::res://Assets/Shikashi's Fantasy Icons Pack v2/::1705019757
+::res://Assets/Shikashi's Fantasy Icons Pack v2/Shikashi's Fantasy Icons Pack v2/::1705019757
+#1 - Transparent Icons.png::CompressedTexture2D::8309251719344522467::1704035921::1704035923::1::::<><>::
+#2 - Transparent Icons & Drop Shadow.png::CompressedTexture2D::1934757739539927429::1704035921::1704035923::1::::<><>::
+Background 1a.png::CompressedTexture2D::8638282257055484593::1704035921::1704035923::1::::<><>::
+Background 1b.png::CompressedTexture2D::7120884529434703502::1704035921::1704035923::1::::<><>::
+Background 2.png::CompressedTexture2D::233948804799542410::1704035921::1704035923::1::::<><>::
+BG 3a.png::CompressedTexture2D::1977965788428642152::1704035921::1704035923::1::::<><>::
+BG 3b.png::CompressedTexture2D::2890679601503807420::1704035921::1704035923::1::::<><>::
+BG 3c.png::CompressedTexture2D::4237338828547334521::1704035921::1704035923::1::::<><>::
+BG 4a.png::CompressedTexture2D::1609961433559504585::1704035921::1704035923::1::::<><>::
+BG 4b.png::CompressedTexture2D::6586095753071958085::1704035921::1704035923::1::::<><>::
+BG 5.png::CompressedTexture2D::6604299366563988119::1704035921::1704035923::1::::<><>::
+BG 6.png::CompressedTexture2D::4895324432053355319::1704035921::1704035923::1::::<><>::
+BG 7.png::CompressedTexture2D::4113946636592229023::1704035921::1704035923::1::::<><>::
+BG 8.png::CompressedTexture2D::4138119589652420905::1704035921::1704035923::1::::<><>::
+BG 9.png::CompressedTexture2D::8416046073689530227::1704035921::1704035923::1::::<><>::
+BG 10.png::CompressedTexture2D::1454911567970571872::1704035921::1704035923::1::::<><>::
+BG 11.png::CompressedTexture2D::2026219070929112203::1704035921::1704035923::1::::<><>::
+Shikashi's Fantasy Icons Pack.txt::TextFile::-1::1704035921::0::1::::<><>::
+::res://Assets/Tiny Swords (Update 010)/::1705019758
+::res://Assets/Tiny Swords (Update 010)/Deco/::1705019757
+01.png::CompressedTexture2D::5084471507685012826::1704047974::1704047994::1::::<><>::
+02.png::CompressedTexture2D::5092255372715601548::1704047974::1704047994::1::::<><>::
+03.png::CompressedTexture2D::5683912688936989016::1704047974::1704047994::1::::<><>::
+04.png::CompressedTexture2D::654363600459615732::1704047974::1704047994::1::::<><>::
+05.png::CompressedTexture2D::3885466123285520181::1704047974::1704047994::1::::<><>::
+06.png::CompressedTexture2D::5428309480940347961::1704047974::1704047994::1::::<><>::
+07.png::CompressedTexture2D::4663756983475208565::1704047974::1704047994::1::::<><>::
+08.png::CompressedTexture2D::8752811215097279220::1704047974::1704047994::1::::<><>::
+09.png::CompressedTexture2D::4199639269342909431::1704047974::1704047994::1::::<><>::
+10.png::CompressedTexture2D::5756602920681986315::1704047974::1704047994::1::::<><>::
+11.png::CompressedTexture2D::8321702891089685470::1704047974::1704047994::1::::<><>::
+12.png::CompressedTexture2D::5560249826533994551::1704047974::1704047994::1::::<><>::
+13.png::CompressedTexture2D::8171735327427819280::1704047974::1704047994::1::::<><>::
+14.png::CompressedTexture2D::4535841964301148503::1704047974::1704047994::1::::<><>::
+15.png::CompressedTexture2D::7075692682407147519::1704047974::1704047994::1::::<><>::
+16.png::CompressedTexture2D::9137547269748823187::1704047974::1704047994::1::::<><>::
+17.png::CompressedTexture2D::5773410645421998081::1704047974::1704047994::1::::<><>::
+18.png::CompressedTexture2D::7287128748871257301::1704047974::1704047994::1::::<><>::
+::res://Assets/Tiny Swords (Update 010)/Effects/::1705019757
+::res://Assets/Tiny Swords (Update 010)/Effects/Explosion/::1705019757
+Explosions.png::CompressedTexture2D::337092487478626376::1704047977::1704047994::1::::<><>::
+::res://Assets/Tiny Swords (Update 010)/Effects/Fire/::1705019757
+Fire.png::CompressedTexture2D::9133704786718483664::1704047977::1704047994::1::::<><>::
+::res://Assets/Tiny Swords (Update 010)/Factions/::1705019757
+::res://Assets/Tiny Swords (Update 010)/Factions/Goblins/::1705019757
+::res://Assets/Tiny Swords (Update 010)/Factions/Goblins/Buildings/::1705019757
+::res://Assets/Tiny Swords (Update 010)/Factions/Goblins/Buildings/Wood_Tower/::1705019757
+Wood_Tower_Blue.png::CompressedTexture2D::1875628602330052541::1704047975::1704047994::1::::<><>::
+Wood_Tower_Destroyed.png::CompressedTexture2D::4123682309751999430::1704047975::1704047994::1::::<><>::
+Wood_Tower_InConstruction.png::CompressedTexture2D::1093091097777413744::1704047975::1704047994::1::::<><>::
+Wood_Tower_Purple.png::CompressedTexture2D::8738428837511048070::1704047975::1704047994::1::::<><>::
+Wood_Tower_Red.png::CompressedTexture2D::6798605260552417943::1704047975::1704047994::1::::<><>::
+Wood_Tower_Yellow.png::CompressedTexture2D::8645149812742325586::1704047975::1704047993::1::::<><>::
+::res://Assets/Tiny Swords (Update 010)/Factions/Goblins/Troops/::1705019757
+::res://Assets/Tiny Swords (Update 010)/Factions/Goblins/Troops/Barrel/::1705019757
+::res://Assets/Tiny Swords (Update 010)/Factions/Goblins/Troops/Barrel/Blue/::1705019757
+Barrel_Blue.png::CompressedTexture2D::5644564531507872194::1704047975::1704047994::1::::<><>::
+::res://Assets/Tiny Swords (Update 010)/Factions/Goblins/Troops/Barrel/Purple/::1705019757
+Barrel_Purple.png::CompressedTexture2D::8770949644262234978::1704047975::1704047994::1::::<><>::
+::res://Assets/Tiny Swords (Update 010)/Factions/Goblins/Troops/Barrel/Red/::1705019757
+Barrel_Red.png::CompressedTexture2D::8639561542433015483::1704047975::1704047994::1::::<><>::
+::res://Assets/Tiny Swords (Update 010)/Factions/Goblins/Troops/Barrel/Yellow/::1705019757
+Barrel_Yellow.png::CompressedTexture2D::5698040086122372287::1704047975::1704047994::1::::<><>::
+::res://Assets/Tiny Swords (Update 010)/Factions/Goblins/Troops/TNT/::1705019757
+::res://Assets/Tiny Swords (Update 010)/Factions/Goblins/Troops/TNT/Blue/::1705019757
+TNT_Blue.png::CompressedTexture2D::87074431592946455::1704047975::1704047994::1::::<><>::
+::res://Assets/Tiny Swords (Update 010)/Factions/Goblins/Troops/TNT/Dynamite/::1705019757
+Dynamite.png::CompressedTexture2D::8351368939640774511::1704047975::1704047993::1::::<><>::
+::res://Assets/Tiny Swords (Update 010)/Factions/Goblins/Troops/TNT/Purple/::1705019757
+TNT_Purple.png::CompressedTexture2D::7439459615939994946::1704047976::1704047994::1::::<><>::
+::res://Assets/Tiny Swords (Update 010)/Factions/Goblins/Troops/TNT/Red/::1705019757
+TNT_Red.png::CompressedTexture2D::5441648248080468858::1704047975::1704047994::1::::<><>::
+::res://Assets/Tiny Swords (Update 010)/Factions/Goblins/Troops/TNT/Yellow/::1705019757
+TNT_Yellow.png::CompressedTexture2D::4129615159702579403::1704047976::1704047994::1::::<><>::
+::res://Assets/Tiny Swords (Update 010)/Factions/Goblins/Troops/Torch/::1705019757
+::res://Assets/Tiny Swords (Update 010)/Factions/Goblins/Troops/Torch/Blue/::1705019757
+Torch_Blue.png::CompressedTexture2D::674843130879543780::1704047975::1704047994::1::::<><>::
+::res://Assets/Tiny Swords (Update 010)/Factions/Goblins/Troops/Torch/Purple/::1705019757
+Torch_Purple.png::CompressedTexture2D::3206583317769995948::1704047975::1704047994::1::::<><>::
+::res://Assets/Tiny Swords (Update 010)/Factions/Goblins/Troops/Torch/Red/::1705019757
+Torch_Red.png::CompressedTexture2D::4874993371004465455::1704047975::1704047994::1::::<><>::
+::res://Assets/Tiny Swords (Update 010)/Factions/Goblins/Troops/Torch/Yellow/::1705019757
+Torch_Yellow.png::CompressedTexture2D::7943609175797783405::1704047975::1704047994::1::::<><>::
+::res://Assets/Tiny Swords (Update 010)/Factions/Knights/::1705019758
+::res://Assets/Tiny Swords (Update 010)/Factions/Knights/Buildings/::1705019757
+::res://Assets/Tiny Swords (Update 010)/Factions/Knights/Buildings/Castle/::1705019757
+Castle_Blue.png::CompressedTexture2D::540354847379078979::1704047976::1704047994::1::::<><>::
+Castle_Construction.png::CompressedTexture2D::3275031939629206274::1704047976::1704047994::1::::<><>::
+Castle_Destroyed.png::CompressedTexture2D::7473977168632661165::1704047976::1704047994::1::::<><>::
+Castle_Purple.png::CompressedTexture2D::8869581982060915170::1704047976::1704047994::1::::<><>::
+Castle_Red.png::CompressedTexture2D::5066408730582900449::1704047976::1704047994::1::::<><>::
+Castle_Yellow.png::CompressedTexture2D::4191375855775580765::1704047976::1704047994::1::::<><>::
+::res://Assets/Tiny Swords (Update 010)/Factions/Knights/Buildings/House/::1705019757
+House_Blue.png::CompressedTexture2D::3450683484215872181::1704047976::1704047994::1::::<><>::
+House_Construction.png::CompressedTexture2D::557953263351783699::1704047976::1704047994::1::::<><>::
+House_Destroyed.png::CompressedTexture2D::6942393963416961682::1704047976::1704047994::1::::<><>::
+House_Purple.png::CompressedTexture2D::6008475894167719599::1704047976::1704047994::1::::<><>::
+House_Red.png::CompressedTexture2D::160136633026625887::1704047976::1704047994::1::::<><>::
+House_Yellow.png::CompressedTexture2D::5582833406769706976::1704047976::1704047994::1::::<><>::
+::res://Assets/Tiny Swords (Update 010)/Factions/Knights/Buildings/Tower/::1705019758
+Tower_Blue.png::CompressedTexture2D::3055180933456749992::1704047976::1704047994::1::::<><>::
+Tower_Construction.png::CompressedTexture2D::8742154027158929332::1704047976::1704047994::1::::<><>::
+Tower_Destroyed.png::CompressedTexture2D::817800175256139364::1704047976::1704047994::1::::<><>::
+Tower_Purple.png::CompressedTexture2D::1575244370392002468::1704047976::1704047994::1::::<><>::
+Tower_Red.png::CompressedTexture2D::8640367436870098337::1704047976::1704047994::1::::<><>::
+Tower_Yellow.png::CompressedTexture2D::7023795065966417736::1704047976::1704047994::1::::<><>::
+::res://Assets/Tiny Swords (Update 010)/Factions/Knights/Troops/::1705019758
+::res://Assets/Tiny Swords (Update 010)/Factions/Knights/Troops/Archer/::1705019758
+::res://Assets/Tiny Swords (Update 010)/Factions/Knights/Troops/Archer/Arrow/::1705019758
+Arrow.png::CompressedTexture2D::4875933986663394464::1704047976::1704047994::1::::<><>::
+::res://Assets/Tiny Swords (Update 010)/Factions/Knights/Troops/Archer/Blue/::1705019758
+Archer_Blue.png::CompressedTexture2D::8321102178002316123::1704047976::1704047995::1::::<><>::
+Archer_Blue_(NoArms).png::CompressedTexture2D::2408789008457023805::1704047976::1704047994::1::::<><>::
+Archer_Bow.png::CompressedTexture2D::1977208783132258403::1704047976::1704047994::1::::<><>::
+::res://Assets/Tiny Swords (Update 010)/Factions/Knights/Troops/Archer/Purple/::1705019758
+Archer_Purlple.png::CompressedTexture2D::2431501726602254809::1704047977::1704047995::1::::<><>::
+::res://Assets/Tiny Swords (Update 010)/Factions/Knights/Troops/Archer/Red/::1705019758
+Archer_Red.png::CompressedTexture2D::4071373760610845128::1704047976::1704047995::1::::<><>::
+::res://Assets/Tiny Swords (Update 010)/Factions/Knights/Troops/Archer/Yellow/::1705019758
+Archer_Yellow.png::CompressedTexture2D::9109099293487821862::1704047977::1704047995::1::::<><>::
+::res://Assets/Tiny Swords (Update 010)/Factions/Knights/Troops/Dead/::1705019758
+Dead.png::CompressedTexture2D::1017877056731213418::1704047976::1704047994::1::::<><>::
+::res://Assets/Tiny Swords (Update 010)/Factions/Knights/Troops/Pawn/::1705019758
+::res://Assets/Tiny Swords (Update 010)/Factions/Knights/Troops/Pawn/Blue/::1705019758
+Pawn_Blue.png::CompressedTexture2D::5318724530222943814::1704047977::1704047994::1::::<><>::
+::res://Assets/Tiny Swords (Update 010)/Factions/Knights/Troops/Pawn/Purple/::1705019758
+Pawn_Purple.png::CompressedTexture2D::7510960811007506278::1704047977::1704047994::1::::<><>::
+::res://Assets/Tiny Swords (Update 010)/Factions/Knights/Troops/Pawn/Red/::1705019758
+Pawn_Red.png::CompressedTexture2D::2882022407882123249::1704047977::1704047994::1::::<><>::
+::res://Assets/Tiny Swords (Update 010)/Factions/Knights/Troops/Pawn/Yellow/::1705019758
+Pawn_Yellow.png::CompressedTexture2D::5783734075473952845::1704047977::1704047994::1::::<><>::
+::res://Assets/Tiny Swords (Update 010)/Factions/Knights/Troops/Warrior/::1705019758
+::res://Assets/Tiny Swords (Update 010)/Factions/Knights/Troops/Warrior/Blue/::1705019758
+Warrior_Blue.png::CompressedTexture2D::6138259916481575702::1704047977::1704047995::1::::<><>::
+::res://Assets/Tiny Swords (Update 010)/Factions/Knights/Troops/Warrior/Purple/::1705019758
+Warrior_Purple.png::CompressedTexture2D::4753716019957681688::1704047977::1704047995::1::::<><>::
+::res://Assets/Tiny Swords (Update 010)/Factions/Knights/Troops/Warrior/Red/::1705019758
+Warrior_Red.png::CompressedTexture2D::4240170527821496284::1704047977::1704047995::1::::<><>::
+::res://Assets/Tiny Swords (Update 010)/Factions/Knights/Troops/Warrior/Yellow/::1705019758
+Warrior_Yellow.png::CompressedTexture2D::2142808704546697678::1704047977::1704047995::1::::<><>::
+::res://Assets/Tiny Swords (Update 010)/Resources/::1705019758
+::res://Assets/Tiny Swords (Update 010)/Resources/Gold Mine/::1705019758
+GoldMine_Active.png::CompressedTexture2D::1918914380057975866::1704047974::1704047994::1::::<><>::
+GoldMine_Destroyed.png::CompressedTexture2D::9121240147286172609::1704047974::1704047994::1::::<><>::
+GoldMine_Inactive.png::CompressedTexture2D::151226688192038851::1704047974::1704047994::1::::<><>::
+::res://Assets/Tiny Swords (Update 010)/Resources/Resources/::1705019758
+G_Idle.png::CompressedTexture2D::1779852610022921368::1704047974::1704047994::1::::<><>::
+G_Idle_(NoShadow).png::CompressedTexture2D::5482326748245796644::1704047974::1704047994::1::::<><>::
+G_Spawn.png::CompressedTexture2D::8658831799423851730::1704047974::1704047994::1::::<><>::
+M_Idle.png::CompressedTexture2D::5814154996639123909::1704047974::1704047994::1::::<><>::
+M_Idle_(NoShadow).png::CompressedTexture2D::3796385808528360340::1704047974::1704047994::1::::<><>::
+M_Spawn.png::CompressedTexture2D::863231119613158487::1704047974::1704047994::1::::<><>::
+W_Idle.png::CompressedTexture2D::3639639022961146085::1704047973::1704047994::1::::<><>::
+W_Idle_(NoShadow).png::CompressedTexture2D::770617397204359675::1704047973::1704047994::1::::<><>::
+W_Spawn.png::CompressedTexture2D::9106795901696643662::1704047973::1704047994::1::::<><>::
+::res://Assets/Tiny Swords (Update 010)/Resources/Sheep/::1705019758
+HappySheep_All.png::CompressedTexture2D::5436234941831323857::1704047973::1704047994::1::::<><>::
+HappySheep_Bouncing.png::CompressedTexture2D::7306480119409298::1704047973::1704047994::1::::<><>::
+HappySheep_Idle.png::CompressedTexture2D::4289381051583473162::1704047973::1704047994::1::::<><>::
+::res://Assets/Tiny Swords (Update 010)/Resources/Trees/::1705019758
+Tree.png::CompressedTexture2D::1061521097394379162::1704047973::1704047994::1::::<><>::
+::res://Assets/Tiny Swords (Update 010)/Terrain/::1705019758
+::res://Assets/Tiny Swords (Update 010)/Terrain/Bridge/::1705019758
+Bridge_All.png::CompressedTexture2D::6694623631583715550::1704047974::1704047994::1::::<><>::
+::res://Assets/Tiny Swords (Update 010)/Terrain/Ground/::1705019758
+Shadows.png::CompressedTexture2D::6803923254161301338::1704047974::1704047994::1::::<><>::
+Tilemap_Elevation.png::CompressedTexture2D::4667659932108069170::1704047974::1704047994::1::::<><>::
+Tilemap_Flat.png::CompressedTexture2D::2651933909647290912::1704047974::1704047994::1::::<><>::
+::res://Assets/Tiny Swords (Update 010)/Terrain/Water/::1705019758
+Water.png::CompressedTexture2D::8176011248024756848::1704047974::1704047994::1::::<><>::
+::res://Assets/Tiny Swords (Update 010)/Terrain/Water/Foam/::1705019758
+Foam.png::CompressedTexture2D::7837825303308343587::1704047974::1704047994::1::::<><>::
+::res://Assets/Tiny Swords (Update 010)/Terrain/Water/Rocks/::1705019758
+Rocks_01.png::CompressedTexture2D::4404948087742188845::1704047974::1704047994::1::::<><>::
+Rocks_02.png::CompressedTexture2D::3925352566604279631::1704047974::1704047994::1::::<><>::
+Rocks_03.png::CompressedTexture2D::6344699795321090939::1704047974::1704047994::1::::<><>::
+Rocks_04.png::CompressedTexture2D::285021131323245948::1704047974::1704047994::1::::<><>::
+::res://Assets/Tiny Swords (Update 010)/UI/::1705019759
+::res://Assets/Tiny Swords (Update 010)/UI/Banners/::1705019758
+Banner_Connection_Down.png::CompressedTexture2D::6537949917534382346::1704047972::1704047993::1::::<><>::
+Banner_Connection_Left.png::CompressedTexture2D::1203544612974872986::1704047972::1704047993::1::::<><>::
+Banner_Connection_Right.png::CompressedTexture2D::8572286896627600620::1704047972::1704047993::1::::<><>::
+Banner_Connection_Up.png::CompressedTexture2D::2822492132742973263::1704047972::1704047993::1::::<><>::
+Banner_Horizontal.png::CompressedTexture2D::3149041274273177261::1704047972::1704047993::1::::<><>::
+Banner_Vertical.png::CompressedTexture2D::4995225101282118150::1704047972::1704047993::1::::<><>::
+Carved_3Slides.png::CompressedTexture2D::6657665272114152585::1704047972::1704047993::1::::<><>::
+Carved_9Slides.png::CompressedTexture2D::6054379026567865524::1704047972::1704047993::1::::<><>::
+Carved_Regular.png::CompressedTexture2D::7038295039889240324::1704047972::1704047993::1::::<><>::
+::res://Assets/Tiny Swords (Update 010)/UI/Buttons/::1705019759
+Button_Blue.png::CompressedTexture2D::8788383902970398746::1704047971::1704047993::1::::<><>::
+Button_Blue_3Slides.png::CompressedTexture2D::1519926005281343489::1704047971::1704047993::1::::<><>::
+Button_Blue_3Slides_Pressed.png::CompressedTexture2D::1235675418554548143::1704047972::1704047993::1::::<><>::
+Button_Blue_9Slides.png::CompressedTexture2D::4820873996623809875::1704047971::1704047993::1::::<><>::
+Button_Blue_9Slides_Pressed.png::CompressedTexture2D::7470945338501493494::1704047971::1704047993::1::::<><>::
+Button_Blue_Pressed.png::CompressedTexture2D::6840131490944312783::1704047972::1704047993::1::::<><>::
+Button_Disable.png::CompressedTexture2D::567399867097745333::1704047972::1704047993::1::::<><>::
+Button_Disable_3Slides.png::CompressedTexture2D::9037413514451857818::1704047971::1704047993::1::::<><>::
+Button_Disable_9Slides.png::CompressedTexture2D::1716477229580798436::1704047971::1704047993::1::::<><>::
+Button_Hover.png::CompressedTexture2D::1148694368039794075::1704047972::1704047993::1::::<><>::
+Button_Hover_3Slides.png::CompressedTexture2D::2138081629099018619::1704047972::1704047993::1::::<><>::
+Button_Hover_9Slides.png::CompressedTexture2D::5632203313636974026::1704047972::1704047993::1::::<><>::
+Button_Red.png::CompressedTexture2D::2413058801678144875::1704047972::1704047993::1::::<><>::
+Button_Red_3Slides.png::CompressedTexture2D::2130013526115949461::1704047971::1704047993::1::::<><>::
+Button_Red_3Slides_Pressed.png::CompressedTexture2D::5487504489587132015::1704047972::1704047993::1::::<><>::
+Button_Red_9Slides.png::CompressedTexture2D::1614696799992696463::1704047971::1704047993::1::::<><>::
+Button_Red_9Slides_Pressed.png::CompressedTexture2D::5632525000551567126::1704047971::1704047993::1::::<><>::
+Button_Red_Pressed.png::CompressedTexture2D::6971345327468700853::1704047972::1704047993::1::::<><>::
+::res://Assets/Tiny Swords (Update 010)/UI/Icons/::1705019759
+Disable_01.png::CompressedTexture2D::835383744017670285::1704047973::1704047993::1::::<><>::
+Disable_02.png::CompressedTexture2D::8045362635764579233::1704047973::1704047993::1::::<><>::
+Disable_03.png::CompressedTexture2D::1712857512430938345::1704047973::1704047993::1::::<><>::
+Disable_04.png::CompressedTexture2D::8363875478879877373::1704047973::1704047993::1::::<><>::
+Disable_05.png::CompressedTexture2D::89144024204583480::1704047973::1704047993::1::::<><>::
+Disable_06.png::CompressedTexture2D::3080405596248517344::1704047973::1704047993::1::::<><>::
+Disable_07.png::CompressedTexture2D::1620863980671725857::1704047973::1704047993::1::::<><>::
+Disable_08.png::CompressedTexture2D::3680208724280538861::1704047973::1704047993::1::::<><>::
+Disable_09.png::CompressedTexture2D::4715794973116518788::1704047973::1704047993::1::::<><>::
+Disable_10.png::CompressedTexture2D::8268667130267207062::1704047973::1704047993::1::::<><>::
+Pressed_01.png::CompressedTexture2D::1619196635924399786::1704047972::1704047993::1::::<><>::
+Pressed_02.png::CompressedTexture2D::3501243306184911567::1704047972::1704047993::1::::<><>::
+Pressed_03.png::CompressedTexture2D::6917219841550968445::1704047972::1704047993::1::::<><>::
+Pressed_04.png::CompressedTexture2D::8412827644710605577::1704047973::1704047993::1::::<><>::
+Pressed_05.png::CompressedTexture2D::3949634927566373275::1704047973::1704047993::1::::<><>::
+Pressed_06.png::CompressedTexture2D::1480616877111762088::1704047973::1704047993::1::::<><>::
+Pressed_07.png::CompressedTexture2D::15015810063174308::1704047973::1704047993::1::::<><>::
+Pressed_08.png::CompressedTexture2D::9160226427658370215::1704047973::1704047993::1::::<><>::
+Pressed_09.png::CompressedTexture2D::6506991546243257972::1704047973::1704047993::1::::<><>::
+Pressed_10.png::CompressedTexture2D::1818915979080105852::1704047973::1704047993::1::::<><>::
+Regular_01.png::CompressedTexture2D::3246663047927570657::1704047973::1704047993::1::::<><>::
+Regular_02.png::CompressedTexture2D::2307196305174813299::1704047973::1704047993::1::::<><>::
+Regular_03.png::CompressedTexture2D::7079219989071876109::1704047973::1704047993::1::::<><>::
+Regular_04.png::CompressedTexture2D::3043177691738708069::1704047973::1704047993::1::::<><>::
+Regular_05.png::CompressedTexture2D::4904702169835173218::1704047973::1704047993::1::::<><>::
+Regular_06.png::CompressedTexture2D::3675473969367855640::1704047973::1704047993::1::::<><>::
+Regular_07.png::CompressedTexture2D::4953599294051493889::1704047973::1704047993::1::::<><>::
+Regular_08.png::CompressedTexture2D::8606011736916596272::1704047973::1704047993::1::::<><>::
+Regular_09.png::CompressedTexture2D::4632355647868714166::1704047973::1704047993::1::::<><>::
+Regular_10.png::CompressedTexture2D::3719253430318526259::1704047973::1704047993::1::::<><>::
+::res://Assets/Tiny Swords (Update 010)/UI/Pointers/::1705019759
+01.png::CompressedTexture2D::3100455849068865763::1704047973::1704047993::1::::<><>::
+02.png::CompressedTexture2D::5992006269960689301::1704047973::1704047993::1::::<><>::
+03.png::CompressedTexture2D::5391800296188110751::1704047973::1704047993::1::::<><>::
+04.png::CompressedTexture2D::6879054764385226294::1704047973::1704047993::1::::<><>::
+05.png::CompressedTexture2D::1950997266156736181::1704047973::1704047993::1::::<><>::
+06.png::CompressedTexture2D::3836407874745274422::1704047973::1704047993::1::::<><>::
+::res://Assets/Tiny Swords (Update 010)/UI/Ribbons/::1705019759
+Ribbon_Blue_3Slides.png::CompressedTexture2D::4547602885156119027::1704047972::1704047993::1::::<><>::
+Ribbon_Blue_Connection_Down.png::CompressedTexture2D::2816843508256829220::1704047972::1704047993::1::::<><>::
+Ribbon_Blue_Connection_Down_Pressed.png::CompressedTexture2D::4568891853094128778::1704047972::1704047993::1::::<><>::
+Ribbon_Blue_Connection_Left.png::CompressedTexture2D::7047835623846015691::1704047972::1704047993::1::::<><>::
+Ribbon_Blue_Connection_Left_Pressed.png::CompressedTexture2D::4780505737498265454::1704047972::1704047993::1::::<><>::
+Ribbon_Blue_Connection_Right.png::CompressedTexture2D::3571295096775118705::1704047972::1704047993::1::::<><>::
+Ribbon_Blue_Connection_Right_Pressed.png::CompressedTexture2D::6715731537905248998::1704047972::1704047993::1::::<><>::
+Ribbon_Blue_Connection_Up.png::CompressedTexture2D::287786717376500908::1704047972::1704047993::1::::<><>::
+Ribbon_Blue_Connection_Up_Pressed.png::CompressedTexture2D::2527479880015281166::1704047972::1704047993::1::::<><>::
+Ribbon_Red_3Slides.png::CompressedTexture2D::7749103325326793021::1704047972::1704047993::1::::<><>::
+Ribbon_Red_Connection_Down.png::CompressedTexture2D::2790781150534275459::1704047972::1704047993::1::::<><>::
+Ribbon_Red_Connection_Down_Pressed.png::CompressedTexture2D::3668259398173738881::1704047972::1704047993::1::::<><>::
+Ribbon_Red_Connection_Left.png::CompressedTexture2D::2942399520642119799::1704047972::1704047993::1::::<><>::
+Ribbon_Red_Connection_Left_Pressed.png::CompressedTexture2D::2860428352904767168::1704047972::1704047993::1::::<><>::
+Ribbon_Red_Connection_Right.png::CompressedTexture2D::4211285999827982637::1704047972::1704047993::1::::<><>::
+Ribbon_Red_Connection_Right_Pressed.png::CompressedTexture2D::4377808389582881649::1704047972::1704047993::1::::<><>::
+Ribbon_Red_Connection_Up.png::CompressedTexture2D::2199526179269517713::1704047972::1704047993::1::::<><>::
+Ribbon_Red_Connection_Up_Pressed.png::CompressedTexture2D::1245550770484234253::1704047972::1704047993::1::::<><>::
+Ribbon_Yellow_3Slides.png::CompressedTexture2D::2508297601478668179::1704047972::1704047993::1::::<><>::
+Ribbon_Yellow_Connection_Down.png::CompressedTexture2D::7437186502186607401::1704047972::1704047993::1::::<><>::
+Ribbon_Yellow_Connection_Down_Pressed.png::CompressedTexture2D::3059252620838510628::1704047972::1704047993::1::::<><>::
+Ribbon_Yellow_Connection_Left.png::CompressedTexture2D::3551698442438235444::1704047972::1704047993::1::::<><>::
+Ribbon_Yellow_Connection_Left_Pressed.png::CompressedTexture2D::29924580327990589::1704047972::1704047993::1::::<><>::
+Ribbon_Yellow_Connection_Right.png::CompressedTexture2D::6250313328929479735::1704047972::1704047993::1::::<><>::
+Ribbon_Yellow_Connection_Right_Pressed.png::CompressedTexture2D::7614328754831949848::1704047972::1704047993::1::::<><>::
+Ribbon_Yellow_Connection_Up.png::CompressedTexture2D::4527349473720989725::1704047972::1704047993::1::::<><>::
+Ribbon_Yellow_Connection_Up_Pressed.png::CompressedTexture2D::4209630139327136869::1704047972::1704047993::1::::<><>::
+::res://Assets/VirtualJoystickPack/::1722001622
+Joystick.png::CompressedTexture2D::5382719469840496135::1722001585::1722001622::1::::<><>::
+JoystickPack Preview.png::CompressedTexture2D::3145098334283090665::1722001585::1722001622::1::::<><>::
+JoystickPack.png::CompressedTexture2D::4281835666445392429::1722001585::1722001622::1::::<><>::
+JoystickSplitted.png::CompressedTexture2D::1415467882994338653::1722001585::1722001622::1::::<><>::
+LargeHandleFilled.png::CompressedTexture2D::5665974083713844312::1722001585::1722001622::1::::<><>::
+LargeHandleFilledGrey.png::CompressedTexture2D::7538391690950807856::1722001585::1722001622::1::::<><>::
+SmallHandle.png::CompressedTexture2D::7349930596287129252::1722001585::1722001622::1::::<><>::
+SmallHandleFilled.png::CompressedTexture2D::7201461571851881375::1722001585::1722001622::1::::<><>::
+SmallHandleFilledGrey.png::CompressedTexture2D::9008955494066119406::1722001585::1722001622::1::::<><>::
+::res://Characters/::1722422698
+Archer.tscn::PackedScene::21204760068286256::1722089927::0::1::::<><>::uid://bak3nx6d7bbtl
+Arrow.gd::GDScript::-1::1706368606::0::1::::<>Area2D<>::
+Arrow.tscn::PackedScene::2306532502667099810::1722000291::0::1::::<><>::res://Characters/Arrow.gd<>uid://cbp66j7rs3bsy
+GoblinFighter.tscn::PackedScene::6983378887775494163::1722000291::0::1::::<><>::uid://ju5tklvgjdvg
+GoblinThrower.tscn::PackedScene::7091378747574099429::1722000291::0::1::::<><>::uid://bigdri4ikun4
+Knight.gd::GDScript::-1::1707926177::0::1::::<>CharacterBody2D<>::
+Knight.tscn::PackedScene::8636808095604151867::1722090083::0::1::::<><>::res://Characters/Knight.gd<>uid://ctpoikcx70sxy
+PlayerAttack.gd::GDScript::-1::1722038367::0::1::::<>State<>::
+PlayerIdle.gd::GDScript::-1::1722113865::0::1::::<>State<>::
+PlayerRun.gd::GDScript::-1::1722113865::0::1::::<>State<>::
+Sheep.gd::GDScript::-1::1707926056::0::1::::<>CharacterBody2D<>::
+Sheep.tscn::PackedScene::496701053051681348::1722422698::0::1::::<><>::uid://cjpl83rh4jfs8::::res://Assets/Tiny Swords (Update 010)/Resources/Sheep/HappySheep_All.png<>res://Characters/Sheep.gd<>res://StateMachine/SheepStateMachine.gd<>res://StateMachine/SheepIdle.gd<>res://StateMachine/SheepDeadState.gd<>res://StateMachine/SheepHitState.gd<>uid://co3ojvsib7i18::::res://Assets/Tiny Swords (Update 010)/Resources/Resources/M_Idle.png
+::res://StateMachine/::1722113867
+ArcherIdleState.gd::GDScript::-1::1706365623::0::1::::ArcherIdleState<>State<>::
+ArcherRunState.gd::GDScript::-1::1706368606::0::1::::ArcherRunState<>State<>::
+ArcherShootState.gd::GDScript::-1::1707075518::0::1::::ArcherAttackState<>State<>::
+ArcherStateMachine.gd::GDScript::-1::1705256893::0::1::::ArcherStateMachine<>Node<>::
+AttackState.gd::GDScript::-1::1722037331::0::1::::AttackState<>State<>::
+GobThrowerStateMachine.gd::GDScript::-1::1707077121::0::1::::ThrowerStateMachine<>Node<>::
+IdleState.gd::GDScript::-1::1722037706::0::1::::IdleState<>State<>::
+KnightStateMachine.gd::GDScript::-1::1706368503::0::1::::PlayerStateMachine<>Node<>::
+PlayerKnightStateMachine.tscn::PackedScene::1067432160978850650::1722113867::0::1::::<><>::res://StateMachine/KnightStateMachine.gd<>res://Characters/PlayerIdle.gd<>res://Characters/PlayerRun.gd<>res://Characters/PlayerAttack.gd
+RunState.gd::GDScript::-1::1722038367::0::1::::RunState<>State<>::
+SheepDeadState.gd::GDScript::-1::1707927441::0::1::::SheepDeadState<>State<>::
+SheepHitState.gd::GDScript::-1::1706369750::0::1::::SheepHitState<>State<>::
+SheepIdle.gd::GDScript::-1::1707926056::0::1::::SheepIdleState<>State<>::
+SheepStateMachine.gd::GDScript::-1::1707926056::0::1::::SheepStateMachine<>Node<>::
+State.gd::GDScript::-1::1706369088::0::1::::State<>Node<>::
+ThrowerAttackState.gd::GDScript::-1::1707078345::0::1::::<>State<>::
+ThrowerIdleState.gd::GDScript::-1::1707078331::0::1::::<>State<>::
+ThrowerRunState.gd::GDScript::-1::1707078082::0::1::::<>State<>::
+::res://UI/::1722422812
+Joystick.gd::GDScript::-1::1722112845::0::1::::<>TouchScreenButton<>::

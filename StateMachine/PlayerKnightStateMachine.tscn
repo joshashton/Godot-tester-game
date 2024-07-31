@@ -1,0 +1,19 @@
+[gd_scene load_steps=5 format=3 uid="uid://phcpmhdejb2y"]
+
+[ext_resource type="Script" path="res://StateMachine/KnightStateMachine.gd" id="1_xwapt"]
+[ext_resource type="Script" path="res://Characters/PlayerIdle.gd" id="2_tl1qr"]
+[ext_resource type="Script" path="res://Characters/PlayerRun.gd" id="3_qm3px"]
+[ext_resource type="Script" path="res://Characters/PlayerAttack.gd" id="4_kbnfs"]
+
+[node name="PlayerKnightStateMachine" type="Node" node_paths=PackedStringArray("initial_state")]
+script = ExtResource("1_xwapt")
+initial_state = NodePath("PlayerIdle")
+
+[node name="PlayerIdle" type="Node" parent="."]
+script = ExtResource("2_tl1qr")
+
+[node name="PlayerRun" type="Node" parent="."]
+script = ExtResource("3_qm3px")
+
+[node name="PlayerAttack" type="Node" parent="."]
+script = ExtResource("4_kbnfs")
