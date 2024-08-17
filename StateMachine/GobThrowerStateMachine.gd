@@ -1,6 +1,6 @@
 extends Node
 #changes states
-class_name ThrowerStateMachine
+class_name GoblinStateMachine
 
 @export var initial_state : State
 @export var character : CharacterBody2D

@@ -1,6 +1,9 @@
-[gd_scene load_steps=10 format=3 uid="uid://c6q2h242ua7yd"]
+[gd_scene load_steps=15 format=3 uid="uid://c6q2h242ua7yd"]
 
 [ext_resource type="Texture2D" uid="uid://ju5tklvgjdvg" path="res://Assets/Tiny Swords (Update 010)/Factions/Goblins/Troops/Torch/Blue/Torch_Blue.png" id="1_d18fw"]
+[ext_resource type="Script" path="res://StateMachine/GobThrowerStateMachine.gd" id="2_7uxky"]
+[ext_resource type="Script" path="res://StateMachine/ThrowerIdleState.gd" id="3_b6jr4"]
+[ext_resource type="Script" path="res://StateMachine/ThrowerRunState.gd" id="4_41roj"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_xw65m"]
 size = Vector2(51, 20.5)
@@ -112,7 +115,15 @@ _data = {
 "run": SubResource("Animation_fh00u")
 }
 
+[sub_resource type="CircleShape2D" id="CircleShape2D_edr83"]
+radius = 363.022
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_mnj1n"]
+radius = 64.195
+
 [node name="GoblinFighter" type="CharacterBody2D"]
+position = Vector2(536, 291)
+collision_mask = 3
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(0.5, 27)
@@ -128,3 +139,31 @@ frame = 1
 libraries = {
 "": SubResource("AnimationLibrary_ktwsi")
 }
+
+[node name="GoblinStateMachine" type="Node" parent="." node_paths=PackedStringArray("initial_state", "character")]
+script = ExtResource("2_7uxky")
+initial_state = NodePath("Idle")
+character = NodePath("..")
+
+[node name="Idle" type="Node" parent="GoblinStateMachine"]
+script = ExtResource("3_b6jr4")
+
+[node name="Run" type="Node" parent="GoblinStateMachine"]
+script = ExtResource("4_41roj")
+
+[node name="DetectionRadius" type="Area2D" parent="."]
+collision_mask = 3
+monitorable = false
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="DetectionRadius"]
+shape = SubResource("CircleShape2D_edr83")
+
+[node name="AttackRange" type="Area2D" parent="."]
+monitorable = false
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="AttackRange"]
+shape = SubResource("CircleShape2D_mnj1n")
+
+[connection signal="body_entered" from="DetectionRadius" to="GoblinStateMachine/Idle" method="_on_detection_radius_body_entered"]
+[connection signal="body_entered" from="AttackRange" to="GoblinStateMachine/Idle" method="_on_attack_range_body_entered"]
+[connection signal="body_entered" from="AttackRange" to="GoblinStateMachine/Run" method="_on_attack_range_body_entered"]

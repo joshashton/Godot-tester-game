@@ -1,4 +1,5 @@
 extends Area2D
+#class_name Weapon
 
 var pushback_strength = 50
 var speed = 500

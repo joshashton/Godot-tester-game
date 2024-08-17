@@ -1,12 +1,16 @@
-[gd_scene load_steps=4 format=3 uid="uid://b8k7eqbqyxeiq"]
+[gd_scene load_steps=7 format=3 uid="uid://b8k7eqbqyxeiq"]
 
 [ext_resource type="PackedScene" uid="uid://dvby75n45b8ot" path="res://Characters/Knight.tscn" id="1_8gsur"]
 [ext_resource type="PackedScene" uid="uid://phcpmhdejb2y" path="res://StateMachine/PlayerKnightStateMachine.tscn" id="2_vtcns"]
 [ext_resource type="PackedScene" uid="uid://4cia36tkvmak" path="res://UI/PlayerUI.tscn" id="3_h5jkx"]
+[ext_resource type="PackedScene" uid="uid://hcuugnyxefvw" path="res://Characters/Sheep.tscn" id="4_2otax"]
+[ext_resource type="PackedScene" uid="uid://c8bd8br6gbxs4" path="res://Characters/GoblinThrower.tscn" id="5_ateqc"]
+[ext_resource type="PackedScene" uid="uid://c6q2h242ua7yd" path="res://Characters/GoblinFighter.tscn" id="6_c3bfi"]
 
 [node name="Node2D" type="Node2D"]
 
 [node name="Knight" parent="." instance=ExtResource("1_8gsur")]
+position = Vector2(95, 119)
 
 [node name="PlayerKnightStateMachine" parent="Knight" node_paths=PackedStringArray("character", "current_state") instance=ExtResource("2_vtcns")]
 character = NodePath("..")
@@ -16,6 +20,14 @@ current_state = NodePath("PlayerIdle")
 can_move = false
 
 [node name="CanvasLayer" parent="." instance=ExtResource("3_h5jkx")]
+
+[node name="Sheep" parent="." instance=ExtResource("4_2otax")]
+position = Vector2(550, 164)
+
+[node name="GoblinThrower" parent="." instance=ExtResource("5_ateqc")]
+
+[node name="GoblinFighter" parent="." instance=ExtResource("6_c3bfi")]
+position = Vector2(1049, 144)
 
 [editable path="Knight"]
 [editable path="Knight/PlayerKnightStateMachine"]

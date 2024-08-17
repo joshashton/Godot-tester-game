@@ -1,7 +1,8 @@
-[gd_scene load_steps=36 format=3 uid="uid://dvby75n45b8ot"]
+[gd_scene load_steps=37 format=3 uid="uid://dvby75n45b8ot"]
 
 [ext_resource type="Script" path="res://Characters/Knight.gd" id="1_xban5"]
 [ext_resource type="Texture2D" uid="uid://ctpoikcx70sxy" path="res://Assets/Tiny Swords (Update 010)/Factions/Knights/Troops/Warrior/Blue/Warrior_Blue.png" id="3_2cxrx"]
+[ext_resource type="Script" path="res://Characters/KnightSword.gd" id="3_3t0vo"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_fcou0"]
 size = Vector2(41, 28)
@@ -713,6 +714,7 @@ shape = SubResource("RectangleShape2D_fcou0")
 texture = ExtResource("3_2cxrx")
 hframes = 6
 vframes = 8
+frame = 12
 region_rect = Rect2(0, 0, 1152, 1536)
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
@@ -726,7 +728,9 @@ libraries = {
 "": SubResource("AnimationLibrary_1nv16")
 }
 
-[node name="Sword" type="Area2D" parent="."]
+[node name="Sword" type="Area2D" parent="." groups=["weapon"]]
+collision_layer = 3
+script = ExtResource("3_3t0vo")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Sword"]
 position = Vector2(72, -9)
