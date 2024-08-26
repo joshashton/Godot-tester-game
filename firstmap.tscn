@@ -1,17 +1,20 @@
-[gd_scene load_steps=10 format=3 uid="uid://dmiwrresgf8o4"]
+[gd_scene load_steps=12 format=3 uid="uid://dmiwrresgf8o4"]
 
 [ext_resource type="Texture2D" uid="uid://bjr7nbpjgr0o7" path="res://Assets/Tiny Swords (Update 010)/Factions/Knights/Buildings/Tower/Tower_Blue.png" id="1_2d4j5"]
+[ext_resource type="Script" path="res://firstmap.gd" id="1_2wwin"]
 [ext_resource type="Texture2D" uid="uid://hx0thucl01it" path="res://Assets/Tiny Swords (Update 010)/Factions/Knights/Buildings/Castle/Castle_Blue.png" id="2_6m3ut"]
 [ext_resource type="TileSet" uid="uid://cohsgte7uxg2c" path="res://tilesetmap.tres" id="4_uvjic"]
-[ext_resource type="PackedScene" uid="uid://phcpmhdejb2y" path="res://StateMachine/PlayerKnightStateMachine.tscn" id="4_yxiv4"]
 [ext_resource type="PackedScene" uid="uid://hcuugnyxefvw" path="res://Characters/Sheep.tscn" id="6_73rx7"]
+[ext_resource type="Texture2D" uid="uid://dxhfntdxwv1w5" path="res://Assets/Tiny Swords (Update 010)/UI/Buttons/Button_Blue.png" id="7_b25tb"]
 [ext_resource type="PackedScene" uid="uid://4cia36tkvmak" path="res://UI/PlayerUI.tscn" id="7_xgbaq"]
 [ext_resource type="PackedScene" uid="uid://c6q2h242ua7yd" path="res://Characters/GoblinFighter.tscn" id="8_4h3mh"]
 [ext_resource type="PackedScene" uid="uid://c8bd8br6gbxs4" path="res://Characters/GoblinThrower.tscn" id="9_iohk2"]
-[ext_resource type="PackedScene" uid="uid://dvby75n45b8ot" path="res://Characters/Knight.tscn" id="9_scnwo"]
+[ext_resource type="PackedScene" uid="uid://bus1su5g5c0yx" path="res://Characters/Knight.tscn" id="9_scnwo"]
+[ext_resource type="PackedScene" uid="uid://kjievptis0g" path="res://Characters/Archer.tscn" id="11_igo3h"]
 
 [node name="Node2D" type="Node2D"]
 y_sort_enabled = true
+script = ExtResource("1_2wwin")
 
 [node name="Sprite2D2" type="Sprite2D" parent="."]
 z_index = 6
@@ -25,15 +28,6 @@ y_sort_enabled = true
 position = Vector2(-203, -296)
 scale = Vector2(1.26563, 1.21094)
 texture = ExtResource("2_6m3ut")
-
-[node name="Player" parent="." instance=ExtResource("9_scnwo")]
-z_index = 13
-y_sort_enabled = true
-
-[node name="Camera2D2" type="Camera2D" parent="Player"]
-
-[node name="PlayerKnightStateMachine" parent="Player" node_paths=PackedStringArray("character") instance=ExtResource("4_yxiv4")]
-character = NodePath("..")
 
 [node name="TileMap2" type="TileMap" parent="."]
 z_index = 1
@@ -87,6 +81,11 @@ position = Vector2(250, 90)
 
 [node name="CanvasLayer" parent="." instance=ExtResource("7_xgbaq")]
 
+[node name="TouchScreenButton" type="TouchScreenButton" parent="CanvasLayer"]
+position = Vector2(44, 30)
+scale = Vector2(2.35938, 2)
+texture_normal = ExtResource("7_b25tb")
+
 [node name="GoblinFighter" parent="." instance=ExtResource("8_4h3mh")]
 z_index = 13
 position = Vector2(841, -130)
@@ -95,4 +94,17 @@ position = Vector2(841, -130)
 z_index = 13
 position = Vector2(977, -61)
 
-[editable path="Player"]
+[node name="Archer" parent="." instance=ExtResource("11_igo3h")]
+z_index = 13
+position = Vector2(88, 152)
+
+[node name="Knight" parent="." instance=ExtResource("9_scnwo")]
+z_index = 13
+
+[node name="playerspawn" type="Marker2D" parent="."]
+z_index = 13
+position = Vector2(-199, -108)
+
+[connection signal="pressed" from="CanvasLayer/TouchScreenButton" to="." method="_on_button_pressed"]
+
+[editable path="Sheep"]

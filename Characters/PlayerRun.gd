@@ -14,7 +14,7 @@ var input_vector := Vector2.ZERO
 
 func Enter() -> void:
 	animated_sprite.play("run")
-	print("Run")
+	#print("Run")
 	
 
 func Update(delta):

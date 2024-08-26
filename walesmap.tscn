@@ -1,6 +1,6 @@
 [gd_scene load_steps=5 format=3 uid="uid://dbp6o1d3j2x5d"]
 
-[ext_resource type="PackedScene" uid="uid://dvby75n45b8ot" path="res://Characters/Knight.tscn" id="1_ag3kp"]
+[ext_resource type="PackedScene" uid="uid://dvby75n45b8ot" path="res://Scenes/PlayableCharacter/PlayableKnight.tscn" id="1_ag3kp"]
 [ext_resource type="PackedScene" uid="uid://kjievptis0g" path="res://Characters/Archer.tscn" id="2_nbd06"]
 [ext_resource type="PackedScene" uid="uid://hcuugnyxefvw" path="res://Characters/Sheep.tscn" id="3_2dp53"]
 [ext_resource type="PackedScene" uid="uid://c8bd8br6gbxs4" path="res://Characters/GoblinThrower.tscn" id="4_d3wob"]

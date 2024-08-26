@@ -1,7 +1,12 @@
-[gd_scene load_steps=15 format=3 uid="uid://kjievptis0g"]
+[gd_scene load_steps=20 format=3 uid="uid://bk7vadd36u4fc"]
 
-[ext_resource type="Texture2D" uid="uid://bak3nx6d7bbtl" path="res://Assets/Tiny Swords (Update 010)/Factions/Knights/Troops/Archer/Blue/Archer_Blue_(NoArms).png" id="1_sgj3b"]
-[ext_resource type="Texture2D" uid="uid://dqs2lp0c63i00" path="res://Assets/Tiny Swords (Update 010)/Factions/Knights/Troops/Archer/Blue/Archer_Blue.png" id="1_th2yl"]
+[ext_resource type="Texture2D" uid="uid://bak3nx6d7bbtl" path="res://Assets/Tiny Swords (Update 010)/Factions/Knights/Troops/Archer/Blue/Archer_Blue_(NoArms).png" id="1_hlgv5"]
+[ext_resource type="Texture2D" uid="uid://dqs2lp0c63i00" path="res://Assets/Tiny Swords (Update 010)/Factions/Knights/Troops/Archer/Blue/Archer_Blue.png" id="2_dr1cr"]
+[ext_resource type="Script" path="res://StateMachine/ArcherStateMachine.gd" id="3_cswof"]
+[ext_resource type="Script" path="res://StateMachine/ArcherIdleState.gd" id="4_pw87x"]
+[ext_resource type="Script" path="res://StateMachine/ArcherRunState.gd" id="5_hlijp"]
+[ext_resource type="Script" path="res://StateMachine/ArcherShootState.gd" id="6_dnw7o"]
+[ext_resource type="PackedScene" uid="uid://74kiu35odi7k" path="res://Characters/Arrow.tscn" id="7_jj8qo"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_0smfi"]
 size = Vector2(41, 28)
@@ -18,7 +23,7 @@ tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 1,
-"values": [ExtResource("1_th2yl")]
+"values": [ExtResource("2_dr1cr")]
 }
 tracks/1/type = "value"
 tracks/1/imported = false
@@ -66,7 +71,7 @@ tracks/4/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 1,
-"values": [ExtResource("1_sgj3b")]
+"values": [ExtResource("1_hlgv5")]
 }
 tracks/5/type = "value"
 tracks/5/imported = false
@@ -131,7 +136,7 @@ tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 1,
-"values": [ExtResource("1_th2yl")]
+"values": [ExtResource("2_dr1cr")]
 }
 tracks/1/type = "value"
 tracks/1/imported = false
@@ -183,7 +188,7 @@ tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 1,
-"values": [ExtResource("1_sgj3b")]
+"values": [ExtResource("1_hlgv5")]
 }
 tracks/1/type = "value"
 tracks/1/imported = false
@@ -235,7 +240,7 @@ tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 1,
-"values": [ExtResource("1_sgj3b")]
+"values": [ExtResource("1_hlgv5")]
 }
 tracks/1/type = "value"
 tracks/1/imported = false
@@ -288,7 +293,7 @@ tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 1,
-"values": [ExtResource("1_th2yl")]
+"values": [ExtResource("2_dr1cr")]
 }
 tracks/1/type = "value"
 tracks/1/imported = false
@@ -340,7 +345,7 @@ tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 1,
-"values": [ExtResource("1_th2yl")]
+"values": [ExtResource("2_dr1cr")]
 }
 tracks/1/type = "value"
 tracks/1/imported = false
@@ -381,7 +386,7 @@ tracks/3/keys = {
 tracks/4/type = "method"
 tracks/4/imported = false
 tracks/4/enabled = true
-tracks/4/path = NodePath("Node/Shoot")
+tracks/4/path = NodePath("ArcherStateMachine/Shoot")
 tracks/4/interp = 1
 tracks/4/loop_wrap = true
 tracks/4/keys = {
@@ -418,7 +423,7 @@ tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 1,
-"values": [ExtResource("1_th2yl")]
+"values": [ExtResource("2_dr1cr")]
 }
 tracks/1/type = "value"
 tracks/1/imported = false
@@ -459,7 +464,7 @@ tracks/3/keys = {
 tracks/4/type = "method"
 tracks/4/imported = false
 tracks/4/enabled = true
-tracks/4/path = NodePath("Node/Shoot")
+tracks/4/path = NodePath("ArcherStateMachine/Shoot")
 tracks/4/interp = 1
 tracks/4/loop_wrap = true
 tracks/4/keys = {
@@ -496,7 +501,7 @@ tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 1,
-"values": [ExtResource("1_th2yl")]
+"values": [ExtResource("2_dr1cr")]
 }
 tracks/1/type = "value"
 tracks/1/imported = false
@@ -537,7 +542,7 @@ tracks/3/keys = {
 tracks/4/type = "method"
 tracks/4/imported = false
 tracks/4/enabled = true
-tracks/4/path = NodePath("Node/Shoot")
+tracks/4/path = NodePath("ArcherStateMachine/Shoot")
 tracks/4/interp = 1
 tracks/4/loop_wrap = true
 tracks/4/keys = {
@@ -574,7 +579,7 @@ tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 1,
-"values": [ExtResource("1_th2yl")]
+"values": [ExtResource("2_dr1cr")]
 }
 tracks/1/type = "value"
 tracks/1/imported = false
@@ -615,7 +620,7 @@ tracks/3/keys = {
 tracks/4/type = "method"
 tracks/4/imported = false
 tracks/4/enabled = true
-tracks/4/path = NodePath("Node/Shoot")
+tracks/4/path = NodePath("ArcherStateMachine/Shoot")
 tracks/4/interp = 1
 tracks/4/loop_wrap = true
 tracks/4/keys = {
@@ -652,7 +657,7 @@ tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 1,
-"values": [ExtResource("1_th2yl")]
+"values": [ExtResource("2_dr1cr")]
 }
 tracks/1/type = "value"
 tracks/1/imported = false
@@ -693,7 +698,7 @@ tracks/3/keys = {
 tracks/4/type = "method"
 tracks/4/imported = false
 tracks/4/enabled = true
-tracks/4/path = NodePath("Node/Shoot")
+tracks/4/path = NodePath("ArcherStateMachine/Shoot")
 tracks/4/interp = 1
 tracks/4/loop_wrap = true
 tracks/4/keys = {
@@ -731,7 +736,8 @@ _data = {
 "shootupside": SubResource("Animation_h2q0i")
 }
 
-[node name="Archer" type="CharacterBody2D" groups=["knight"]]
+[node name="PlayableArcher" type="CharacterBody2D" groups=["knight"]]
+z_index = 13
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(-0.5, 27)
@@ -739,12 +745,12 @@ shape = SubResource("RectangleShape2D_0smfi")
 
 [node name="nobowSprites" type="Sprite2D" parent="."]
 visible = false
-texture = ExtResource("1_sgj3b")
+texture = ExtResource("1_hlgv5")
 hframes = 6
 vframes = 2
 
 [node name="bowSprites" type="Sprite2D" parent="."]
-texture = ExtResource("1_th2yl")
+texture = ExtResource("2_dr1cr")
 hframes = 8
 vframes = 7
 
@@ -752,6 +758,21 @@ vframes = 7
 libraries = {
 "": SubResource("AnimationLibrary_kve8f")
 }
+
+[node name="ArcherStateMachine" type="Node" parent="." node_paths=PackedStringArray("initial_state", "character")]
+script = ExtResource("3_cswof")
+initial_state = NodePath("Idle")
+character = NodePath("..")
+
+[node name="Idle" type="Node" parent="ArcherStateMachine"]
+script = ExtResource("4_pw87x")
+
+[node name="Run" type="Node" parent="ArcherStateMachine"]
+script = ExtResource("5_hlijp")
+
+[node name="Shoot" type="Node" parent="ArcherStateMachine"]
+script = ExtResource("6_dnw7o")
+Arrow = ExtResource("7_jj8qo")
 
 [node name="ArrowSpawn" type="Marker2D" parent="."]
 position = Vector2(29, 10)

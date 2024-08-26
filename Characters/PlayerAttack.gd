@@ -8,14 +8,15 @@ extends State
 	
 func Enter() -> void:
 	animated_sprite.play("attack")
-	print("Attack")
+	#print("Attack")
 	
 	#wait for anomation player to finish then return
 	await animated_sprite.animation_finished
 	Transitioned.emit(self, "PlayerIdle")
 	
 func Exit() -> void:
-	print("exit Attack")
+	#print("exit Attack")
+	pass
 	
 	
 func Update(delta):

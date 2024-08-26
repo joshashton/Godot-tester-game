@@ -14,12 +14,15 @@ func Exit() -> void:
 	pass
 	
 func Update(delta):
-	pass
+	if playerFSM.nearbyEnemies.is_empty():
+		Transitioned.emit(self, "Idle")
 	
 func Physics_update(delta):
-	var player_position = playerFSM.detectedBody.position
-	target_position = (player_position - character.position).normalized()
-	move(target_position)
+	
+	if !playerFSM.nearbyEnemies.is_empty():
+		var player_position = playerFSM.nearbyEnemies[0].position
+		target_position = (player_position - character.position).normalized()
+		move(target_position)
 	
 func Unhandled_input(event):
 	pass
@@ -37,6 +40,8 @@ func update_facing_direction():
 
 
 func _on_attack_range_body_entered(body):
+
 	if body.is_in_group("knight"):	
-		playerFSM.detectedBody = body
+		playerFSM.focusedEnemy = body
 		Transitioned.emit(self, "Attack")
+

@@ -11,7 +11,9 @@ func Exit() -> void:
 	pass
 	
 func Update(delta):
-	pass
+	if playerFSM.nearbyEnemies:
+		Transitioned.emit(self, "Run")# towards player - set auto navigation agent 
+	
 		
 func Unhandled_input(event):
 	pass
@@ -19,13 +21,7 @@ func Unhandled_input(event):
 func Physics_update(delta):
 	pass
 
-func _on_detection_radius_body_entered(body):
-	if body.is_in_group("knight"):	
-		playerFSM.detectedBody = body
-		Transitioned.emit(self, "Run")
-
-
 func _on_attack_range_body_entered(body):
 	if body.is_in_group("knight"):	
-		playerFSM.detectedBody = body
+		playerFSM.focusedEnemy = body
 		Transitioned.emit(self, "Attack")

@@ -1,6 +1,6 @@
 [gd_scene load_steps=7 format=3 uid="uid://b8k7eqbqyxeiq"]
 
-[ext_resource type="PackedScene" uid="uid://dvby75n45b8ot" path="res://Characters/Knight.tscn" id="1_8gsur"]
+[ext_resource type="PackedScene" uid="uid://dvby75n45b8ot" path="res://Scenes/PlayableCharacter/PlayableKnight.tscn" id="1_8gsur"]
 [ext_resource type="PackedScene" uid="uid://phcpmhdejb2y" path="res://StateMachine/PlayerKnightStateMachine.tscn" id="2_vtcns"]
 [ext_resource type="PackedScene" uid="uid://4cia36tkvmak" path="res://UI/PlayerUI.tscn" id="3_h5jkx"]
 [ext_resource type="PackedScene" uid="uid://hcuugnyxefvw" path="res://Characters/Sheep.tscn" id="4_2otax"]
@@ -12,12 +12,9 @@
 [node name="Knight" parent="." instance=ExtResource("1_8gsur")]
 position = Vector2(95, 119)
 
-[node name="PlayerKnightStateMachine" parent="Knight" node_paths=PackedStringArray("character", "current_state") instance=ExtResource("2_vtcns")]
+[node name="PlayerKnightStateMachine2" parent="Knight" node_paths=PackedStringArray("character", "current_state") instance=ExtResource("2_vtcns")]
 character = NodePath("..")
 current_state = NodePath("PlayerIdle")
-
-[node name="PlayerAttack" parent="Knight/PlayerKnightStateMachine" index="2"]
-can_move = false
 
 [node name="CanvasLayer" parent="." instance=ExtResource("3_h5jkx")]
 

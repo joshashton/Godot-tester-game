@@ -4,7 +4,7 @@ extends State
 @onready var playerFSM = $".."
 
 func Enter() -> void:
-	print("attack state")
+	#print("attack state")
 	anim_player.play("attack")
 	
 func Exit() -> void:

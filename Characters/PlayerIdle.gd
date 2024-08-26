@@ -10,10 +10,11 @@ var move_vector := Vector2.ZERO
 	
 func Enter() -> void:
 	animated_sprite.play("idle")
-	print("IdleState")
+	#print("IdleState")
 	
 func Exit() -> void:
-	print("exit idle")
+	#print("exit idle")
+	pass
 	
 	
 func Update(delta):

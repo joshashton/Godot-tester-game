@@ -136,6 +136,9 @@ monitorable = false
 [node name="CollisionShape2D" type="CollisionShape2D" parent="AttackRange"]
 shape = SubResource("CircleShape2D_tg0w4")
 
-[connection signal="body_entered" from="DetectionRadius" to="ThrowerStateMachine/Idle" method="_on_detection_radius_body_entered"]
+[node name="NavigationAgent2D" type="NavigationAgent2D" parent="."]
+
+[connection signal="body_entered" from="DetectionRadius" to="ThrowerStateMachine" method="_on_detection_radius_body_entered"]
+[connection signal="body_exited" from="DetectionRadius" to="ThrowerStateMachine" method="_on_detection_radius_body_exited"]
 [connection signal="body_entered" from="AttackRange" to="ThrowerStateMachine/Idle" method="_on_attack_range_body_entered"]
 [connection signal="body_entered" from="AttackRange" to="ThrowerStateMachine/Run" method="_on_attack_range_body_entered"]

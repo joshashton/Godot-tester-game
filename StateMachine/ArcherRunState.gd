@@ -8,6 +8,8 @@ var input_direction
 #@onready var animated_sprite = $"../../AnimatedSprite2D"
 @onready var animated_sprite = $"../../AnimationPlayer"
 @onready var spriteplayer =  $"../../bowSprites"
+@onready var attackButton = $"../../../CanvasLayer/AttackButton"
+
 func Enter() -> void:
 	animated_sprite.play("run")
 	#print("RunState")
@@ -33,6 +35,10 @@ func Unhandled_input(event):
 			else:
 				#print("Left button was released")
 				pass
+				
+	if attackButton.is_pressed():
+		print('attackButton')
+		Transitioned.emit(self, "Shoot")
 				
 func move(input_direction):
 	update_facing_direction()
