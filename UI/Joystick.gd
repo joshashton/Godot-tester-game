@@ -33,4 +33,3 @@ func get_joystick_dir() -> Vector2:
 	var dir = knob.position - stick_center
 	return dir.normalized()
 	
-

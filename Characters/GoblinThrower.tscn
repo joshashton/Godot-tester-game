@@ -103,10 +103,10 @@ vframes = 3
 frame = 8
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
-autoplay = "idle"
 libraries = {
 "": SubResource("AnimationLibrary_qgjfm")
 }
+autoplay = "idle"
 
 [node name="ThrowerStateMachine" type="Node" parent="." node_paths=PackedStringArray("initial_state", "character")]
 script = ExtResource("2_dmcdi")

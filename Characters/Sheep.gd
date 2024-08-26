@@ -22,5 +22,3 @@ func _on_hitbox_area_entered(area):
 	if area.is_in_group("Projectile") or area.is_in_group("weapon"):
 		take_damage(area.damage)
 		
-
-

@@ -723,10 +723,10 @@ sprite_frames = SubResource("SpriteFrames_trx34")
 animation = &"idle"
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
-autoplay = "idle"
 libraries = {
 "": SubResource("AnimationLibrary_1nv16")
 }
+autoplay = "idle"
 
 [node name="Sword" type="Area2D" parent="." groups=["weapon"]]
 collision_layer = 3

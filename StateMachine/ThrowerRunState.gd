@@ -44,4 +44,3 @@ func _on_attack_range_body_entered(body):
 	if body.is_in_group("knight"):	
 		playerFSM.focusedEnemy = body
 		Transitioned.emit(self, "Attack")
-

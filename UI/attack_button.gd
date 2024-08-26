@@ -18,4 +18,3 @@ func _input(event):
 			touched = true
 		elif not event.pressed:
 			touched = false
-
