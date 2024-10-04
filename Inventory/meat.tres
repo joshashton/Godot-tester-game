@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=3 format=3 uid="uid://b8gvf03ewmk2x"]
+
+[ext_resource type="Script" path="res://Inventory/item_data.gd" id="1_jfr4u"]
+[ext_resource type="Texture2D" uid="uid://buc86jcixejc3" path="res://Assets/Tiny Swords (Update 010)/Resources/Resources/M_Idle_(NoShadow).png" id="2_0cpl0"]
+
+[resource]
+script = ExtResource("1_jfr4u")
+name = "Meat"
+texture = ExtResource("2_0cpl0")

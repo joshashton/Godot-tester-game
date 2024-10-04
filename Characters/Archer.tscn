@@ -752,6 +752,7 @@ vframes = 7
 libraries = {
 "": SubResource("AnimationLibrary_kve8f")
 }
+autoplay = "idle"
 
 [node name="ArrowSpawn" type="Marker2D" parent="."]
 position = Vector2(29, 10)

@@ -1,0 +1,32 @@
+[gd_scene load_steps=2 format=3 uid="uid://7i5kg3v7hf2d"]
+
+[ext_resource type="Texture2D" uid="uid://k8j7rcnrg3ud" path="res://Assets/Tiny Swords (Update 010)/Resources/Resources/W_Idle_(NoShadow).png" id="1_aju58"]
+
+[node name="WoodUI" type="Control"]
+custom_minimum_size = Vector2(150, 64)
+layout_mode = 3
+anchors_preset = 0
+offset_right = 150.0
+offset_bottom = 128.0
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 2
+offset_right = 150.0
+offset_bottom = 128.0
+theme_override_constants/margin_top = 0
+theme_override_constants/margin_right = 12
+
+[node name="TextureRect" type="TextureRect" parent="MarginContainer"]
+layout_mode = 2
+texture = ExtResource("1_aju58")
+stretch_mode = 2
+
+[node name="Label" type="Label" parent="MarginContainer"]
+layout_mode = 2
+size_flags_horizontal = 8
+theme_override_constants/outline_size = 6
+theme_override_font_sizes/font_size = 24
+text = "0
+"
+horizontal_alignment = 2
+vertical_alignment = 1

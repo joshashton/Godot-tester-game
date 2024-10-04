@@ -1,22 +1,25 @@
 bdbec74c6e5bd72edee867077d70896c
-::res://::1724682677
-AllTilemaps.tscn::PackedScene::5780441090818672583::1724682392::0::1::::<><>::uid://cohsgte7uxg2c::::res://tilesetmap.tres
-export_presets.cfg::TextFile::-1::1721580253::0::1::::<><>::
+::res://::1727990228
+AllTilemaps.tscn::PackedScene::5780441090818672583::1727975658::0::1::::<><>::uid://i2l3p240lejh::::res://MainWorldTileSet.tres<>res://all_tilemaps.gd<>uid://dvby75n45b8ot::::res://Scenes/PlayableCharacter/PlayableKnight.tscn<>uid://4cia36tkvmak::::res://UI/PlayerUI.tscn<>uid://hcuugnyxefvw::::res://Characters/Sheep.tscn<>uid://hx0thucl01it::::res://Assets/Tiny Swords (Update 010)/Factions/Knights/Buildings/Castle/Castle_Blue.png<>uid://526ptnhabi5m::::res://Characters/Villager.tscn
+all_tilemaps.gd::GDScript::-1::1726825021::0::1::::<>Node2D<>::
+export_presets.cfg::TextFile::-1::1724768307::0::1::::<><>::
 firstmap.gd::GDScript::-1::1724672321::0::1::::<>Node2D<>::
-firstmap.tscn::PackedScene::8019410229007676357::1724681645::0::1::::<><>::uid://bjr7nbpjgr0o7::::res://Assets/Tiny Swords (Update 010)/Factions/Knights/Buildings/Tower/Tower_Blue.png<>res://firstmap.gd<>uid://hx0thucl01it::::res://Assets/Tiny Swords (Update 010)/Factions/Knights/Buildings/Castle/Castle_Blue.png<>uid://cohsgte7uxg2c::::res://tilesetmap.tres<>uid://hcuugnyxefvw::::res://Characters/Sheep.tscn<>uid://dxhfntdxwv1w5::::res://Assets/Tiny Swords (Update 010)/UI/Buttons/Button_Blue.png<>uid://4cia36tkvmak::::res://UI/PlayerUI.tscn<>uid://c6q2h242ua7yd::::res://Characters/GoblinFighter.tscn<>uid://c8bd8br6gbxs4::::res://Characters/GoblinThrower.tscn<>uid://bus1su5g5c0yx::::res://Characters/Knight.tscn<>uid://kjievptis0g::::res://Characters/Archer.tscn
-icon.svg::CompressedTexture2D::8482378094693027348::1704035620::1704035635::1::::<><>::
+firstmap.tscn::PackedScene::8019410229007676357::1727975657::0::1::::<><>::uid://bjr7nbpjgr0o7::::res://Assets/Tiny Swords (Update 010)/Factions/Knights/Buildings/Tower/Tower_Blue.png<>res://firstmap.gd<>uid://hx0thucl01it::::res://Assets/Tiny Swords (Update 010)/Factions/Knights/Buildings/Castle/Castle_Blue.png<>uid://cfixf1dtjm64::::res://Assets/Tiny Swords (Update 010)/Resources/Gold Mine/GoldMine_Inactive.png<>uid://cohsgte7uxg2c::::res://tilesetmap.tres<>uid://hcuugnyxefvw::::res://Characters/Sheep.tscn<>uid://dxhfntdxwv1w5::::res://Assets/Tiny Swords (Update 010)/UI/Buttons/Button_Blue.png<>uid://4cia36tkvmak::::res://UI/PlayerUI.tscn<>uid://c6q2h242ua7yd::::res://Characters/GoblinFighter.tscn<>uid://c8bd8br6gbxs4::::res://Characters/GoblinThrower.tscn<>uid://bus1su5g5c0yx::::res://Characters/Knight.tscn<>uid://kjievptis0g::::res://Characters/Archer.tscn<>uid://cvxrgufq6e470::::res://Characters/GoblinTNT.tscn<>uid://db267fm7d6wrt::::res://Assets/Tiny Swords (Update 010)/Deco/18.png<>uid://b03lpev15pw7h::::res://Assets/Tiny Swords (Update 010)/Deco/09.png<>uid://br4ck8libylbh::::res://Assets/Tiny Swords (Update 010)/Resources/Resources/W_Idle.png<>uid://co3ojvsib7i18::::res://Assets/Tiny Swords (Update 010)/Resources/Resources/M_Idle.png<>uid://0mf6a13ise1e::::res://Assets/Tiny Swords (Update 010)/Resources/Resources/G_Idle.png<>uid://526ptnhabi5m::::res://Characters/Villager.tscn<>uid://bpfsiujnabhm0::::res://Assets/Tiny Swords (Update 010)/Factions/Knights/Buildings/House/House_Blue.png<>uid://h0nds0h7jfrt::::res://Scenes/Objects/GoblinTower.tscn<>uid://j7qcng6ntqtt::::res://Scenes/Objects/Tree.tscn<>uid://c51asqcv70gbr::::res://Assets/Tiny Swords (Update 010)/Factions/Goblins/Buildings/Wood_House/Goblin_House.png
+global_game_manager.gd::GDScript::-1::1727703434::0::1::::GlobalPlayer<>Node<>::
+icon.svg::CompressedTexture2D::8482378094693027348::1704035620::1725023886::1::::<><>::
+MainWorldTileSet.tres::TileSet::617967668525085585::1727975546::0::1::::<><>::uid://bd1u71ouxljbs::::res://Assets/Tiny Swords (Update 010)/Terrain/Ground/Tilemap_Flat.png<>uid://b7rbxa030p6os::::res://Assets/Tiny Swords (Update 010)/Terrain/Ground/Tilemap_Elevation.png<>uid://c364ve7l82o71::::res://Assets/Tiny Swords (Update 010)/Terrain/Ground/Shadows.png<>uid://c2m6qc6lggcbe::::res://Assets/Tiny Swords (Update 010)/Terrain/Bridge/Bridge_All.png<>uid://djwx3qkajuhn4::::res://Assets/Tiny Swords (Update 010)/Terrain/Water/Foam/Foam.png<>uid://doqryfuldq05a::::res://Assets/Tiny Swords (Update 010)/Terrain/Water/Water.png<>uid://b30137i1dlqt6::::res://Assets/Tiny Swords (Update 010)/Terrain/Water/Rocks/Rocks_01.png<>uid://bv6p8owqfa880::::res://Assets/Tiny Swords (Update 010)/Terrain/Water/Rocks/Rocks_02.png<>uid://cwnojqek8gnrf::::res://Assets/Tiny Swords (Update 010)/Terrain/Water/Rocks/Rocks_03.png<>uid://j7qcng6ntqtt::::res://Scenes/Objects/Tree.tscn<>uid://ecciyngibsqm::::res://Assets/Tiny Swords (Update 010)/Terrain/Water/Rocks/Rocks_04.png<>uid://cdrpmqcps7ago::::res://Assets/Tiny Swords (Update 010)/Deco/All_Deco.png
 README.md::TextFile::-1::1705411020::0::1::::<><>::
-TesterWorld.tscn::PackedScene::4725247230911268392::1724681248::0::1::::<><>::uid://dvby75n45b8ot::::res://Scenes/PlayableCharacter/PlayableKnight.tscn<>uid://phcpmhdejb2y::::res://StateMachine/PlayerKnightStateMachine.tscn<>uid://4cia36tkvmak::::res://UI/PlayerUI.tscn<>uid://hcuugnyxefvw::::res://Characters/Sheep.tscn<>uid://c8bd8br6gbxs4::::res://Characters/GoblinThrower.tscn<>uid://c6q2h242ua7yd::::res://Characters/GoblinFighter.tscn
-tilesetmap.tres::TileSet::5771040448834742184::1724682677::0::1::::<><>::uid://bd1u71ouxljbs::::res://Assets/Tiny Swords (Update 010)/Terrain/Ground/Tilemap_Flat.png<>uid://doqryfuldq05a::::res://Assets/Tiny Swords (Update 010)/Terrain/Water/Water.png<>uid://djwx3qkajuhn4::::res://Assets/Tiny Swords (Update 010)/Terrain/Water/Foam/Foam.png<>uid://b30137i1dlqt6::::res://Assets/Tiny Swords (Update 010)/Terrain/Water/Rocks/Rocks_01.png<>uid://bv6p8owqfa880::::res://Assets/Tiny Swords (Update 010)/Terrain/Water/Rocks/Rocks_02.png<>uid://cwnojqek8gnrf::::res://Assets/Tiny Swords (Update 010)/Terrain/Water/Rocks/Rocks_03.png<>uid://ecciyngibsqm::::res://Assets/Tiny Swords (Update 010)/Terrain/Water/Rocks/Rocks_04.png<>uid://b7rbxa030p6os::::res://Assets/Tiny Swords (Update 010)/Terrain/Ground/Tilemap_Elevation.png<>uid://c364ve7l82o71::::res://Assets/Tiny Swords (Update 010)/Terrain/Ground/Shadows.png<>uid://c2m6qc6lggcbe::::res://Assets/Tiny Swords (Update 010)/Terrain/Bridge/Bridge_All.png
+TesterWorld.tscn::PackedScene::4725247230911268392::1727975657::0::1::::<><>::uid://dvby75n45b8ot::::res://Scenes/PlayableCharacter/PlayableKnight.tscn<>uid://4cia36tkvmak::::res://UI/PlayerUI.tscn<>uid://hcuugnyxefvw::::res://Characters/Sheep.tscn<>uid://c8bd8br6gbxs4::::res://Characters/GoblinThrower.tscn<>uid://c6q2h242ua7yd::::res://Characters/GoblinFighter.tscn<>uid://bk7vadd36u4fc::::res://Scenes/PlayableCharacter/PlayableArcher.tscn
+tilesetmap.tres::TileSet::5771040448834742184::1727956397::0::1::::<><>::uid://bd1u71ouxljbs::::res://Assets/Tiny Swords (Update 010)/Terrain/Ground/Tilemap_Flat.png<>uid://doqryfuldq05a::::res://Assets/Tiny Swords (Update 010)/Terrain/Water/Water.png<>uid://djwx3qkajuhn4::::res://Assets/Tiny Swords (Update 010)/Terrain/Water/Foam/Foam.png<>uid://b30137i1dlqt6::::res://Assets/Tiny Swords (Update 010)/Terrain/Water/Rocks/Rocks_01.png<>uid://bv6p8owqfa880::::res://Assets/Tiny Swords (Update 010)/Terrain/Water/Rocks/Rocks_02.png<>uid://cwnojqek8gnrf::::res://Assets/Tiny Swords (Update 010)/Terrain/Water/Rocks/Rocks_03.png<>uid://ecciyngibsqm::::res://Assets/Tiny Swords (Update 010)/Terrain/Water/Rocks/Rocks_04.png<>uid://b7rbxa030p6os::::res://Assets/Tiny Swords (Update 010)/Terrain/Ground/Tilemap_Elevation.png<>uid://c364ve7l82o71::::res://Assets/Tiny Swords (Update 010)/Terrain/Ground/Shadows.png<>uid://c2m6qc6lggcbe::::res://Assets/Tiny Swords (Update 010)/Terrain/Bridge/Bridge_All.png
 walesmap.tscn::PackedScene::7262325160445485827::1724680748::0::1::::<><>::uid://dvby75n45b8ot::::res://Scenes/PlayableCharacter/PlayableKnight.tscn<>uid://kjievptis0g::::res://Characters/Archer.tscn<>uid://hcuugnyxefvw::::res://Characters/Sheep.tscn<>uid://c8bd8br6gbxs4::::res://Characters/GoblinThrower.tscn
 ::res://addons/::1724680966
-::res://addons/virtual_joystick/::1724680966
+::res://addons/virtual_joystick/::1726677256
 plugin.cfg::TextFile::-1::1722112373::0::1::::<><>::
 virtual_joystick.gd::GDScript::-1::1722112373::0::1::::VirtualJoystick<>Control<>::
 virtual_joystick_icon.png::CompressedTexture2D::260911808592511340::1722112373::1722112392::1::::<><>::
 virtual_joystick_instantiator.gd::GDScript::-1::1722112373::0::1::::<>Control<>::
 virtual_joystick_plugin.gd::GDScript::-1::1722112373::0::1::::<>EditorPlugin<>::
-virtual_joystick_scene.tscn::PackedScene::8038149555967335895::1722446603::0::1::::<><>::res://addons/virtual_joystick/virtual_joystick.gd<>uid://bm30au8mjfc2f
+virtual_joystick_scene.tscn::PackedScene::8038149555967335895::1726677256::0::1::::<><>::res://addons/virtual_joystick/virtual_joystick.gd<>uid://bm30au8mjfc2f::::res://addons/virtual_joystick/textures/joystick_base_outline.png<>uid://dt13r06u87fib::::res://addons/virtual_joystick/textures/joystick_tip_arrows.png
 ::res://addons/virtual_joystick/previews/::1724680966
 gitpreview.png::CompressedTexture2D::4269983148252350228::1722112373::1722112392::1::::<><>::
 icon.png::CompressedTexture2D::8955078469945949671::1722112373::1722112392::1::::<><>::
@@ -30,7 +33,9 @@ test.tscn::PackedScene::3566301953465693758::1722446603::0::1::::<><>::uid://dmr
 joystick_base_outline.png::CompressedTexture2D::3288008411285325467::1722112373::1722112392::1::::<><>::
 joystick_tip.png::CompressedTexture2D::3132432681801126628::1722112373::1722112392::1::::<><>::
 joystick_tip_arrows.png::CompressedTexture2D::8548255698028078709::1722112373::1722112392::1::::<><>::
-::res://Assets/::1724680971
+::res://Assets/::1727716860
+DestroySmoke.png::CompressedTexture2D::7111195107161531304::1727114300::1727114426::1::::<><>::
+MainMenuImage.png::CompressedTexture2D::6802883748161154652::1727712813::1727716860::1::::<><>::
 ::res://Assets/Cursors/::1724680966
 cursorsprites.tres::AtlasTexture::1054908976016895931::1705843706::0::1::::<><>::uid://c8k18nbtlyja7
 point and click cursor.png::CompressedTexture2D::7111355243219940948::1705843706::1705843706::1::::<><>::
@@ -226,7 +231,7 @@ BG 10.png::CompressedTexture2D::1454911567970571872::1704035921::1704035923::1::
 BG 11.png::CompressedTexture2D::2026219070929112203::1704035921::1704035923::1::::<><>::
 Shikashi's Fantasy Icons Pack.txt::TextFile::-1::1704035921::0::1::::<><>::
 ::res://Assets/Tiny Swords (Update 010)/::1724680970
-::res://Assets/Tiny Swords (Update 010)/Deco/::1724680968
+::res://Assets/Tiny Swords (Update 010)/Deco/::1726768816
 01.png::CompressedTexture2D::5084471507685012826::1704047974::1704047994::1::::<><>::
 02.png::CompressedTexture2D::5092255372715601548::1704047974::1704047994::1::::<><>::
 03.png::CompressedTexture2D::5683912688936989016::1704047974::1704047994::1::::<><>::
@@ -245,6 +250,7 @@ Shikashi's Fantasy Icons Pack.txt::TextFile::-1::1704035921::0::1::::<><>::
 16.png::CompressedTexture2D::9137547269748823187::1704047974::1704047994::1::::<><>::
 17.png::CompressedTexture2D::5773410645421998081::1704047974::1704047994::1::::<><>::
 18.png::CompressedTexture2D::7287128748871257301::1704047974::1704047994::1::::<><>::
+All_Deco.png::CompressedTexture2D::5019435348707725658::1726768816::1726768816::1::::<><>::
 ::res://Assets/Tiny Swords (Update 010)/Effects/::1724680968
 ::res://Assets/Tiny Swords (Update 010)/Effects/Explosion/::1724680968
 Explosions.png::CompressedTexture2D::337092487478626376::1704047977::1704047994::1::::<><>::
@@ -252,7 +258,10 @@ Explosions.png::CompressedTexture2D::337092487478626376::1704047977::1704047994:
 Fire.png::CompressedTexture2D::9133704786718483664::1704047977::1704047994::1::::<><>::
 ::res://Assets/Tiny Swords (Update 010)/Factions/::1724680969
 ::res://Assets/Tiny Swords (Update 010)/Factions/Goblins/::1724680968
-::res://Assets/Tiny Swords (Update 010)/Factions/Goblins/Buildings/::1724680968
+::res://Assets/Tiny Swords (Update 010)/Factions/Goblins/Buildings/::1724841087
+::res://Assets/Tiny Swords (Update 010)/Factions/Goblins/Buildings/Wood_House/::1724841091
+Goblin_House.png::CompressedTexture2D::6932213486884123315::1724840438::1724841091::1::::<><>::
+Goblin_House_Destroyed.png::CompressedTexture2D::734887052459167083::1724840438::1724841091::1::::<><>::
 ::res://Assets/Tiny Swords (Update 010)/Factions/Goblins/Buildings/Wood_Tower/::1724680968
 Wood_Tower_Blue.png::CompressedTexture2D::1875628602330052541::1704047975::1704047994::1::::<><>::
 Wood_Tower_Destroyed.png::CompressedTexture2D::4123682309751999430::1704047975::1704047994::1::::<><>::
@@ -262,8 +271,8 @@ Wood_Tower_Red.png::CompressedTexture2D::6798605260552417943::1704047975::170404
 Wood_Tower_Yellow.png::CompressedTexture2D::8645149812742325586::1704047975::1704047993::1::::<><>::
 ::res://Assets/Tiny Swords (Update 010)/Factions/Goblins/Troops/::1724680969
 ::res://Assets/Tiny Swords (Update 010)/Factions/Goblins/Troops/Barrel/::1724680968
-::res://Assets/Tiny Swords (Update 010)/Factions/Goblins/Troops/Barrel/Blue/::1724680968
-Barrel_Blue.png::CompressedTexture2D::5644564531507872194::1704047975::1704047994::1::::<><>::
+::res://Assets/Tiny Swords (Update 010)/Factions/Goblins/Troops/Barrel/Blue/::1725362955
+Barrel_Blue.png::CompressedTexture2D::5644564531507872194::1704047975::1725362955::1::::<><>::
 ::res://Assets/Tiny Swords (Update 010)/Factions/Goblins/Troops/Barrel/Purple/::1724680968
 Barrel_Purple.png::CompressedTexture2D::8770949644262234978::1704047975::1704047994::1::::<><>::
 ::res://Assets/Tiny Swords (Update 010)/Factions/Goblins/Troops/Barrel/Red/::1724680968
@@ -317,7 +326,7 @@ Tower_Yellow.png::CompressedTexture2D::7023795065966417736::1704047976::17040479
 ::res://Assets/Tiny Swords (Update 010)/Factions/Knights/Troops/Archer/::1724680969
 ::res://Assets/Tiny Swords (Update 010)/Factions/Knights/Troops/Archer/Arrow/::1724680969
 Arrow.png::CompressedTexture2D::4875933986663394464::1704047976::1704047994::1::::<><>::
-::res://Assets/Tiny Swords (Update 010)/Factions/Knights/Troops/Archer/Blue/::1724680969
+::res://Assets/Tiny Swords (Update 010)/Factions/Knights/Troops/Archer/Blue/::1724840989
 Archer_Blue.png::CompressedTexture2D::8321102178002316123::1704047976::1704047995::1::::<><>::
 Archer_Blue_(NoArms).png::CompressedTexture2D::2408789008457023805::1704047976::1704047994::1::::<><>::
 Archer_Bow.png::CompressedTexture2D::1977208783132258403::1704047976::1704047994::1::::<><>::
@@ -352,7 +361,7 @@ Warrior_Yellow.png::CompressedTexture2D::2142808704546697678::1704047977::170404
 GoldMine_Active.png::CompressedTexture2D::1918914380057975866::1704047974::1704047994::1::::<><>::
 GoldMine_Destroyed.png::CompressedTexture2D::9121240147286172609::1704047974::1704047994::1::::<><>::
 GoldMine_Inactive.png::CompressedTexture2D::151226688192038851::1704047974::1704047994::1::::<><>::
-::res://Assets/Tiny Swords (Update 010)/Resources/Resources/::1724680970
+::res://Assets/Tiny Swords (Update 010)/Resources/Resources/::1727185011
 G_Idle.png::CompressedTexture2D::1779852610022921368::1704047974::1704047994::1::::<><>::
 G_Idle_(NoShadow).png::CompressedTexture2D::5482326748245796644::1704047974::1704047994::1::::<><>::
 G_Spawn.png::CompressedTexture2D::8658831799423851730::1704047974::1704047994::1::::<><>::
@@ -371,10 +380,10 @@ Tree.png::CompressedTexture2D::1061521097394379162::1704047973::1704047994::1:::
 ::res://Assets/Tiny Swords (Update 010)/Terrain/::1724682677
 ::res://Assets/Tiny Swords (Update 010)/Terrain/Bridge/::1724680970
 Bridge_All.png::CompressedTexture2D::6694623631583715550::1704047974::1704047994::1::::<><>::
-::res://Assets/Tiny Swords (Update 010)/Terrain/Ground/::1724682677
-Shadows.png::CompressedTexture2D::6803923254161301338::1704047974::1704047994::1::::<><>::
+::res://Assets/Tiny Swords (Update 010)/Terrain/Ground/::1725362938
+Shadows.png::CompressedTexture2D::6803923254161301338::1704047974::1725362278::1::::<><>::
 Tilemap_Elevation.png::CompressedTexture2D::4667659932108069170::1704047974::1704047994::1::::<><>::
-Tilemap_Flat.png::CompressedTexture2D::2651933909647290912::1704047974::1724682678::1::::<><>::
+Tilemap_Flat.png::CompressedTexture2D::2651933909647290912::1704047974::1725362938::1::::<><>::
 ::res://Assets/Tiny Swords (Update 010)/Terrain/Water/::1724680970
 Water.png::CompressedTexture2D::8176011248024756848::1704047974::1704047994::1::::<><>::
 ::res://Assets/Tiny Swords (Update 010)/Terrain/Water/Foam/::1724680970
@@ -490,48 +499,86 @@ LargeHandleFilledGrey.png::CompressedTexture2D::7538391690950807856::1722001585:
 SmallHandle.png::CompressedTexture2D::7349930596287129252::1722001585::1722001622::1::::<><>::
 SmallHandleFilled.png::CompressedTexture2D::7201461571851881375::1722001585::1722001622::1::::<><>::
 SmallHandleFilledGrey.png::CompressedTexture2D::9008955494066119406::1722001585::1722001622::1::::<><>::
-::res://Characters/::1724681249
-Archer.tscn::PackedScene::21204760068286256::1724672731::0::1::::<><>::uid://bak3nx6d7bbtl::::res://Assets/Tiny Swords (Update 010)/Factions/Knights/Troops/Archer/Blue/Archer_Blue_(NoArms).png<>uid://dqs2lp0c63i00::::res://Assets/Tiny Swords (Update 010)/Factions/Knights/Troops/Archer/Blue/Archer_Blue.png
+::res://Characters/::1727975748
+Archer.tscn::PackedScene::21204760068286256::1724767593::0::1::::<><>::uid://bak3nx6d7bbtl::::res://Assets/Tiny Swords (Update 010)/Factions/Knights/Troops/Archer/Blue/Archer_Blue_(NoArms).png<>uid://dqs2lp0c63i00::::res://Assets/Tiny Swords (Update 010)/Factions/Knights/Troops/Archer/Blue/Archer_Blue.png
 Arrow.gd::GDScript::-1::1722510247::0::1::::<>Area2D<>::
 Arrow.tscn::PackedScene::2306532502667099810::1722510518::0::1::::<><>::res://Characters/Arrow.gd<>uid://cbp66j7rs3bsy
-GoblinFighter.tscn::PackedScene::6983378887775494163::1724681248::0::1::::<><>::uid://ju5tklvgjdvg::::res://Assets/Tiny Swords (Update 010)/Factions/Goblins/Troops/Torch/Blue/Torch_Blue.png<>res://StateMachine/GobThrowerStateMachine.gd<>res://StateMachine/ThrowerIdleState.gd<>res://StateMachine/ThrowerRunState.gd<>res://StateMachine/ThrowerAttackState.gd
-GoblinThrower.tscn::PackedScene::7091378747574099429::1724681248::0::1::::<><>::uid://bigdri4ikun4::::res://Assets/Tiny Swords (Update 010)/Factions/Goblins/Troops/TNT/Blue/TNT_Blue.png<>res://StateMachine/GobThrowerStateMachine.gd<>res://StateMachine/ThrowerIdleState.gd<>res://StateMachine/ThrowerRunState.gd<>res://StateMachine/ThrowerAttackState.gd
-GoblinTNT.tscn::PackedScene::6295331734728326301::1724681248::0::1::::<><>::
-Knight.gd::GDScript::-1::1722510247::0::1::::<>CharacterBody2D<>::
-Knight.tscn::PackedScene::3828968239252987227::1724681248::0::1::::<><>::res://Characters/Knight.gd<>uid://ctpoikcx70sxy::::res://Assets/Tiny Swords (Update 010)/Factions/Knights/Troops/Warrior/Blue/Warrior_Blue.png<>res://Characters/KnightSword.gd
+GoblinDie.gd::GDScript::-1::1727028241::0::1::::<>State<>::
+GoblinFighter.tscn::PackedScene::6983378887775494163::1727028241::0::1::::<><>::res://Characters/goblin_fighter.gd<>uid://ju5tklvgjdvg::::res://Assets/Tiny Swords (Update 010)/Factions/Goblins/Troops/Torch/Blue/Torch_Blue.png<>res://StateMachine/GobThrowerStateMachine.gd<>res://StateMachine/ThrowerIdleState.gd<>res://StateMachine/ThrowerRunState.gd<>res://StateMachine/ThrowerAttackState.gd<>res://Characters/GoblinDie.gd
+GoblinThrower.tscn::PackedScene::7091378747574099429::1726826449::0::1::::<><>::res://Characters/goblin_thrower.gd<>uid://bigdri4ikun4::::res://Assets/Tiny Swords (Update 010)/Factions/Goblins/Troops/TNT/Blue/TNT_Blue.png<>res://StateMachine/GobThrowerStateMachine.gd<>res://StateMachine/ThrowerIdleState.gd<>res://StateMachine/ThrowerRunState.gd<>res://StateMachine/ThrowerAttackState.gd
+GoblinTNT.tscn::PackedScene::6295331734728326301::1724840077::0::1::::<><>::uid://cmojfhbrrqpl7::::res://Assets/Tiny Swords (Update 010)/Factions/Goblins/Troops/Barrel/Blue/Barrel_Blue.png<>res://StateMachine/GobThrowerStateMachine.gd<>res://StateMachine/ThrowerIdleState.gd
+goblin_fighter.gd::GDScript::-1::1726742616::0::1::::<>CharacterBody2D<>::
+goblin_thrower.gd::GDScript::-1::1726743508::0::1::::<>CharacterBody2D<>::
+Knight.gd::GDScript::-1::1726766155::0::1::::<>CharacterBody2D<>::
+Knight.tscn::PackedScene::3828968239252987227::1727975658::0::1::::<><>::res://Characters/Knight.gd<>uid://ctpoikcx70sxy::::res://Assets/Tiny Swords (Update 010)/Factions/Knights/Troops/Warrior/Blue/Warrior_Blue.png<>res://Characters/KnightSword.gd
 KnightSword.gd::GDScript::-1::1722510247::0::1::::<>Area2D<>::
-PlayerAttack.gd::GDScript::-1::1724671774::0::1::::<>State<>::
-PlayerIdle.gd::GDScript::-1::1724671523::0::1::::<>State<>::
-PlayerRun.gd::GDScript::-1::1724671456::0::1::::<>State<>::
-Sheep.gd::GDScript::-1::1724681168::0::1::::<>CharacterBody2D<>::
-Sheep.tscn::PackedScene::496701053051681348::1724522613::0::1::::<><>::uid://cjpl83rh4jfs8
-Villager.tscn::PackedScene::2163313540529126992::1724681249::0::1::::<><>::
-::res://Scenes/::1724680971
-::res://Scenes/PlayableCharacter/::1724681248
-PlayableArcher.tscn::PackedScene::3155644428570335216::1724681248::0::1::::<><>::uid://bak3nx6d7bbtl::::res://Assets/Tiny Swords (Update 010)/Factions/Knights/Troops/Archer/Blue/Archer_Blue_(NoArms).png<>uid://dqs2lp0c63i00::::res://Assets/Tiny Swords (Update 010)/Factions/Knights/Troops/Archer/Blue/Archer_Blue.png<>res://StateMachine/ArcherStateMachine.gd<>res://StateMachine/ArcherIdleState.gd<>res://StateMachine/ArcherRunState.gd<>res://StateMachine/ArcherShootState.gd<>uid://74kiu35odi7k::::res://Characters/Arrow.tscn
-PlayableKnight.tscn::PackedScene::8636808095604151867::1724681248::0::1::::<><>::res://Characters/Knight.gd<>uid://ctpoikcx70sxy::::res://Assets/Tiny Swords (Update 010)/Factions/Knights/Troops/Warrior/Blue/Warrior_Blue.png<>res://Characters/KnightSword.gd<>uid://phcpmhdejb2y::::res://StateMachine/PlayerKnightStateMachine.tscn
-::res://StateMachine/::1724681168
-ArcherIdleState.gd::GDScript::-1::1724681168::0::1::::ArcherIdleState<>State<>::
-ArcherRunState.gd::GDScript::-1::1724672693::0::1::::ArcherRunState<>State<>::
-ArcherShootState.gd::GDScript::-1::1707075518::0::1::::ArcherAttackState<>State<>::
+PlayerAttack.gd::GDScript::-1::1727024162::0::1::::<>State<>::
+PlayerIdle.gd::GDScript::-1::1725064856::0::1::::<>State<>::
+PlayerRun.gd::GDScript::-1::1725033945::0::1::::<>State<>::
+Sheep.gd::GDScript::-1::1727467453::0::1::::<>CharacterBody2D<>::
+Sheep.tscn::PackedScene::496701053051681348::1727975658::0::1::::<><>::uid://cjpl83rh4jfs8::::res://Assets/Tiny Swords (Update 010)/Resources/Sheep/HappySheep_All.png<>res://Characters/Sheep.gd<>res://StateMachine/SheepStateMachine.gd<>res://StateMachine/SheepIdle.gd<>res://StateMachine/SheepDeadState.gd<>res://StateMachine/SheepHitState.gd<>res://StateMachine/SheepBounceState.gd<>uid://c5udusqte66o0::::res://Scenes/HitBoxHurtBox/hitbox.tscn<>uid://c8kylygrn8ktc::::res://Assets/DestroySmoke.png
+villager.gd::GDScript::-1::1727975656::0::1::::<>CharacterBody2D<>::
+Villager.tscn::PackedScene::2163313540529126992::1727975748::0::1::::<><>::uid://ch1ou7a2kus75::::res://Assets/Tiny Swords (Update 010)/Factions/Knights/Troops/Pawn/Blue/Pawn_Blue.png<>res://Characters/villager.gd<>uid://br4ck8libylbh::::res://Assets/Tiny Swords (Update 010)/Resources/Resources/W_Idle.png<>res://StateMachine/VillagerStateMachine.gd<>res://StateMachine/VillagerIdleState.gd<>res://StateMachine/VillagerLooting.gd
+::res://Inventory/::1727956396
+gold.tres::Resource/ItemData::6931877886724314625::1727429625::0::1::::<><>::res://Inventory/item_data.gd<>uid://ckdxedmyhir6s::::res://Assets/Tiny Swords (Update 010)/Resources/Resources/G_Idle_(NoShadow).png
+gold.tscn::PackedScene::2144434073761356864::1727705052::0::1::::<><>::res://Inventory/item_pickup.gd<>uid://c504asshh6od2::::res://Inventory/gold.tres<>uid://0mf6a13ise1e::::res://Assets/Tiny Swords (Update 010)/Resources/Resources/G_Idle.png<>uid://dvmnxvbek3j8m::::res://Assets/Tiny Swords (Update 010)/Resources/Resources/G_Spawn.png
+gold_ui.tscn::PackedScene::7364943575048639200::1727697404::0::1::::<><>::uid://ckdxedmyhir6s::::res://Assets/Tiny Swords (Update 010)/Resources/Resources/G_Idle_(NoShadow).png
+inventory.tscn::PackedScene::673972000516533394::1727716923::0::1::::<><>::res://Inventory/inventory_ui.gd
+inventory_data.gd::GDScript::-1::1727703200::0::1::::InventoryData<>Resource<>::
+inventory_slot.gd::GDScript::-1::1727697071::0::1::::InventorySlotUI<>Control<>::
+inventory_slot.tscn::PackedScene::1794163108795204974::1727704474::0::1::::<><>::res://Inventory/inventory_slot.gd<>uid://buc86jcixejc3::::res://Assets/Tiny Swords (Update 010)/Resources/Resources/M_Idle_(NoShadow).png
+inventory_ui.gd::GDScript::-1::1727703613::0::1::::InventoryUI<>Control<>::
+item_data.gd::GDScript::-1::1727425731::0::1::::ItemData<>Resource<>::
+item_pickup.gd::GDScript::-1::1727701880::0::1::::ItemPickup<>Area2D<>::
+meat.tres::Resource/ItemData::4716324132640051093::1727429625::0::1::::<><>::res://Inventory/item_data.gd<>uid://buc86jcixejc3::::res://Assets/Tiny Swords (Update 010)/Resources/Resources/M_Idle_(NoShadow).png
+meat.tscn::PackedScene::605265521353973953::1727704665::0::1::::<><>::uid://co3ojvsib7i18::::res://Assets/Tiny Swords (Update 010)/Resources/Resources/M_Idle.png<>res://Inventory/item_pickup.gd<>uid://mkfj4yxhjlat::::res://Assets/Tiny Swords (Update 010)/Resources/Resources/M_Spawn.png<>uid://b8gvf03ewmk2x::::res://Inventory/meat.tres
+meat_ui.tscn::PackedScene::1386672901984787469::1727702206::0::1::::<><>::uid://buc86jcixejc3::::res://Assets/Tiny Swords (Update 010)/Resources/Resources/M_Idle_(NoShadow).png
+player_inventory.tres::Resource/InventoryData::1740825444777457061::1727956396::0::1::::<><>::res://Inventory/inventory_data.gd<>uid://b8gvf03ewmk2x::::res://Inventory/meat.tres<>res://Inventory/slot_data.gd<>uid://c504asshh6od2::::res://Inventory/gold.tres<>uid://crv1m32fnbm5y::::res://Inventory/wood.tres
+slot_data.gd::GDScript::-1::1727425464::0::1::::SlotData<>Resource<>::
+wood.tres::Resource/ItemData::6011005226014921724::1727429625::0::1::::<><>::res://Inventory/item_data.gd<>uid://k8j7rcnrg3ud::::res://Assets/Tiny Swords (Update 010)/Resources/Resources/W_Idle_(NoShadow).png
+wood.tscn::PackedScene::1556280283932934571::1727704938::0::1::::<><>::res://Inventory/item_pickup.gd<>uid://crv1m32fnbm5y::::res://Inventory/wood.tres<>uid://br4ck8libylbh::::res://Assets/Tiny Swords (Update 010)/Resources/Resources/W_Idle.png<>uid://d20nuljcc7o43::::res://Assets/Tiny Swords (Update 010)/Resources/Resources/W_Spawn.png
+wood_ui.tscn::PackedScene::2264397745563370373::1727687669::0::1::::<><>::uid://k8j7rcnrg3ud::::res://Assets/Tiny Swords (Update 010)/Resources/Resources/W_Idle_(NoShadow).png
+::res://Scenes/::1726829099
+::res://Scenes/HitBoxHurtBox/::1727024164
+hitbox.gd::GDScript::-1::1727019495::0::1::::HitBox<>Area2D<>::
+hitbox.tscn::PackedScene::6920013069471812873::1727024164::0::1::::<><>::res://Scenes/HitBoxHurtBox/hitbox.gd
+hurtbox.gd::GDScript::-1::1727019532::0::1::::HurtBox<>Area2D<>::
+hurtbox.tscn::PackedScene::5799324847282437480::1727024164::0::1::::<><>::res://Scenes/HitBoxHurtBox/hurtbox.gd
+::res://Scenes/Objects/::1727975658
+GoblinTower.tscn::PackedScene::543727012006983633::1724837981::0::1::::<><>::uid://c34kbg4raepkh::::res://Assets/Tiny Swords (Update 010)/Factions/Goblins/Buildings/Wood_Tower/Wood_Tower_Red.png
+tree.gd::GDScript::-1::1727970771::0::1::::<>StaticBody2D<>::
+Tree.tscn::PackedScene::698735417843292321::1727975658::0::1::::<><>::uid://pehdkttvlr11::::res://Assets/Tiny Swords (Update 010)/Resources/Trees/Tree.png<>res://Scenes/Objects/tree.gd
+::res://Scenes/PlayableCharacter/::1727975658
+PlayableArcher.tscn::PackedScene::3155644428570335216::1727467708::0::1::::<><>::uid://bak3nx6d7bbtl::::res://Assets/Tiny Swords (Update 010)/Factions/Knights/Troops/Archer/Blue/Archer_Blue_(NoArms).png<>uid://dqs2lp0c63i00::::res://Assets/Tiny Swords (Update 010)/Factions/Knights/Troops/Archer/Blue/Archer_Blue.png<>res://StateMachine/ArcherStateMachine.gd<>res://StateMachine/ArcherIdleState.gd<>res://StateMachine/ArcherRunState.gd<>res://StateMachine/ArcherShootState.gd<>uid://74kiu35odi7k::::res://Characters/Arrow.tscn
+PlayableKnight.tscn::PackedScene::8636808095604151867::1727975658::0::1::::<><>::res://Characters/Knight.gd<>uid://ctpoikcx70sxy::::res://Assets/Tiny Swords (Update 010)/Factions/Knights/Troops/Warrior/Blue/Warrior_Blue.png<>uid://phcpmhdejb2y::::res://StateMachine/PlayerKnightStateMachine.tscn<>uid://covibec1vcptg::::res://Scenes/HitBoxHurtBox/hurtbox.tscn
+::res://StateMachine/::1727972276
+ArcherIdleState.gd::GDScript::-1::1725273495::0::1::::ArcherIdleState<>State<>::
+ArcherRunState.gd::GDScript::-1::1725273445::0::1::::ArcherRunState<>State<>::
+ArcherShootState.gd::GDScript::-1::1725276957::0::1::::ArcherAttackState<>State<>::
 ArcherStateMachine.gd::GDScript::-1::1705256893::0::1::::ArcherStateMachine<>Node<>::
 AttackState.gd::GDScript::-1::1722037331::0::1::::AttackState<>State<>::
 GobThrowerStateMachine.gd::GDScript::-1::1724671427::0::1::::GoblinStateMachine<>Node<>::
 IdleState.gd::GDScript::-1::1722037706::0::1::::IdleState<>State<>::
-KnightStateMachine.gd::GDScript::-1::1722428116::0::1::::PlayerStateMachine<>Node<>::
+KnightStateMachine.gd::GDScript::-1::1727956552::0::1::::PlayerStateMachine<>Node<>::
 PlayerKnightStateMachine.tscn::PackedScene::1067432160978850650::1724672731::0::1::::<><>::res://StateMachine/KnightStateMachine.gd<>res://Characters/PlayerIdle.gd<>res://Characters/PlayerRun.gd<>res://Characters/PlayerAttack.gd
 RunState.gd::GDScript::-1::1722038367::0::1::::RunState<>State<>::
-SheepDeadState.gd::GDScript::-1::1707927441::0::1::::SheepDeadState<>State<>::
-SheepHitState.gd::GDScript::-1::1706369750::0::1::::SheepHitState<>State<>::
-SheepIdle.gd::GDScript::-1::1724681168::0::1::::SheepIdleState<>State<>::
+SheepBounceState.gd::GDScript::-1::1727963973::0::1::::SheepBounceState<>State<>::
+SheepDeadState.gd::GDScript::-1::1727963973::0::1::::SheepDeadState<>State<>::
+SheepHitState.gd::GDScript::-1::1727112803::0::1::::SheepHitState<>State<>::
+SheepIdle.gd::GDScript::-1::1727972054::0::1::::SheepIdleState<>State<>::
 SheepStateMachine.gd::GDScript::-1::1707926056::0::1::::SheepStateMachine<>Node<>::
 State.gd::GDScript::-1::1706369088::0::1::::State<>Node<>::
-ThrowerAttackState.gd::GDScript::-1::1724681168::0::1::::<>State<>::
-ThrowerIdleState.gd::GDScript::-1::1724617737::0::1::::<>State<>::
-ThrowerRunState.gd::GDScript::-1::1724681168::0::1::::<>State<>::
-::res://UI/::1724681168
-attack_button.gd::GDScript::-1::1724681168::0::1::::<>TouchScreenButton<>::
+ThrowerAttackState.gd::GDScript::-1::1727028241::0::1::::<>State<>::
+ThrowerIdleState.gd::GDScript::-1::1727028241::0::1::::<>State<>::
+ThrowerRunState.gd::GDScript::-1::1727028241::0::1::::<>State<>::
+VillagerIdleState.gd::GDScript::-1::1727972276::0::1::::<>State<>::
+VillagerLooting.gd::GDScript::-1::1727971193::0::1::::<>State<>::
+VillagerStateMachine.gd::GDScript::-1::1727956635::0::1::::VillagerStateMachine<>Node<>::
+::res://UI/::1727975658
+attack_button.gd::GDScript::-1::1727956396::0::1::::<>TouchScreenButton<>::
 attack_button.tscn::PackedScene::8415751948267583257::1722446603::0::1::::<><>::uid://d1mage7xkh3cc
 Joystick.gd::GDScript::-1::1724681168::0::1::::<>TouchScreenButton<>::
 joystick.tscn::PackedScene::5972650484967601429::1722426195::0::1::::<><>::uid://ufwsw57pk42t
-PlayerUI.tscn::PackedScene::2040092476373407010::1724672731::0::1::::<><>::uid://dr5wg8asunmwv::::res://UI/attack_button.tscn<>uid://dmr0fcamx7t56::::res://addons/virtual_joystick/virtual_joystick_scene.tscn
+MainMenu.tscn::PackedScene::6351454695888681204::1727716856::0::1::::<><>::uid://c36mrbv0sk6ps::::res://Assets/MainMenuImage.png
+PlayerUI.tscn::PackedScene::2040092476373407010::1727975658::0::1::::<><>::uid://dr5wg8asunmwv::::res://UI/attack_button.tscn<>res://UI/testerplayeui.gd<>uid://dmr0fcamx7t56::::res://addons/virtual_joystick/virtual_joystick_scene.tscn<>uid://juqhq02xgg63::::res://Inventory/inventory.tscn
+testerplayeui.gd::GDScript::-1::1725033060::0::1::::<>CanvasLayer<>::

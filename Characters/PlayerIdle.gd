@@ -6,7 +6,7 @@ extends State
 #@onready var joystick = $'../../../PlayerController/CanvasLayer/Joystick'
 #@onready var joystick = $"../../../Joystick"
 @onready var attackButton = $"../../../CanvasLayer/AttackButton"
-var move_vector := Vector2.ZERO
+
 	
 func Enter() -> void:
 	animated_sprite.play("idle")
@@ -18,14 +18,18 @@ func Exit() -> void:
 	
 	
 func Update(delta):
-	move_vector = Vector2.ZERO
+	var move_vector = Vector2.ZERO
 	move_vector = Input.get_vector("move_left","move_right","move_up","move_down")
 	if move_vector:
-		print("move")
+		#print("move")
 		Transitioned.emit(self, "PlayerRun")
 #	if (Input.get_axis("move_left", "move_right") and Input.get_axis("move_up", "move_down")):
 #		Transitioned.emit(self, "PlayerRun")
-		
+	var attack_vector = Vector2.ZERO
+	attack_vector = Input.get_vector("attack_left","attack_right","attack_up","attack_down")
+	if attack_vector:
+		#print("attack")
+		Transitioned.emit(self, "PlayerAttack")
 	
 func Physics_update(delta):
 	pass

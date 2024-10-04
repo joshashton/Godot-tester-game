@@ -1,11 +1,15 @@
-[gd_scene load_steps=3 format=3 uid="uid://4cia36tkvmak"]
+[gd_scene load_steps=5 format=3 uid="uid://4cia36tkvmak"]
 
 [ext_resource type="PackedScene" uid="uid://dr5wg8asunmwv" path="res://UI/attack_button.tscn" id="1_ew6gw"]
+[ext_resource type="Script" path="res://UI/testerplayeui.gd" id="1_ys234"]
 [ext_resource type="PackedScene" uid="uid://dmr0fcamx7t56" path="res://addons/virtual_joystick/virtual_joystick_scene.tscn" id="2_qr750"]
+[ext_resource type="PackedScene" uid="uid://juqhq02xgg63" path="res://Inventory/inventory.tscn" id="4_e0vdq"]
 
 [node name="CanvasLayer" type="CanvasLayer"]
+script = ExtResource("1_ys234")
 
 [node name="AttackButton" parent="." instance=ExtResource("1_ew6gw")]
+visible = false
 position = Vector2(1039, 510)
 
 [node name="Virtual Joystick" parent="." instance=ExtResource("2_qr750")]
@@ -20,4 +24,20 @@ action_right = "move_right"
 action_up = "move_up"
 action_down = "move_down"
 
+[node name="Attack Joystick" parent="." instance=ExtResource("2_qr750")]
+offset_left = 786.0
+offset_top = -299.0
+offset_right = 1086.0
+offset_bottom = 1.0
+joystick_mode = 1
+action_left = "attack_left"
+action_right = "attack_right"
+action_up = "attack_up"
+action_down = "attack_down"
+
+[node name="Inventory" parent="." instance=ExtResource("4_e0vdq")]
+offset_right = 458.0
+offset_bottom = 64.0
+
 [editable path="AttackButton"]
+[editable path="Attack Joystick"]

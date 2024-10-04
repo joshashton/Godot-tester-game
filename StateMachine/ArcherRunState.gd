@@ -12,7 +12,7 @@ var input_direction
 
 func Enter() -> void:
 	animated_sprite.play("run")
-	#print("RunState")
+	print("RunState")
 	
 func Exit() -> void:
 	pass

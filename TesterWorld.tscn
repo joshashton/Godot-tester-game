@@ -1,30 +1,38 @@
 [gd_scene load_steps=7 format=3 uid="uid://b8k7eqbqyxeiq"]
 
 [ext_resource type="PackedScene" uid="uid://dvby75n45b8ot" path="res://Scenes/PlayableCharacter/PlayableKnight.tscn" id="1_8gsur"]
-[ext_resource type="PackedScene" uid="uid://phcpmhdejb2y" path="res://StateMachine/PlayerKnightStateMachine.tscn" id="2_vtcns"]
 [ext_resource type="PackedScene" uid="uid://4cia36tkvmak" path="res://UI/PlayerUI.tscn" id="3_h5jkx"]
 [ext_resource type="PackedScene" uid="uid://hcuugnyxefvw" path="res://Characters/Sheep.tscn" id="4_2otax"]
 [ext_resource type="PackedScene" uid="uid://c8bd8br6gbxs4" path="res://Characters/GoblinThrower.tscn" id="5_ateqc"]
 [ext_resource type="PackedScene" uid="uid://c6q2h242ua7yd" path="res://Characters/GoblinFighter.tscn" id="6_c3bfi"]
+[ext_resource type="PackedScene" uid="uid://bk7vadd36u4fc" path="res://Scenes/PlayableCharacter/PlayableArcher.tscn" id="7_r22hn"]
 
 [node name="Node2D" type="Node2D"]
 
 [node name="Knight" parent="." instance=ExtResource("1_8gsur")]
 position = Vector2(95, 119)
 
-[node name="PlayerKnightStateMachine2" parent="Knight" node_paths=PackedStringArray("character", "current_state") instance=ExtResource("2_vtcns")]
-character = NodePath("..")
-current_state = NodePath("PlayerIdle")
-
 [node name="CanvasLayer" parent="." instance=ExtResource("3_h5jkx")]
+
+[node name="Attack Joystick" parent="CanvasLayer" index="2"]
+joystick_mode = 0
 
 [node name="Sheep" parent="." instance=ExtResource("4_2otax")]
 position = Vector2(550, 164)
 
 [node name="GoblinThrower" parent="." instance=ExtResource("5_ateqc")]
+visible = false
 
 [node name="GoblinFighter" parent="." instance=ExtResource("6_c3bfi")]
+visible = false
 position = Vector2(1049, 144)
+
+[node name="PlayableArcher" parent="." instance=ExtResource("7_r22hn")]
+visible = false
+position = Vector2(179, 138)
 
 [editable path="Knight"]
 [editable path="Knight/PlayerKnightStateMachine"]
+[editable path="CanvasLayer"]
+[editable path="CanvasLayer/AttackButton"]
+[editable path="CanvasLayer/Attack Joystick"]

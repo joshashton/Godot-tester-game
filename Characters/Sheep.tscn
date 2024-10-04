@@ -1,4 +1,4 @@
-[gd_scene load_steps=15 format=3 uid="uid://hcuugnyxefvw"]
+[gd_scene load_steps=20 format=3 uid="uid://hcuugnyxefvw"]
 
 [ext_resource type="Texture2D" uid="uid://cjpl83rh4jfs8" path="res://Assets/Tiny Swords (Update 010)/Resources/Sheep/HappySheep_All.png" id="1_0kqyd"]
 [ext_resource type="Script" path="res://Characters/Sheep.gd" id="1_3mo5g"]
@@ -6,7 +6,9 @@
 [ext_resource type="Script" path="res://StateMachine/SheepIdle.gd" id="3_x35dl"]
 [ext_resource type="Script" path="res://StateMachine/SheepDeadState.gd" id="5_ga206"]
 [ext_resource type="Script" path="res://StateMachine/SheepHitState.gd" id="6_3xrov"]
-[ext_resource type="Texture2D" uid="uid://co3ojvsib7i18" path="res://Assets/Tiny Swords (Update 010)/Resources/Resources/M_Idle.png" id="7_gkg1g"]
+[ext_resource type="Script" path="res://StateMachine/SheepBounceState.gd" id="7_tsjiw"]
+[ext_resource type="PackedScene" uid="uid://c5udusqte66o0" path="res://Scenes/HitBoxHurtBox/hitbox.tscn" id="8_kpu6u"]
+[ext_resource type="Texture2D" uid="uid://c8kylygrn8ktc" path="res://Assets/DestroySmoke.png" id="10_j2j37"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_4pxl7"]
 radius = 4.99891
@@ -15,7 +17,7 @@ height = 37.9917
 [sub_resource type="Animation" id="Animation_lpmh6"]
 resource_name = "Bounce"
 length = 0.60001
-loop_mode = 2
+loop_mode = 1
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
@@ -27,6 +29,122 @@ tracks/0/keys = {
 "transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1),
 "update": 1,
 "values": [8, 9, 10, 11, 12, 13]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Sprite2D:flip_h")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+
+[sub_resource type="Animation" id="Animation_8uyoa"]
+resource_name = "Dead"
+length = 0.6
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2, 0.3, 0.4, 0.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [8, 9, 10, 11, 12, 13]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Sprite2D:flip_h")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Sprite2D:modulate")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 0, 0.0431373, 1)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("Sprite2D2:frame")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0.2, 0.266667, 0.333333, 0.4, 0.466667, 0.533333),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [0, 1, 2, 3, 4, 5]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("Sprite2D2:visible")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0, 0.2, 0.6),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 1,
+"values": [false, true, false]
+}
+
+[sub_resource type="Animation" id="Animation_1lvj1"]
+resource_name = "Hit"
+length = 0.60001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2, 0.3, 0.4, 0.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [8, 9, 10, 11, 12, 13]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Sprite2D:flip_h")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Sprite2D:modulate")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 0, 0.0431373, 1), Color(1, 1, 1, 1)]
 }
 
 [sub_resource type="Animation" id="Animation_un2d8"]
@@ -60,22 +178,131 @@ tracks/0/keys = {
 "update": 1,
 "values": [1]
 }
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Sprite2D:modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 1)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Sprite2D2:frame")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [0]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("Sprite2D2:visible")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+
+[sub_resource type="Animation" id="Animation_w5nsq"]
+resource_name = "lBounce"
+length = 0.60001
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2, 0.3, 0.4, 0.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [8, 9, 10, 11, 12, 13]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Sprite2D:flip_h")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+
+[sub_resource type="Animation" id="Animation_lr3aa"]
+resource_name = "lHit"
+length = 0.60001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2, 0.3, 0.4, 0.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [8, 9, 10, 11, 12, 13]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Sprite2D:flip_h")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Sprite2D:modulate")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 0, 0.0431373, 1), Color(1, 1, 1, 1)]
+}
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_ikifg"]
 _data = {
 "Bounce": SubResource("Animation_lpmh6"),
+"Dead": SubResource("Animation_8uyoa"),
+"Hit": SubResource("Animation_1lvj1"),
 "Idle": SubResource("Animation_un2d8"),
-"RESET": SubResource("Animation_8fd1j")
+"RESET": SubResource("Animation_8fd1j"),
+"lBounce": SubResource("Animation_w5nsq"),
+"lHit": SubResource("Animation_lr3aa")
 }
 
-[sub_resource type="CircleShape2D" id="CircleShape2D_kp7no"]
-radius = 19.0263
-
-[sub_resource type="CircleShape2D" id="CircleShape2D_njffo"]
-radius = 41.2745
+[sub_resource type="CircleShape2D" id="CircleShape2D_7vtgk"]
+radius = 18.7418
 
 [node name="Sheep" type="CharacterBody2D"]
+z_index = 1
+y_sort_enabled = true
 scale = Vector2(1.285, 1.285)
+collision_mask = 1025
 script = ExtResource("1_3mo5g")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
@@ -90,10 +317,10 @@ rotation = 1.54989
 shape = SubResource("CapsuleShape2D_4pxl7")
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
-autoplay = "Idle"
 libraries = {
 "": SubResource("AnimationLibrary_ikifg")
 }
+autoplay = "Idle"
 
 [node name="SheepStateMachine" type="Node" parent="." node_paths=PackedStringArray("initial_state", "character")]
 script = ExtResource("2_5bc2x")
@@ -109,22 +336,24 @@ script = ExtResource("5_ga206")
 [node name="Hit" type="Node" parent="SheepStateMachine"]
 script = ExtResource("6_3xrov")
 
-[node name="Hitbox" type="Area2D" parent="."]
-collision_layer = 0
-collision_mask = 2
+[node name="Bounce" type="Node" parent="SheepStateMachine"]
+script = ExtResource("7_tsjiw")
+
+[node name="Hitbox" parent="." instance=ExtResource("8_kpu6u")]
+position = Vector2(0.77821, 0.77821)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Hitbox"]
-position = Vector2(1, 1)
-shape = SubResource("CircleShape2D_kp7no")
+shape = SubResource("CircleShape2D_7vtgk")
 
-[node name="LootDrop" type="Area2D" parent="."]
+[node name="Timer" type="Timer" parent="."]
+wait_time = 2.855
+
+[node name="Timer2" type="Timer" parent="."]
+
+[node name="Sprite2D2" type="Sprite2D" parent="."]
 visible = false
+texture = ExtResource("10_j2j37")
+hframes = 6
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="LootDrop"]
-shape = SubResource("CircleShape2D_njffo")
-
-[node name="Sprite2D" type="Sprite2D" parent="LootDrop"]
-scale = Vector2(0.5, 0.5)
-texture = ExtResource("7_gkg1g")
-
-[connection signal="area_entered" from="Hitbox" to="." method="_on_hitbox_area_entered"]
+[connection signal="timeout" from="Timer" to="SheepStateMachine/Idle" method="_on_timer_timeout"]
+[connection signal="timeout" from="Timer2" to="SheepStateMachine/Bounce" method="_on_timer_2_timeout"]

@@ -7,13 +7,16 @@ var speed = 20
 var target_position
 
 func Enter() -> void:
-	print("run state")
+	#print("run state")
 	anim_player.play("run")
 	
 func Exit() -> void:
 	pass
 	
 func Update(delta):
+	if character.isDead == true:
+		Transitioned.emit(self, "Die")
+		
 	if playerFSM.nearbyEnemies.is_empty():
 		Transitioned.emit(self, "Idle")
 	

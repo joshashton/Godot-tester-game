@@ -16,9 +16,14 @@ warnings/check_angle_interpolation_type_conflicting=false
 [application]
 
 config/name="Test Features"
-run/main_scene="res://firstmap.tscn"
+run/main_scene="res://UI/MainMenu.tscn"
 config/features=PackedStringArray("4.3", "Forward Plus")
+boot_splash/bg_color=Color(0, 0, 0, 1)
 config/icon="res://icon.svg"
+
+[autoload]
+
+GlobalGameManager="*res://global_game_manager.gd"
 
 [display]
 
@@ -60,6 +65,22 @@ attack_button={
 "deadzone": 0.5,
 "events": []
 }
+attack_up={
+"deadzone": 0.5,
+"events": []
+}
+attack_down={
+"deadzone": 0.5,
+"events": []
+}
+attack_left={
+"deadzone": 0.5,
+"events": []
+}
+attack_right={
+"deadzone": 0.5,
+"events": []
+}
 
 [input_devices]
 
@@ -69,9 +90,11 @@ pointing/emulate_mouse_from_touch=false
 [layer_names]
 
 2d_physics/layer_1="Environment"
+2d_physics/layer_4="Characters"
 
 [rendering]
 
+textures/canvas_textures/default_texture_filter=0
 renderer/rendering_method="mobile"
 textures/vram_compression/import_s3tc_bptc=true
 textures/vram_compression/import_etc2_astc=true

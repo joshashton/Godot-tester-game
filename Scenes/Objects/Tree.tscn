@@ -1,0 +1,105 @@
+[gd_scene load_steps=9 format=3 uid="uid://j7qcng6ntqtt"]
+
+[ext_resource type="Texture2D" uid="uid://pehdkttvlr11" path="res://Assets/Tiny Swords (Update 010)/Resources/Trees/Tree.png" id="1_1fvr2"]
+[ext_resource type="Script" path="res://Scenes/Objects/tree.gd" id="1_oeidp"]
+
+[sub_resource type="Animation" id="Animation_o7idp"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [1]
+}
+
+[sub_resource type="Animation" id="Animation_8vdu1"]
+resource_name = "dead"
+length = 0.1
+loop_mode = 1
+step = 0.1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [8]
+}
+
+[sub_resource type="Animation" id="Animation_erb5j"]
+resource_name = "hit"
+length = 0.2
+step = 0.1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [4, 5]
+}
+
+[sub_resource type="Animation" id="Animation_8kfdf"]
+resource_name = "idle"
+length = 0.4
+loop_mode = 1
+step = 0.1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2, 0.3),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 1,
+"values": [0, 1, 2, 3]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_o0r3t"]
+_data = {
+"RESET": SubResource("Animation_o7idp"),
+"dead": SubResource("Animation_8vdu1"),
+"hit": SubResource("Animation_erb5j"),
+"idle": SubResource("Animation_8kfdf")
+}
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_23215"]
+size = Vector2(46, 23)
+
+[node name="Tree" type="StaticBody2D" groups=["Tree"]]
+z_index = 1
+y_sort_enabled = true
+script = ExtResource("1_oeidp")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_1fvr2")
+offset = Vector2(0, -70)
+hframes = 4
+vframes = 3
+frame = 1
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_o0r3t")
+}
+autoplay = "idle"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(1, -2)
+shape = SubResource("RectangleShape2D_23215")

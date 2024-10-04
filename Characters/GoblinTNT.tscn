@@ -1,9 +1,142 @@
-[gd_scene format=3 uid="uid://cvxrgufq6e470"]
+[gd_scene load_steps=12 format=3 uid="uid://cvxrgufq6e470"]
 
-[node name="CharacterBody2D" type="CharacterBody2D"]
+[ext_resource type="Texture2D" uid="uid://cmojfhbrrqpl7" path="res://Assets/Tiny Swords (Update 010)/Factions/Goblins/Troops/Barrel/Blue/Barrel_Blue.png" id="1_7t5tk"]
+[ext_resource type="Script" path="res://StateMachine/GobThrowerStateMachine.gd" id="2_qklow"]
+[ext_resource type="Script" path="res://StateMachine/ThrowerIdleState.gd" id="3_ye8e2"]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+[sub_resource type="Animation" id="Animation_07dkv"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [0]
+}
+
+[sub_resource type="Animation" id="Animation_pdc2n"]
+resource_name = "idle"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [0]
+}
+
+[sub_resource type="Animation" id="Animation_0kkrb"]
+resource_name = "alert"
+length = 0.6
+step = 0.1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2, 0.3, 0.4, 0.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [6, 7, 8, 9, 10, 11]
+}
+
+[sub_resource type="Animation" id="Animation_ykx4n"]
+resource_name = "run"
+length = 0.3
+loop_mode = 1
+step = 0.1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 1,
+"values": [24, 25, 26]
+}
+
+[sub_resource type="Animation" id="Animation_v8q6k"]
+resource_name = "rehide"
+length = 0.6
+loop_mode = 1
+step = 0.1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2, 0.3, 0.4, 0.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [18, 19, 20, 21, 22, 23]
+}
+
+[sub_resource type="Animation" id="Animation_m1m7a"]
+resource_name = "attack"
+length = 0.3
+loop_mode = 1
+step = 0.1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 1,
+"values": [30, 31, 32]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_o78od"]
+_data = {
+"RESET": SubResource("Animation_07dkv"),
+"alert": SubResource("Animation_0kkrb"),
+"attack": SubResource("Animation_m1m7a"),
+"idle": SubResource("Animation_pdc2n"),
+"rehide": SubResource("Animation_v8q6k"),
+"run": SubResource("Animation_ykx4n")
+}
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_fb1fh"]
+size = Vector2(46, 30)
+
+[node name="GoblinTNT" type="CharacterBody2D"]
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_7t5tk")
+hframes = 6
+vframes = 6
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_o78od")
+}
+autoplay = "idle"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-1, 22)
+shape = SubResource("RectangleShape2D_fb1fh")
+
+[node name="State" type="Node" parent="."]
+script = ExtResource("2_qklow")
+
+[node name="IdleState" type="Node" parent="State"]
+script = ExtResource("3_ye8e2")

@@ -5,12 +5,15 @@ extends State
 
 func Enter() -> void:
 	anim_player.play("idle")
-	print("IdleState")
+	#print("IdleState")
 	
 func Exit() -> void:
 	pass
 	
 func Update(delta):
+	if character.isDead == true:
+		Transitioned.emit(self, "Die")
+	
 	if playerFSM.nearbyEnemies:
 		Transitioned.emit(self, "Run")# towards player - set auto navigation agent 
 	

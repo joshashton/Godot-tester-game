@@ -1,0 +1,26 @@
+[gd_resource type="Resource" script_class="InventoryData" load_steps=9 format=3 uid="uid://y2je1xs4i7av"]
+
+[ext_resource type="Script" path="res://Inventory/inventory_data.gd" id="1_neq4f"]
+[ext_resource type="Resource" uid="uid://b8gvf03ewmk2x" path="res://Inventory/meat.tres" id="2_cnrk3"]
+[ext_resource type="Script" path="res://Inventory/slot_data.gd" id="3_nyxut"]
+[ext_resource type="Resource" uid="uid://c504asshh6od2" path="res://Inventory/gold.tres" id="4_dd8jj"]
+[ext_resource type="Resource" uid="uid://crv1m32fnbm5y" path="res://Inventory/wood.tres" id="5_cg7ms"]
+
+[sub_resource type="Resource" id="Resource_k00vl"]
+script = ExtResource("3_nyxut")
+item_data = ExtResource("2_cnrk3")
+quantity = 0
+
+[sub_resource type="Resource" id="Resource_cvqwn"]
+script = ExtResource("3_nyxut")
+item_data = ExtResource("4_dd8jj")
+quantity = 0
+
+[sub_resource type="Resource" id="Resource_25s5h"]
+script = ExtResource("3_nyxut")
+item_data = ExtResource("5_cg7ms")
+quantity = 0
+
+[resource]
+script = ExtResource("1_neq4f")
+slots = Array[ExtResource("3_nyxut")]([SubResource("Resource_k00vl"), SubResource("Resource_cvqwn"), SubResource("Resource_25s5h")])

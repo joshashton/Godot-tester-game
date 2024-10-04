@@ -1,8 +1,9 @@
-[gd_scene load_steps=12 format=4 uid="uid://dmiwrresgf8o4"]
+[gd_scene load_steps=24 format=4 uid="uid://dmiwrresgf8o4"]
 
 [ext_resource type="Texture2D" uid="uid://bjr7nbpjgr0o7" path="res://Assets/Tiny Swords (Update 010)/Factions/Knights/Buildings/Tower/Tower_Blue.png" id="1_2d4j5"]
 [ext_resource type="Script" path="res://firstmap.gd" id="1_2wwin"]
 [ext_resource type="Texture2D" uid="uid://hx0thucl01it" path="res://Assets/Tiny Swords (Update 010)/Factions/Knights/Buildings/Castle/Castle_Blue.png" id="2_6m3ut"]
+[ext_resource type="Texture2D" uid="uid://cfixf1dtjm64" path="res://Assets/Tiny Swords (Update 010)/Resources/Gold Mine/GoldMine_Inactive.png" id="3_7ll5a"]
 [ext_resource type="TileSet" uid="uid://cohsgte7uxg2c" path="res://tilesetmap.tres" id="4_uvjic"]
 [ext_resource type="PackedScene" uid="uid://hcuugnyxefvw" path="res://Characters/Sheep.tscn" id="6_73rx7"]
 [ext_resource type="Texture2D" uid="uid://dxhfntdxwv1w5" path="res://Assets/Tiny Swords (Update 010)/UI/Buttons/Button_Blue.png" id="7_b25tb"]
@@ -11,6 +12,17 @@
 [ext_resource type="PackedScene" uid="uid://c8bd8br6gbxs4" path="res://Characters/GoblinThrower.tscn" id="9_iohk2"]
 [ext_resource type="PackedScene" uid="uid://bus1su5g5c0yx" path="res://Characters/Knight.tscn" id="9_scnwo"]
 [ext_resource type="PackedScene" uid="uid://kjievptis0g" path="res://Characters/Archer.tscn" id="11_igo3h"]
+[ext_resource type="PackedScene" uid="uid://cvxrgufq6e470" path="res://Characters/GoblinTNT.tscn" id="14_xg1kl"]
+[ext_resource type="Texture2D" uid="uid://db267fm7d6wrt" path="res://Assets/Tiny Swords (Update 010)/Deco/18.png" id="15_26yq5"]
+[ext_resource type="Texture2D" uid="uid://b03lpev15pw7h" path="res://Assets/Tiny Swords (Update 010)/Deco/09.png" id="16_tsidk"]
+[ext_resource type="Texture2D" uid="uid://br4ck8libylbh" path="res://Assets/Tiny Swords (Update 010)/Resources/Resources/W_Idle.png" id="17_4iq00"]
+[ext_resource type="Texture2D" uid="uid://co3ojvsib7i18" path="res://Assets/Tiny Swords (Update 010)/Resources/Resources/M_Idle.png" id="18_tgdsg"]
+[ext_resource type="Texture2D" uid="uid://0mf6a13ise1e" path="res://Assets/Tiny Swords (Update 010)/Resources/Resources/G_Idle.png" id="19_15qlx"]
+[ext_resource type="PackedScene" uid="uid://526ptnhabi5m" path="res://Characters/Villager.tscn" id="20_uv1ga"]
+[ext_resource type="Texture2D" uid="uid://bpfsiujnabhm0" path="res://Assets/Tiny Swords (Update 010)/Factions/Knights/Buildings/House/House_Blue.png" id="21_1m5hr"]
+[ext_resource type="PackedScene" uid="uid://h0nds0h7jfrt" path="res://Scenes/Objects/GoblinTower.tscn" id="22_g1tlq"]
+[ext_resource type="PackedScene" uid="uid://j7qcng6ntqtt" path="res://Scenes/Objects/Tree.tscn" id="23_i8scg"]
+[ext_resource type="Texture2D" uid="uid://c51asqcv70gbr" path="res://Assets/Tiny Swords (Update 010)/Factions/Goblins/Buildings/Wood_House/Goblin_House.png" id="23_y3nbk"]
 
 [node name="Node2D" type="Node2D"]
 y_sort_enabled = true
@@ -21,6 +33,12 @@ z_index = 6
 y_sort_enabled = true
 position = Vector2(467, -661)
 texture = ExtResource("1_2d4j5")
+
+[node name="Sprite2D4" type="Sprite2D" parent="."]
+z_index = 6
+y_sort_enabled = true
+position = Vector2(317, -304)
+texture = ExtResource("3_7ll5a")
 
 [node name="Sprite2D3" type="Sprite2D" parent="."]
 z_index = 6
@@ -73,7 +91,6 @@ tile_set = ExtResource("4_uvjic")
 
 [node name="Sheep" parent="." instance=ExtResource("6_73rx7")]
 z_index = 13
-y_sort_enabled = true
 position = Vector2(250, 90)
 
 [node name="CanvasLayer" parent="." instance=ExtResource("7_xgbaq")]
@@ -98,9 +115,69 @@ position = Vector2(88, 152)
 [node name="Knight" parent="." instance=ExtResource("9_scnwo")]
 z_index = 13
 
+[node name="GoblinTNT" parent="." instance=ExtResource("14_xg1kl")]
+z_index = 13
+position = Vector2(980, 54)
+
 [node name="playerspawn" type="Marker2D" parent="."]
 z_index = 13
 position = Vector2(-199, -108)
+
+[node name="18" type="Sprite2D" parent="."]
+z_index = 13
+position = Vector2(-446, -136)
+texture = ExtResource("15_26yq5")
+
+[node name="09" type="Sprite2D" parent="."]
+z_index = 12
+position = Vector2(141, -156)
+texture = ExtResource("16_tsidk")
+
+[node name="WIdle" type="Sprite2D" parent="."]
+z_index = 13
+position = Vector2(-150, 140)
+texture = ExtResource("17_4iq00")
+
+[node name="MIdle" type="Sprite2D" parent="."]
+z_index = 13
+position = Vector2(-74, 149)
+texture = ExtResource("18_tgdsg")
+
+[node name="GIdle" type="Sprite2D" parent="."]
+z_index = 13
+position = Vector2(3, 146)
+texture = ExtResource("19_15qlx")
+
+[node name="Villager" parent="." instance=ExtResource("20_uv1ga")]
+z_index = 13
+position = Vector2(-71, 67)
+
+[node name="HouseBlue" type="Sprite2D" parent="."]
+z_index = 13
+position = Vector2(-458, 50)
+texture = ExtResource("21_1m5hr")
+
+[node name="TowerBlue" type="Sprite2D" parent="."]
+z_index = 13
+position = Vector2(-461, -295)
+texture = ExtResource("1_2d4j5")
+
+[node name="GoblinTower" parent="." instance=ExtResource("22_g1tlq")]
+z_index = 13
+position = Vector2(838, -282)
+
+[node name="GoblinHouse" type="Sprite2D" parent="."]
+z_index = 13
+position = Vector2(990, -292)
+texture = ExtResource("23_y3nbk")
+
+[node name="Tree" parent="." instance=ExtResource("23_i8scg")]
+z_index = 13
+position = Vector2(-279, 58)
+
+[node name="Tree2" parent="." instance=ExtResource("23_i8scg")]
+z_index = 13
+position = Vector2(75, -280)
 
 [connection signal="pressed" from="CanvasLayer/TouchScreenButton" to="." method="_on_button_pressed"]
 

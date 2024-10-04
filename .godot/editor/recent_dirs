@@ -1,8 +1,13 @@
-res://
-res://Characters
-res://Assets/Tiny Swords (Update 010)/UI/Buttons
 res://StateMachine
 res://UI
+res://Assets/Tiny Swords (Update 010)/Resources/Resources
+res://Inventory
+res://
+res://Assets
+res://Assets/Tiny Swords (Update 010)/Deco
+res://Scenes/Objects
+res://Characters
+res://Assets/Tiny Swords (Update 010)/UI/Buttons
 D:/Godot4.1/Projects/Godot-tester-game
 D:/AppSDKs
 D:/AppSDKs/jdk-17.0.12+7/bin
@@ -10,7 +15,6 @@ D:/
 C:/Users/joshu/AppData/Local/Android/Sdk
 C:/Users/joshu/AppData/Local/Android/Sdk/platforms
 C:/Users/joshu/AppData/Local/Android
-res://Assets/Tiny Swords (Update 010)/Resources/Resources
 res://Assets/Cursors
 res://Assets/Tiny Swords (Update 010)/Factions/Knights/Troops/Warrior/Blue
 res://Assets/Modern_Interiors_Free_v2.2/Modern tiles_Free/Characters_free

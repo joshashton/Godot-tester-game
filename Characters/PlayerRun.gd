@@ -23,12 +23,19 @@ func Update(delta):
 	input_vector.y = Input.get_axis("move_up", "move_down")
 	#input_direction = Input.get_vector("move_left", "move_right", "move_up", "move_down")
 	move(input_vector)
-
 	#stopped moving - go to idle
 	if(input_vector.length() == 0):
 		Transitioned.emit(self, "PlayerIdle")
-				
-				
+		
+	# attack state	
+	var attack_vector = Vector2.ZERO
+	attack_vector = Input.get_vector("attack_left","attack_right","attack_up","attack_down")
+	if attack_vector:
+		print("attack")
+		Transitioned.emit(self, "PlayerAttack")
+	
+
+
 func move(input_direction):
 	update_facing_direction()
 	character.velocity = input_direction * speed

@@ -1,1 +1,3 @@
+ItemData
+InventoryData
 AtlasTexture
